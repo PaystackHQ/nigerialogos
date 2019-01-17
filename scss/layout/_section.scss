@@ -1,4 +1,4 @@
-section{
+main{
     width: 76.2vw;
     margin: 0 auto;
     display: flex;
@@ -7,7 +7,7 @@ section{
 
     .logo{
         width: 17.6vw;
-        margin-top: 7.2vh;
+        margin: 7.2vh 0;
 
         &__holder{
             width: 100%;
