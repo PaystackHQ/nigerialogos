@@ -1,15 +1,15 @@
-main{
+main {
     width: 76.2vw;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 
-    .logo{
+    .logo {
         width: 17.6vw;
         margin: 7.2vh 0;
 
-        &__holder{
+        &__holder {
             width: 100%;
             height: 17.6vw;
             background-color: $col-grey-4;
@@ -19,19 +19,19 @@ main{
             text-align: center;
         }
 
-        &__image img{
+        &__image img {
             width: 70%;
         }
 
-        &__text{
+        &__text {
             width: 100%;
             overflow-x: hidden;
         }
-        &__text--primary{
+        &__text--primary { 
             font-weight: $fw-medium;
             margin-top: 3%;
         }
-        &__text--secondary{
+        &__text--secondary {
             font-size: 80%;
         }
     }

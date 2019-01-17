@@ -1,4 +1,4 @@
-.background{
+.background {
     width: 100vw;
     height: 100vh;
     background-color: $col-white;
@@ -7,11 +7,11 @@
     left: 0;
     z-index: -1;
 
-    &__left{
+    &__left {
         height: 100vh;
         position: relative;
 
-        &--thin{
+        &--thin {
             background-color: $col-green-1;
             width: 0.7%;
             height: 100%;
@@ -19,13 +19,13 @@
             top: 0;
             left: 0;
         }
-        &--thick{
+        &--thick {
             background-color: $col-green-2;
             width: 11.8%;
             height: 100%;
         }
     }
-    &__stripes{
+    &__stripes {
         position: absolute;
         top: 0;
         left: 0;
@@ -35,13 +35,14 @@
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: 1fr;
     }
-    &__stripe{
+    &__stripe {
         border-right: .25px $col-grey-3;
         opacity: .6;
         width: 100%;
         height: 100%;
         border-right-style: dashed;
-        &:nth-child(even){
+
+        &:nth-child(even) {
             border-right-style: solid;
         }
 

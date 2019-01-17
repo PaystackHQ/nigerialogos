@@ -1,12 +1,12 @@
-header{
-    .heading{
+header {
+    .heading {
         display: flex;
         flex-direction: column;
         width: 29.5vw;
         margin-left: 13%;
         margin-top: 6.3vh;
 
-        & .logo{
+        & .logo {
             width: 70px;
             height: 70px;
             border-radius: 100%;
@@ -14,11 +14,11 @@ header{
             margin-bottom: 3.6vh;
         }
     }
-    h1{
+    h1 {
         font-weight: $fw-medium;
         font-size: 150%;
 
-        & a{
+        & a {
             color: inherit;
             text-decoration-color: $col-green-1;
         }

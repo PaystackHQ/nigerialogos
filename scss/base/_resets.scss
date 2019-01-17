@@ -1,12 +1,12 @@
 *,
 *::before,
-*::after{
+*::after {
     margin: 0;
     padding: 0;
 }
-html{
+html {
     box-sizing: border-box;
 }
-body{
+body {
     box-sizing: inherit;
 }
