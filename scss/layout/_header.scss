@@ -57,11 +57,13 @@ header {
         .select {
             flex-basis: 30%;
             position: relative;
+            cursor: pointer;
 
             &::after {
                 content: '';
                 position: absolute;
                 background-image: url(../../images/icons/dropdown.svg);
+                pointer-events: none;
                 background-repeat: no-repeat;
                 right: 4%;
                 top: 8.5%;
