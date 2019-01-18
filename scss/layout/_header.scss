@@ -52,6 +52,10 @@ header {
                 padding: 0 3%;
                 border-radius: 4px;
                 margin-left: 1%;
+
+                &:focus{
+                    outline-color: $col-green-1;
+                }
             }
         }
         .select {
@@ -70,6 +74,10 @@ header {
                 font-size: 80%;
                 border-radius: 4px;
                 text-indent: 5%;
+
+                &:focus{
+                    outline-color: $col-green-1;
+                }
             }
         }
     }
