@@ -11,6 +11,7 @@ main {
     margin-top: 5%;
 
     &__holder {
+        border-radius: 4px;
         width: 100%;
         height: 17.6vw;
         background-color: $col-grey-4;
@@ -18,6 +19,11 @@ main {
         justify-content: center;
         align-items: center;
         text-align: center;
+        position: relative;
+
+        &:hover > .logo__download{
+            opacity: 1;
+        }
     }
 
     &__image img {
@@ -34,6 +40,43 @@ main {
         }
         &--secondary {
             font-size: 80%;
+        }
+    }
+
+    &__download {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        transition: all .5s ease-in-out;
+
+        &__overlay {
+            width: 100%;
+            height: 100%;
+            background-color: $col-green-2;
+            border: 1px solid $col-green-1;
+            border-radius: 4px;
+
+            a{
+                color: inherit;
+                transition: all .5s ease-in-out;
+
+                &:hover{
+                    text-decoration: none;
+                    font-weight: $fw-medium;
+                    color: $col-grey-2;
+                }
+            }
+
+            &--svg, &--png {
+                width: 100%;
+                height: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
         }
     }
 }
