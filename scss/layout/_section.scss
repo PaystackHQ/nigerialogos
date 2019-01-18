@@ -1,0 +1,39 @@
+main {
+    width: 76.2vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+.logo {
+    width: 17.6vw;
+    margin-top: 5%;
+
+    &__holder {
+        width: 100%;
+        height: 17.6vw;
+        background-color: $col-grey-4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    &__image img {
+        width: 70%;
+    }
+
+    &__text {
+        width: 100%;
+        overflow-x: hidden;
+
+        &--primary { 
+            font-weight: $fw-medium;
+            margin-top: 3%;
+        }
+        &--secondary {
+            font-size: 80%;
+        }
+    }
+}
