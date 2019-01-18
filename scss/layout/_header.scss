@@ -9,9 +9,11 @@ header {
         & .logo {
             width: 70px;
             height: 70px;
-            border-radius: 100%;
-            background-color: $col-green-1;
             margin-bottom: 3.6vh;
+
+            & img {
+                width: 100%;
+            }
         }
     }
     h1 {
