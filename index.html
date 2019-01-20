@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Nigeria Logos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#06DAAF" />
+    <meta name="msapplication-navbutton-color" content="#06DAAF">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#06DAAF">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/imageLoad.js" defer></script>
 </head>
 <body>
     <header>
@@ -53,150 +57,38 @@
     </section>
     
     <main>
-        <div class="logo">
-            <div class="logo__holder">
-                    <div class="logo__image">
-                        <img src="logos/polaris_bank/polaris_bank.svg" alt="Polaris Bank logo">
-                    </div>
+        <!-- LOGOS ARE DYNAMICALLY GENERATED HERE 
+        
+            Format: 
+            <div class='logo'>
+                <div class='logo__holder'>
+                        <div class='logo__image'>
+                            <img src='`logos/${logo.filename}/${logo.filename}.svg`' alt='`${logo.title} logo`'>
+                        </div>
 
-                <div class="logo__download">
-                    <div class="logo__download__overlay">
-                        <a href="logos/polaris_bank/polaris_bank.svg" download="Polaris Bank Logo">
-                            <span class="logo__download__overlay--svg">
-                                Download SVG
-                            </span>
-                        </a>
-                        
-                        <a href="logos/polaris_bank/polaris_bank.png" download="Polaris Bank Logo">
-                            <span class="logo__download__overlay--png">
-                                Download PNG
-                            </span>
-                        </a>
+                    <div class='logo__download'>
+                        <div class='logo__download__overlay'>
+                            <a href='logos/${logo.filename}/${logo.filename}.svg`' download='`${logo.title} Logo`'>
+                                <span class='logo__download__overlay--svg'>
+                                    Download SVG
+                                </span>
+                            </a>
+                            
+                            <a href='logos/${logo.filename}/${logo.filename}.png`' download='`${logo.title} Logo`'>
+                                <span class='logo__download__overlay--png'>
+                                    Download PNG
+                                </span>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="logo__text">
-                <p class="logo__text--primary">Polaris Bank</p>
-                <p class="logo__text--secondary">Banking / Financial Services</p>
+                <div class='logo__text'>
+                    <p class='logo__text--primary'>`${logo.title}`</p>
+                    <p class='logo__text--secondary'>`${logo.category}`</p>
+                </div>
             </div>
-        </div>
-
-        <div class="logo">
-            <div class="logo__holder">
-                    <div class="logo__image">
-                        <img src="logos/alat_by_wema/alat_by_wema.svg" alt="ALAT by Wema logo">
-                    </div>
-
-                    <div class="logo__download">
-                        <div class="logo__download__overlay">
-                            <a href="logos/alat_by_wema/alat_by_wema.svg" download="ALAT by Wema logo">
-                                <span class="logo__download__overlay--svg">
-                                    Download SVG
-                                </span>
-                            </a>
-                            
-                            <a href="logos/alat_by_wema/alat_by_wema.png" download="ALAT by Wema logo">
-                                <span class="logo__download__overlay--png">
-                                    Download PNG
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-            </div>
-            
-            <div class="logo__text">
-                <p class="logo__text--primary">ALAT by Wema</p>
-                <p class="logo__text--secondary">Banking / Financial Services</p>
-            </div>
-        </div>
-
-        <div class="logo">
-            <div class="logo__holder">
-                    <div class="logo__image">
-                        <img src="logos/mainstreet_bank/mainstreet_bank.svg" alt="Mainstreet Bank logo">
-                    </div>
-
-                    <div class="logo__download">
-                        <div class="logo__download__overlay">
-                            <a href="logos/mainstreet_bank/mainstreet_bank.svg" download="Mainstreet Bank logo">
-                                <span class="logo__download__overlay--svg">
-                                    Download SVG
-                                </span>
-                            </a>
-                            
-                            <a href="logos/mainstreet_bank/mainstreet_bank.png" download="Mainstreet Bank logo">
-                                <span class="logo__download__overlay--png">
-                                    Download PNG
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-            </div>
-            
-            <div class="logo__text">
-                <p class="logo__text--primary">Mainstreet Bank</p>
-                <p class="logo__text--secondary">Banking / Financial Services</p>
-            </div>
-        </div>
-
-        <div class="logo">
-            <div class="logo__holder">
-                    <div class="logo__image">
-                        <img src="logos/ekondo_microfinance_bank/ekondo_microfinance_bank.svg" alt="Ekondo Microfinance Bank logo">
-                    </div>
-
-                    <div class="logo__download">
-                        <div class="logo__download__overlay">
-                            <a href="logos/ekondo_microfinance_bank/ekondo_microfinance_bank.svg" download="Ekondo Microfinance Bank logo">
-                                <span class="logo__download__overlay--svg">
-                                    Download SVG
-                                </span>
-                            </a>
-                            
-                            <a href="logos/ekondo_microfinance_bank/ekondo_microfinance_bank.png" download="Ekondo Microfinance Bank logo">
-                                <span class="logo__download__overlay--png">
-                                    Download PNG
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-            </div>
-            
-            <div class="logo__text">
-                <p class="logo__text--primary">Ekondo Microfinance Bank</p>
-                <p class="logo__text--secondary">Banking / Financial Services</p>
-            </div>
-        </div>
-
-        <div class="logo">
-            <div class="logo__holder">
-                    <div class="logo__image">
-                        <img src="logos/aso_savings_loans/aso_savings_loans.svg" alt="ASO Savings logo">
-                    </div>
-
-                    <div class="logo__download">
-                        <div class="logo__download__overlay">
-                            <a href="logos/aso_savings_loans/aso_savings_loans.svg" download="ASO Savings logo">
-                                <span class="logo__download__overlay--svg">
-                                    Download SVG
-                                </span>
-                            </a>
-                            
-                            <a href="logos/aso_savings_loans/aso_savings_loans.png" download="ASO Savings logo">
-                                <span class="logo__download__overlay--png">
-                                    Download PNG
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-            </div>
-            
-            <div class="logo__text">
-                <p class="logo__text--primary">ASO Savings & Loans</p>
-                <p class="logo__text--secondary">Banking / Financial Services</p>
-            </div>
-        </div>
+        -->
     </main>
 
     <footer>
