@@ -7,13 +7,12 @@ main {
     margin-bottom: 10%;
 }
 .logo {
-    width: 17.6vw;
-    margin-top: 5%;
+    width: calc(25% - 20px); //20px accounts for the margin
+    margin-top: 8%;
 
     &__holder {
         border-radius: 4px;
         width: 100%;
-        height: 17.6vw;
         background-color: $col-grey-4;
         display: flex;
         justify-content: center;
@@ -21,7 +20,13 @@ main {
         text-align: center;
         position: relative;
 
-        &:hover > .logo__download{
+        &::before {
+            content: "";
+            display: block;
+            padding-top: 100%; 	
+        }
+
+        &:hover > .logo__download {
             opacity: 1;
         }
     }
@@ -33,6 +38,7 @@ main {
     &__text {
         width: 100%;
         overflow-x: hidden;
+        white-space: nowrap;
 
         &--primary { 
             font-weight: $fw-medium;

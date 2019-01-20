@@ -17,7 +17,7 @@ header {
             margin-top: 0;
 
             & img {
-                width: 100%;
+                width: 5vh;
                 transform: translateY(-15%);
             }
         }
@@ -60,6 +60,7 @@ header {
         }
         .select {
             flex-basis: 30%;
+            min-width: 120px;
             position: relative;
             cursor: pointer;
 
