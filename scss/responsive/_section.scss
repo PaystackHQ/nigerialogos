@@ -1,6 +1,6 @@
 @media screen and (max-width: 1215px){
     .logo {
-        width: calc(33.333333% - 20px); //20px accounts for the margin
+        width: 33.333333%; 
     }
 }
 
@@ -10,7 +10,7 @@
     }
 
     .logo {
-        width: calc(50% - 20px); //20px accounts for the margin
+        width: 50%; 
     }
 }
 

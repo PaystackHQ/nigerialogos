@@ -1,5 +1,5 @@
 main {
-    width: 76.2vw;
+    width: calc(76.2vw + 20px);
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -8,11 +8,13 @@ main {
 
     &::after {
         content: "";
-        flex-basis: calc(33% - 20px);
+        flex: auto;
       }
 }
 .logo {
-    width: calc(25% - 20px); //20px accounts for the margin
+    box-sizing: border-box;
+    width: 25%;
+    border: 20px solid transparent;
     margin-top: 8%;
 
     &__holder {
@@ -47,10 +49,16 @@ main {
 
         &--primary { 
             font-weight: $fw-medium;
-            margin-top: 3%;
+            font-size: 115%;
+            margin-top: 5%;
+
+            &:hover {
+                overflow-x: scroll;
+            }
         }
         &--secondary {
             font-size: 80%;
+            margin-top: 2%;
         }
     }
 
