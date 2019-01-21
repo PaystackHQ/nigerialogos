@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 [Node.js](https://nodejs.org/)
 
-###Installing
+### Installing
 
 *Initialize NPM in the project folder `npm init`
 *Install Node-Sass `npm install node-sass`
