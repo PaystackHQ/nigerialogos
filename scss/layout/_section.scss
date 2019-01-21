@@ -5,6 +5,11 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 10%;
+
+    &::after {
+        content: "";
+        flex-basis: calc(33% - 20px);
+      }
 }
 .logo {
     width: calc(25% - 20px); //20px accounts for the margin
