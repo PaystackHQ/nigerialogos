@@ -1,0 +1,19 @@
+@media screen and (max-width: 1215px){
+    .background__stripe {
+        opacity: .4;
+
+        &:nth-child(even) {
+            opacity: .25;
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    .background__stripe {
+        opacity: .2;
+
+        &:nth-child(even) {
+            opacity: .05;
+        }
+    }
+}

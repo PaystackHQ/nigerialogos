@@ -1,0 +1,21 @@
+[{
+	"title": "Polaris Bank",
+	"filename": "polaris_bank",
+	"category": "Banking / Financial Services"
+}, {
+    "title": "ALAT by Wema",
+	"filename": "alat_by_wema",
+	"category": "Banking / Financial Services"
+}, {
+    "title": "Mainstreet Bank",
+	"filename": "mainstreet_bank",
+	"category": "Banking / Financial Services"
+},{
+    "title": "Ekondo Microfinance Bank",
+	"filename": "ekondo_microfinance_bank",
+	"category": "Banking / Financial Services"
+}, {
+    "title": "Aso Savings",
+	"filename": "aso_savings_loans",
+	"category": "Banking / Financial Services"
+}]
