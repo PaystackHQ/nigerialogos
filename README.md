@@ -12,8 +12,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-*Install dependencies with `npm install`
-*Run the script with `npm run scss`
+* Install dependencies with `npm install`
+* Run the script with `npm run scss`
 
 ## Contributing
 
