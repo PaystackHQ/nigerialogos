@@ -8,19 +8,11 @@ searchbar.addEventListener('keyup', (e)=> {
     logos.forEach(logo => {
         const searchParagraph = logo.lastElementChild;
         const searchTitle = searchParagraph.firstElementChild.textContent;
-        const category = searchParagraph.lastElementChild.textContent;
-        const present = searchTitle.toLowerCase().indexOf(typed) !== -1;
-        let selected = select.value
+        const logoCategory = searchParagraph.lastElementChild.textContent;
+        const isPresent = searchTitle.toLowerCase().indexOf(typed) !== -1;
+        let selectedCategory = select.value
         
-        if (present && selected === "All Categories") {
-            logo.style.display = 'block';
-        } 
-        else if (present && selected === category) {
-            logo.style.display = 'block';
-        } 
-        else {
-            logo.style.display = 'none'
-        }
+        isPresent && selectedCategory === 'All Categories' ? logo.style.display = 'block'
+        : logo.style.display = isPresent && selectedCategory === logoCategory ? 'block' : 'none';
     });   
 })
-
