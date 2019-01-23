@@ -9,11 +9,13 @@ searchbar.addEventListener('keyup', (e)=> {
         const searchParagraph = logo.lastElementChild;
         const searchTitle = searchParagraph.firstElementChild.textContent;
         const logoCategory = searchParagraph.lastElementChild.textContent;
+        let selectedCategory = select.value;
+
         const isPresent = searchTitle.toLowerCase().indexOf(typed) !== -1;
-        let selectedCategory = select.value
+        const categoryMatch = selectedCategory === 'All Categories' || selectedCategory === logoCategory;
+        const shouldShow = isPresent && categoryMatch;
         
-        isPresent && selectedCategory === 'All Categories' ? logo.style.display = 'block'
-        : logo.style.display = isPresent && selectedCategory === logoCategory ? 'block' : 'none';
+        logo.style.display = shouldShow ? 'block' : 'none';
     });   
 })
 
