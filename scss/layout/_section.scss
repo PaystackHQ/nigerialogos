@@ -1,13 +1,20 @@
 main {
-    width: 76.2vw;
+    width: calc(76.2vw + 20px);
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 10%;
+
+    &::after {
+        content: "";
+        flex: auto;
+      }
 }
 .logo {
-    width: calc(25% - 20px); //20px accounts for the margin
+    box-sizing: border-box;
+    width: 25%;
+    border: 20px solid transparent;
     margin-top: 8%;
 
     &__holder {
@@ -42,10 +49,16 @@ main {
 
         &--primary { 
             font-weight: $fw-medium;
-            margin-top: 3%;
+            font-size: 115%;
+            margin-top: 5%;
+
+            &:hover {
+                overflow-x: scroll;
+            }
         }
         &--secondary {
             font-size: 80%;
+            margin-top: 2%;
         }
     }
 
@@ -64,17 +77,21 @@ main {
             background-color: $col-green-2;
             border: 1px solid $col-green-1;
             border-radius: 4px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
 
             a{
                 color: inherit;
                 transition: all .5s ease-in-out;
 
-                &:first-of-type > span {
-                    transform: translateY(25%);
-                }
-                &:last-of-type > span {
-                    transform: translateY(-25%);
-                }
+                // &:first-of-type > span {
+                //     transform: translateY(25%);
+                // }
+                // &:last-of-type > span {
+                //     transform: translateY(-25%);
+                // }
 
                 &:hover{ 
                     text-decoration: none;
@@ -84,11 +101,16 @@ main {
             }
 
             &--svg, &--png {
-                width: 100%;
-                height: 50%;
+                padding: 20%;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                transition: transform .15s ease-out;
+
+                &:hover {
+                    background-color: #fff;
+                    transform: scale(1.1);
+                }
             }
         }
     }
