@@ -16,3 +16,13 @@ searchbar.addEventListener('keyup', (e)=> {
         : logo.style.display = isPresent && selectedCategory === logoCategory ? 'block' : 'none';
     });   
 })
+
+function selectReload() {
+    const enterPressed = new KeyboardEvent('keyup', {
+        key: 'Enter'
+    });
+    select.addEventListener('change', ()=> {
+        searchbar.dispatchEvent(enterPressed);
+    })
+}
+selectReload();
