@@ -17,10 +17,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Contributing
 
-For details on contributing, please read [contributing.md] (https://github.com/PaystackHQ/nigerialogos/blob/master/contributing.md)
+For details on contributing, please read [contributing.md](https://github.com/PaystackHQ/nigerialogos/blob/master/contributing.md)
 
 
 ## Authors
 
-* **Chinonso Raymond**(https://twitter.com/ChinonsoRay) 
-* **Demilade Olaleye**(https://github.com/Demilad)
+* [**Chinonso Raymond**](https://twitter.com/ChinonsoRay) 
+* [**Demilade Olaleye**](https://github.com/Demilad)
