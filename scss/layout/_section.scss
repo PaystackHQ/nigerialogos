@@ -44,21 +44,31 @@ main {
 
     &__text {
         width: 100%;
-        overflow-x: hidden;
-        white-space: nowrap;
 
         &--primary { 
             font-weight: $fw-medium;
             font-size: 115%;
             margin-top: 5%;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow-x: hidden;
 
             &:hover {
                 overflow-x: scroll;
+                text-overflow: initial;
             }
         }
         &--secondary {
             font-size: 80%;
             margin-top: 2%;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow-x: hidden;
+
+            &:hover {
+                overflow-x: scroll;
+                text-overflow: initial;
+            }
         }
     }
 
