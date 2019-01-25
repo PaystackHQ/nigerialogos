@@ -9,13 +9,13 @@ main {
     &::after {
         content: "";
         flex: auto;
-      }
+    } 
 }
 .logo {
     box-sizing: border-box;
     width: 25%;
     border: 20px solid transparent;
-    margin-top: 8%;
+    margin-bottom: 8%;
 
     &__holder {
         border-radius: 4px;
@@ -86,13 +86,6 @@ main {
                 color: inherit;
                 transition: all .5s ease-in-out;
 
-                // &:first-of-type > span {
-                //     transform: translateY(25%);
-                // }
-                // &:last-of-type > span {
-                //     transform: translateY(-25%);
-                // }
-
                 &:hover{ 
                     text-decoration: none;
                     font-weight: $fw-medium;
@@ -114,4 +107,4 @@ main {
             }
         }
     }
-}
+} 

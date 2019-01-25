@@ -1,71 +1,82 @@
-@media screen and (max-width: 750px){
-    .searchbar {
-        min-width: 50vw;
-
-        & .search {
-            margin-right: 6vw;
-        }
-    }
-}
-
-@media screen and (max-width: 450px){
-    header {
-        padding: 0;
-        overflow-x: hidden;
-
+@media screen and (max-width: 880px) {
+    header{
+        width: 90vw;
         .heading {
-           width: 100vw;
+            height: 40vw;
 
-            & .logo {
-
-                & img {
-                    width: 5vh;
-                    transform: translateX(32vw) translateY(2vh);
-                }
+            & .site-logo {
+                left: 50%;
+                transform: translateX(-56%);
             }
-        }
-        h1{
-            margin-bottom: 20vh;
-            width: 100vw;
         }
         .searchbar {
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin: 0 auto;
-            margin-left: -2vw;
-            margin-top: 30vh;
-            margin-bottom: 50vh;
-            padding: 0;
-            width: 80vw;
-            height: 20vh;
-            position: absolute;
+            justify-content: space-between;
+            width: 60vw;
+            height: 10vw;
+            min-width: 0;
+            right: 50%;
+            transform: translateX(50%);
+            bottom: 3vw;
+            // overflow: hidden;
+    
+            .search {
+                width: 100%;
+                margin-left: -1.2%;
+                min-width: 0;
 
-            & .search {
-                width: 94%;
-                height: 8vh;
-
-                input{
-                    opacity: .7;
+                & select {
+                    text-align: center;
                 }
 
-                &::after {
-                    right: -3%;
-                    top: .4rem;
-                    width: 1.2rem;
-                    height: 1.2rem;
-                    transform: scale(.6);
+                & input {
+                    padding: .6em 0 .5em 1em;
+                    width: 100%;
+                    margin-top: 2%;
                 }
             }
-            & .select {
-                position: absolute;
-                top: 5vh;
-                min-width: 100%;
-                height: 20vh;
-                font-size: 170%;
-            }
+    
+            .select {
+                width: 100%;
+            } 
+        }
+        h1 {
+            top: 10vw;
+            text-align: center;
+            left: 50%;
+            transform: translateX(-50%);
         }
 
     }
 }
 
+@media screen and (max-width: 600px) {
+    header{
+        overflow-x: hidden;
+        .heading {
+            height: 80vw;
+        }
+        .searchbar {
+            bottom: 18vw;
+            width: 74vw;
+            .search {
+                margin-left: -2%;
+
+                & input {
+                    font-size: 16px;
+                    padding: .45em 0 .3em 1em;
+                }
+            }
+            .select {
+                & select {
+                    font-size: 16px;
+                }
+            } 
+        }
+        h1 {
+            top: 20vw;
+            font-size: 16px;
+        }
+
+    }
+}
