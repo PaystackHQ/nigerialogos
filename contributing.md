@@ -38,6 +38,7 @@ polaris_bank
 * Ecommerce / Construction / Real Estate
 * FMCG / Conglomerate
 * Gaming / Sports
+* Cryptocurrency
 ```
 
 ## Pull Request Process

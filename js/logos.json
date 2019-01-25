@@ -150,4 +150,8 @@
 	"title": "Aella Credit",
 	"filename": "aella_credit",
 	"category":"Banking / Financial Services"
+}, {
+	"title": "BuyCoins",
+	"filename": "buycoins",
+	"category":"Cryptocurrency"
 }]
