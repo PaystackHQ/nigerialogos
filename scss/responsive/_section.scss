@@ -1,7 +1,15 @@
 @media screen and (max-width: 1215px){
     .logo {
-        width: 33.333333%; 
-    }
+        width: 33.333333%;
+    
+        &__download {
+            &__overlay {
+                a {
+                    font-size: 80%;
+                }
+            }
+        }
+    } 
 }
 
 @media screen and (max-width: 650px){
@@ -11,6 +19,48 @@
 
     .logo {
         width: 50%; 
+
+        &__download {
+            &__overlay {
+                a {
+                    font-size: 80%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px){
+    .logo {
+        &__download {
+            &__overlay {
+                a {
+                    font-size: 70%;
+                }
+                &--svg, &--png {
+                    padding: 10%;
+
+                    &:hover {
+                        transform: scale(1);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 350px){
+    .logo {
+        &__download {
+            &__overlay {
+                a {
+                    font-size: 65%;
+                }
+                &--svg, &--png {
+                    padding: 5% 2%;
+                }
+            }
+        }
     }
 }
 
