@@ -7,7 +7,7 @@ window.addEventListener('load', ()=> {
         if (clicks % 2 !== 0) e.preventDefault();
         
     }
-    if (window.innerWidth < window.innerHeight) {
+    if ('ontouchstart' in window || 'ontouch' in window) {
         links.forEach(link => {
             link.addEventListener('click', stopLink);
         })
