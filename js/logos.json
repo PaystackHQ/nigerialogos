@@ -154,4 +154,8 @@
 	"title": "BuyCoins",
 	"filename": "buycoins",
 	"category":"Cryptocurrency"
+}, {
+	"title": "Barter",
+	"filename": "barter",
+	"category":"Banking / Financial Services"
 }]
