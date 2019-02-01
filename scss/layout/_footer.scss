@@ -3,6 +3,10 @@ footer {
     position: fixed;
     bottom: 5%;
     right: 5%;
+    background-color: $col-white;
+    padding: 1% 2%;
+    border-radius: 4px;
+    
     a {
         color: $col-grey-1;
         text-decoration-color: $col-green-1;
