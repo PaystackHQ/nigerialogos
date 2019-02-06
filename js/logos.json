@@ -158,4 +158,8 @@
 	"title": "Barter",
 	"filename": "barter",
 	"category":"Banking / Financial Services"
+}, {
+	"title": "FINT",
+	"filename": "fint",
+	"category":"Banking / Financial Services"
 }]
