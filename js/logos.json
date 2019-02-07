@@ -155,6 +155,10 @@
 	"filename": "buycoins",
 	"category":"Cryptocurrency"
 }, {
+	"title": "Kadarko Marketplace",
+	"filename": "kadarko",
+	"category":"Ecommerce / Marketplace"
+}, {
 	"title": "Barter",
 	"filename": "barter",
 	"category":"Banking / Financial Services"
