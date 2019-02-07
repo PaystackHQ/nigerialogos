@@ -155,7 +155,11 @@
 	"filename": "buycoins",
 	"category":"Cryptocurrency"
 }, {
-	"title": "Kadarko Marketplace",
+	"title": "PoFela Nigeria",
+	"filename": "pofela",
+	"category":"Cryptocurrency"
+}, {
+	"title": "Kadarko.com Marketplace",
 	"filename": "kadarko",
 	"category":"Ecommerce / Marketplace"
 }, {
