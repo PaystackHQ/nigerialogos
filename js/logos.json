@@ -158,4 +158,44 @@
 	"title": "Barter",
 	"filename": "barter",
 	"category":"Banking / Financial Services"
+}, {
+	"title": "Arla Food Inc.",
+	"filename": "arla",
+	"category": "FMCG / Conglomerate"
+}, {
+	"title": "Bet9ja",
+	"filename": "bet9ja",
+	"category": "Gaming / Sports"
+}, {
+	"title": "Dano Milk",
+	"filename": "dano",
+	"category": "FMCG / Conglomerate"
+}, {
+	"title": "First City Monument Bank Ltd",
+	"filename": "fcmb",
+	"category":"Banking / Financial Services"
+}, {
+	"title": "Milo",
+	"filename": "milo",
+	"category": "FMCG / Conglomerate"
+}, {
+	"title": "Nestle",
+	"filename": "nestle",
+	"category": "FMCG / Conglomerate"
+}, {
+	"title": "Paga",
+	"filename": "paga",
+	"category": "Banking / Financial Services"
+}, {
+	"title": "Sterling Bank Plc",
+	"filename": "sterling_bank",
+	"category":"Banking / Financial Services"
+}, {
+	"title": "TeamApt",
+	"filename": "teamapt",
+	"category":"Banking / Financial Services"
+}, {
+	"title": "Union Bank Nigeria",
+	"filename": "union_bank",
+	"category":"Banking / Financial Services"
 }]
