@@ -48,4 +48,5 @@ polaris_bank
 * FMCG / Conglomerate
 * Gaming / Sports
 * Cryptocurrency
+* Health / NGO
 ```
