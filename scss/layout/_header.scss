@@ -30,6 +30,7 @@ header {
 
         .search {
             width: 65%;
+            position: relative;
 
             & input {
                 -moz-appearance: none;
@@ -53,6 +54,22 @@ header {
                 background-size: 1em auto;
                 padding-left: 1em;
                 margin-left: 5px;
+            }
+
+            .results {
+                background-color: $col-green-2;
+                position: absolute;
+                bottom: -100%;
+                right: -1%;
+                border: 1px solid $col-green-1;
+                border-radius: 4px;
+                padding: .3rem .5rem;
+                color: $col-green-1;
+
+                & span {
+                    font-weight: $fw-medium;
+                    color: $col-grey-1;
+                }
             }
         }
         .select{

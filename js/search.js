@@ -1,10 +1,11 @@
 const searchbar = document.querySelector('.search input');
 const select = document.querySelector('.select select');
+const results = document.querySelector('.results');
 
 searchbar.addEventListener('keyup', (e)=> {
     const typed = e.target.value.toLowerCase();
     const logos = document.querySelectorAll('main .logo');
-    
+    let numberOfResults = 0;
     logos.forEach(logo => {
         const searchParagraph = logo.lastElementChild;
         const searchTitle = searchParagraph.firstElementChild.textContent;
@@ -16,7 +17,11 @@ searchbar.addEventListener('keyup', (e)=> {
         const shouldShow = isPresent && categoryMatch;
         
         logo.style.display = shouldShow ? 'block' : 'none';
-    });   
+        logo.style.display = shouldShow ? numberOfResults++ : numberOfResults+=0;
+    });
+    console.log(numberOfResults);
+    
+    results.innerHTML = `<span>${numberOfResults}</span> results`
 })
 
 function selectReload() {
