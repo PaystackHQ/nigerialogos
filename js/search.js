@@ -17,9 +17,8 @@ searchbar.addEventListener('keyup', (e)=> {
         const shouldShow = isPresent && categoryMatch;
         
         logo.style.display = shouldShow ? 'block' : 'none';
-        logo.style.display = shouldShow ? numberOfResults++ : numberOfResults+=0;
+        if(shouldShow) numberOfResults+=1;
     });
-    console.log(numberOfResults);
     
     results.innerHTML = `<span>${numberOfResults}</span> results`
 })
