@@ -49,4 +49,5 @@ polaris_bank
 * Gaming / Sports
 * Cryptocurrency
 * Health / NGO
+* Branding
 ```
