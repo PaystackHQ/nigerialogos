@@ -65,7 +65,7 @@
 }, {
 	"title": "Softcom",
 	"filename": "softcom",
-	"category": "FMCG / Conglomerate"	
+	"category": "FMCG / Conglomerate"
 }, {
 	"title": "Taxify",
 	"filename": "taxify",
@@ -218,4 +218,8 @@
 	"title": "Mobnia",
 	"filename": "mobnia",
 	"category": "Branding"
+}, {
+	"title": "SiriusLabs",
+	"filename": "siriuslabs",
+	"category": "Product Design"
 }]
