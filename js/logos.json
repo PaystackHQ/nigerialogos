@@ -230,4 +230,28 @@
 	"title": "Fliqpay",
 	"filename": "fliqpay",
 	"category": "Cryptocurrency"
+}, {
+	"title": "Access Bank PLC",
+	"filename": "access_bank",
+	"category": "Banking / Financial Services"
+}, {
+	"title": "Ecobank",
+	"filename": "ecobank",
+	"category": "Banking / Financial Services"
+}, {
+	"title": "Fidelity Bank Nigeria",
+	"filename": "fidelity_bank",
+	"category": "Banking / Financial Services"
+}, {
+	"title": "First Bank Nigeria",
+	"filename": "first_bank",
+	"category": "Banking / Financial Services"
+}, {
+	"title": "Standard Chartered",
+	"filename": "standard_chartered",
+	"category": "Banking / Financial Services"
+}, {
+	"title": "Nigerian Breweries PLC",
+	"filename": "nigerian_breweries",
+	"category": "FMCG / Conglomerate"
 }]
