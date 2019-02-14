@@ -1,225 +1,287 @@
-[{
+[
+  {
     "title": "Paystack",
-	"filename": "paystack",
-	"category": "Banking / Financial Services"
-}, {
+    "filename": "paystack",
+    "category": "Banking / Financial Services"
+  },
+  {
     "title": "ALAT by Wema",
-	"filename": "alat_by_wema",
-	"category": "Banking / Financial Services"
-}, {
+    "filename": "alat_by_wema",
+    "category": "Banking / Financial Services"
+  },
+  {
     "title": "Mainstreet Bank",
-	"filename": "mainstreet_bank",
-	"category": "Banking / Financial Services"
-},{
+    "filename": "mainstreet_bank",
+    "category": "Banking / Financial Services"
+  },
+  {
     "title": "Ekondo Microfinance Bank",
-	"filename": "ekondo_microfinance_bank",
-	"category": "Banking / Financial Services"
-}, {
+    "filename": "ekondo_microfinance_bank",
+    "category": "Banking / Financial Services"
+  },
+  {
     "title": "Aso Savings",
-	"filename": "aso_savings_loans",
-	"category": "Banking / Financial Services"
-}, {
-	"title": "Polaris Bank",
-	"filename": "polaris_bank",
-	"category": "Banking / Financial Services"
-},{
-	"title": "Guaranty Trust Bank",
-	"filename": "guaranty_trust_bank",
-	"category": "Banking / Financial Services"
-}, {
-	"title": "Julius Berger",
-	"filename": "julius_berger",
-	"category": "Ecommerce / Construction / Real Estate"
-}, {
-	"title": "Zenith Bank",
-	"filename": "zenith_bank",
-	"category": "Banking / Financial Services"
-}, {
-	"title": "Cowrywise",
-	"filename": "cowrywise",
-	"category": "Banking / Financial Services"
-}, {
-	"title": "Hotels.ng",
-	"filename": "hotels_ng",
-	"category": "Ecommerce / Construction / Real Estate"
-}, {
-	"title": "United Bank for Africa",
-	"filename": "united_bank_for_africa",
-	"category": "Banking / Financial Services"
-}, {
-	"title": "Aero Contractors",
-	"filename": "aero_contractors",
-	"category": "FMCG / Conglomerate"
-}, {
-	"title": "Arik Air",
-	"filename": "arik_air",
-	"category": "FMCG / Conglomerate"
-}, {
-	"title": "Konga",
-	"filename": "konga",
-	"category": "Ecommerce / Construction / Real Estate"
-}, {
-	"title": "Peak Milk",
-	"filename": "peak_milk",
-	"category": "FMCG / Conglomerate"
-}, {
-	"title": "Softcom",
-	"filename": "softcom",
-	"category": "FMCG / Conglomerate"
-}, {
-	"title": "Taxify",
-	"filename": "taxify",
-	"category": "FMCG / Conglomerate"
-}, {
-	"title": "Nairabet",
-	"filename": "nairabet",
-	"category": "Gaming / Sports"
-}, {
-	"title": "Betway",
-	"filename": "betway",
-	"category": "Gaming / Sports"
-}, {
-	"title": "Paylater",
-	"filename": "paylater",
-	"category": "Banking / Financial Services"
-}, {
-	"title": "Farmcrowdy",
-	"filename": "farmcrowdy",
-	"category": "FMCG / Conglomerate"
-}, {
-	"title": "MTN",
-	"filename": "mtn",
-	"category": "FMCG / Conglomerate"
-}, {
-	"title": "Opera",
-	"filename": "opera",
-	"category": "FMCG / Conglomerate"
-}, {
-	"title": "Iroko TV",
-	"filename": "iroko_tv",
-	"category": "FMCG / Conglomerate"
-}, {
-	"title": "Reliance HMO",
-	"filename": "reliance_hmo",
-	"category": "FMCG / Conglomerate"
-}, {
-	"title": "Ren Money",
-	"filename": "ren_money",
-	"category": "Banking / Financial Services"
-}, {
-	"title": "Branch",
-	"filename": "branch",
-	"category": "Banking / Financial Services"
-}, {
-	"title": "PiggyBank.ng",
-	"filename": "piggybank_ng",
-	"category": "Banking / Financial Services"
-}, {
-	"title": "GUO Transport",
-	"filename": "guo_transport",
-	"category":"FMCG / Conglomerate"
-}, {
-	"title": "GIGM",
-	"filename": "gigm",
-	"category":"FMCG / Conglomerate"
-}, {
-	"title": "AXA Mansard",
-	"filename": "axa_mansard",
-	"category": "Banking / Financial Services"
-}, {
-	"title": "Flutterwave",
-	"filename": "flutterwave",
-	"category": "Banking / Financial Services"
-}, {
-	"title": "Smile",
-	"filename": "smile",
-	"category": "FMCG / Conglomerate"
-}, {
-	"title": "SportyBet",
-	"filename": "sportybet",
-	"category": "Gaming / Sports"
-}, {
-	"title": "Terra Kulture",
-	"filename": "terra_kulture",
-	"category": "Ecommerce / Construction / Real Estate"
-}, {
-	"title": "Verifi",
-	"filename": "verifi",
-	"category":"Banking / Financial Services"
-}, {
-	"title": "Aella Credit",
-	"filename": "aella_credit",
-	"category":"Banking / Financial Services"
-}, {
-	"title": "BuyCoins",
-	"filename": "buycoins",
-	"category":"Cryptocurrency"
-}, {
-	"title": "PoFela Nigeria",
-	"filename": "pofela",
-	"category":"Cryptocurrency"
-}, {
-	"title": "Kadarko.com Marketplace",
-	"filename": "kadarko",
-	"category":"Ecommerce / Marketplace"
-}, {
-	"title": "Barter",
-	"filename": "barter",
-	"category":"Banking / Financial Services"
-}, {
-	"title": "Arla Food Inc.",
-	"filename": "arla",
-	"category": "FMCG / Conglomerate"
-}, {
-	"title": "Bet9ja",
-	"filename": "bet9ja",
-	"category": "Gaming / Sports"
-}, {
-	"title": "Dano Milk",
-	"filename": "dano",
-	"category": "FMCG / Conglomerate"
-}, {
-	"title": "First City Monument Bank Ltd",
-	"filename": "fcmb",
-	"category":"Banking / Financial Services"
-}, {
-	"title": "Milo",
-	"filename": "milo",
-	"category": "FMCG / Conglomerate"
-}, {
-	"title": "Nestle",
-	"filename": "nestle",
-	"category": "FMCG / Conglomerate"
-}, {
-	"title": "Paga",
-	"filename": "paga",
-	"category": "Banking / Financial Services"
-}, {
-	"title": "Sterling Bank Plc",
-	"filename": "sterling_bank",
-	"category":"Banking / Financial Services"
-}, {
-	"title": "TeamApt",
-	"filename": "teamapt",
-	"category":"Banking / Financial Services"
-}, {
-	"title": "Union Bank Nigeria",
-	"filename": "union_bank",
-	"category":"Banking / Financial Services"
-}, {
-	"title": "eHealth Africa",
-	"filename": "ehealth_africa",
-	"category":"Health / NGO"
-}, {
-	"title": "Check DC",
-	"filename": "check_dc",
-	"category":"Branding"
-}, {
-	"title": "Mobnia",
-	"filename": "mobnia",
-	"category": "Branding"
-}, {
-	"title": "SiriusLabs",
-	"filename": "siriuslabs",
-	"category": "Product Design"
-}]
+    "filename": "aso_savings_loans",
+    "category": "Banking / Financial Services"
+  },
+  {
+    "title": "Polaris Bank",
+    "filename": "polaris_bank",
+    "category": "Banking / Financial Services"
+  },
+  {
+    "title": "Guaranty Trust Bank",
+    "filename": "guaranty_trust_bank",
+    "category": "Banking / Financial Services"
+  },
+  {
+    "title": "Julius Berger",
+    "filename": "julius_berger",
+    "category": "Ecommerce / Construction / Real Estate"
+  },
+  {
+    "title": "Zenith Bank",
+    "filename": "zenith_bank",
+    "category": "Banking / Financial Services"
+  },
+  {
+    "title": "Cowrywise",
+    "filename": "cowrywise",
+    "category": "Banking / Financial Services"
+  },
+  {
+    "title": "Hotels.ng",
+    "filename": "hotels_ng",
+    "category": "Ecommerce / Construction / Real Estate"
+  },
+  {
+    "title": "United Bank for Africa",
+    "filename": "united_bank_for_africa",
+    "category": "Banking / Financial Services"
+  },
+  {
+    "title": "Aero Contractors",
+    "filename": "aero_contractors",
+    "category": "FMCG / Conglomerate"
+  },
+  {
+    "title": "Arik Air",
+    "filename": "arik_air",
+    "category": "FMCG / Conglomerate"
+  },
+  {
+    "title": "Konga",
+    "filename": "konga",
+    "category": "Ecommerce / Construction / Real Estate"
+  },
+  {
+    "title": "Peak Milk",
+    "filename": "peak_milk",
+    "category": "FMCG / Conglomerate"
+  },
+  {
+    "title": "Softcom",
+    "filename": "softcom",
+    "category": "FMCG / Conglomerate"
+  },
+  {
+    "title": "Taxify",
+    "filename": "taxify",
+    "category": "FMCG / Conglomerate"
+  },
+  {
+    "title": "Nairabet",
+    "filename": "nairabet",
+    "category": "Gaming / Sports"
+  },
+  {
+    "title": "Betway",
+    "filename": "betway",
+    "category": "Gaming / Sports"
+  },
+  {
+    "title": "Paylater",
+    "filename": "paylater",
+    "category": "Banking / Financial Services"
+  },
+  {
+    "title": "Farmcrowdy",
+    "filename": "farmcrowdy",
+    "category": "FMCG / Conglomerate"
+  },
+  {
+    "title": "MTN",
+    "filename": "mtn",
+    "category": "FMCG / Conglomerate"
+  },
+  {
+    "title": "Opera",
+    "filename": "opera",
+    "category": "FMCG / Conglomerate"
+  },
+  {
+    "title": "Iroko TV",
+    "filename": "iroko_tv",
+    "category": "FMCG / Conglomerate"
+  },
+  {
+    "title": "Reliance HMO",
+    "filename": "reliance_hmo",
+    "category": "FMCG / Conglomerate"
+  },
+  {
+    "title": "Ren Money",
+    "filename": "ren_money",
+    "category": "Banking / Financial Services"
+  },
+  {
+    "title": "Branch",
+    "filename": "branch",
+    "category": "Banking / Financial Services"
+  },
+  {
+    "title": "PiggyBank.ng",
+    "filename": "piggybank_ng",
+    "category": "Banking / Financial Services"
+  },
+  {
+    "title": "GUO Transport",
+    "filename": "guo_transport",
+    "category": "FMCG / Conglomerate"
+  },
+  {
+    "title": "GIGM",
+    "filename": "gigm",
+    "category": "FMCG / Conglomerate"
+  },
+  {
+    "title": "AXA Mansard",
+    "filename": "axa_mansard",
+    "category": "Banking / Financial Services"
+  },
+  {
+    "title": "Flutterwave",
+    "filename": "flutterwave",
+    "category": "Banking / Financial Services"
+  },
+  {
+    "title": "Smile",
+    "filename": "smile",
+    "category": "FMCG / Conglomerate"
+  },
+  {
+    "title": "SportyBet",
+    "filename": "sportybet",
+    "category": "Gaming / Sports"
+  },
+  {
+    "title": "Terra Kulture",
+    "filename": "terra_kulture",
+    "category": "Ecommerce / Construction / Real Estate"
+  },
+  {
+    "title": "Verifi",
+    "filename": "verifi",
+    "category": "Banking / Financial Services"
+  },
+  {
+    "title": "Aella Credit",
+    "filename": "aella_credit",
+    "category": "Banking / Financial Services"
+  },
+  {
+    "title": "BuyCoins",
+    "filename": "buycoins",
+    "category": "Cryptocurrency"
+  },
+  {
+    "title": "PoFela Nigeria",
+    "filename": "pofela",
+    "category": "Cryptocurrency"
+  },
+  {
+    "title": "Kadarko.com Marketplace",
+    "filename": "kadarko",
+    "category": "Ecommerce / Marketplace"
+  },
+  {
+    "title": "Barter",
+    "filename": "barter",
+    "category": "Banking / Financial Services"
+  },
+  {
+    "title": "Arla Food Inc.",
+    "filename": "arla",
+    "category": "FMCG / Conglomerate"
+  },
+  {
+    "title": "Bet9ja",
+    "filename": "bet9ja",
+    "category": "Gaming / Sports"
+  },
+  {
+    "title": "Dano Milk",
+    "filename": "dano",
+    "category": "FMCG / Conglomerate"
+  },
+  {
+    "title": "First City Monument Bank Ltd",
+    "filename": "fcmb",
+    "category": "Banking / Financial Services"
+  },
+  {
+    "title": "Milo",
+    "filename": "milo",
+    "category": "FMCG / Conglomerate"
+  },
+  {
+    "title": "Nestle",
+    "filename": "nestle",
+    "category": "FMCG / Conglomerate"
+  },
+  {
+    "title": "Paga",
+    "filename": "paga",
+    "category": "Banking / Financial Services"
+  },
+  {
+    "title": "Sterling Bank Plc",
+    "filename": "sterling_bank",
+    "category": "Banking / Financial Services"
+  },
+  {
+    "title": "TeamApt",
+    "filename": "teamapt",
+    "category": "Banking / Financial Services"
+  },
+  {
+    "title": "Union Bank Nigeria",
+    "filename": "union_bank",
+    "category": "Banking / Financial Services"
+  },
+  {
+    "title": "eHealth Africa",
+    "filename": "ehealth_africa",
+    "category": "Health / NGO"
+  },
+  {
+    "title": "Check DC",
+    "filename": "check_dc",
+    "category": "Branding"
+  },
+  {
+    "title": "Mobnia",
+    "filename": "mobnia",
+    "category": "Branding"
+  },
+  {
+    "title": "SiriusLabs",
+    "filename": "siriuslabs",
+    "category": "Product Design"
+  },
+  {
+    "title": "Bitmama",
+    "filename": "bitmama",
+    "category": "Cryptocurrency"
+  }
+]
