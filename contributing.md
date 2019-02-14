@@ -1,8 +1,15 @@
 # Contributing
 
-To contribute to this project, follow the Pull Request Process using the following data template:
+To contribute to this project:
 
-### Folder Structure
+1. Ensure your SVG and PNG logos have been properly optimised with tools like:
+    [SVGOMG](https://jakearchibald.github.io/svgomg/) &
+    [Squoosh](https://squoosh.app/) **(OptiPNG works well)** for SVG's and PNG's respectively
+
+
+2. Add a folder to **logos** named after your company. In this folder, put the svg and png versions of your logo. The files should have the same name as the folder.
+
+## Folder Structure
 ```
 filename
 |       filename.png
@@ -15,7 +22,9 @@ polaris_bank
 |       polaris_bank.svg
 ```
 
-### JSON Object
+3. Finally, in **js/logos.json**, add a `JSON` entry for your company
+
+## JSON Object
 ``` 
 {
 	"title": "Company Name",
@@ -39,12 +48,6 @@ polaris_bank
 * FMCG / Conglomerate
 * Gaming / Sports
 * Cryptocurrency
+* Health / NGO
+* Branding
 ```
-
-## Pull Request Process
-
-1. Ensure all SVG and PNG logos have been properly created and then optimised with tools like.
-    [SVGOMG](https://jakearchibald.github.io/svgomg/) &
-    [Squoosh](https://squoosh.app/) **(OptiPNG works well)** for SVG's and PNG's respectively
-2. Create a folder for the svg and png logos using the template and add it to the **logos** folder.
-3. Create a `JSON` object following the template and add to **js/logos.json**

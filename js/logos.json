@@ -65,7 +65,7 @@
 }, {
 	"title": "Softcom",
 	"filename": "softcom",
-	"category": "FMCG / Conglomerate"	
+	"category": "FMCG / Conglomerate"
 }, {
 	"title": "Taxify",
 	"filename": "taxify",
@@ -155,11 +155,71 @@
 	"filename": "buycoins",
 	"category":"Cryptocurrency"
 }, {
+	"title": "PoFela Nigeria",
+	"filename": "pofela",
+	"category":"Cryptocurrency"
+}, {
+	"title": "Kadarko.com Marketplace",
+	"filename": "kadarko",
+	"category":"Ecommerce / Marketplace"
+}, {
 	"title": "Barter",
 	"filename": "barter",
 	"category":"Banking / Financial Services"
 }, {
-	"title": "FINT",
-	"filename": "fint",
+	"title": "Arla Food Inc.",
+	"filename": "arla",
+	"category": "FMCG / Conglomerate"
+}, {
+	"title": "Bet9ja",
+	"filename": "bet9ja",
+	"category": "Gaming / Sports"
+}, {
+	"title": "Dano Milk",
+	"filename": "dano",
+	"category": "FMCG / Conglomerate"
+}, {
+	"title": "First City Monument Bank Ltd",
+	"filename": "fcmb",
 	"category":"Banking / Financial Services"
+}, {
+	"title": "Milo",
+	"filename": "milo",
+	"category": "FMCG / Conglomerate"
+}, {
+	"title": "Nestle",
+	"filename": "nestle",
+	"category": "FMCG / Conglomerate"
+}, {
+	"title": "Paga",
+	"filename": "paga",
+	"category": "Banking / Financial Services"
+}, {
+	"title": "Sterling Bank Plc",
+	"filename": "sterling_bank",
+	"category":"Banking / Financial Services"
+}, {
+	"title": "TeamApt",
+	"filename": "teamapt",
+	"category":"Banking / Financial Services"
+}, {
+	"title": "Union Bank Nigeria",
+	"filename": "union_bank",
+	"category":"Banking / Financial Services"
+}, {
+	"title": "eHealth Africa",
+	"filename": "ehealth_africa",
+	"category":"Health / NGO"
+}, {
+	"title": "Check DC",
+	"filename": "check_dc",
+	"category":"Branding"
+}, {
+	"title": "Mobnia",
+	"filename": "mobnia",
+	"category": "Branding"
+}, {
+	"title": "SiriusLabs",
+	"filename": "siriuslabs",
+	"category": "Product Design"
 }]
