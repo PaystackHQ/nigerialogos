@@ -254,4 +254,8 @@
 	"title": "Nigerian Breweries PLC",
 	"filename": "nigerian_breweries",
 	"category": "FMCG / Conglomerate"
+}, {
+	"title": "Vconnect",
+	"filename": "vconnect",
+	"category":"Marketplace"
 }]
