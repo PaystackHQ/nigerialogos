@@ -258,4 +258,24 @@
 	"title": "Vconnect",
 	"filename": "vconnect",
 	"category":"Marketplace"
+}, {
+	"title": "Stanbic IBTC Bank",
+	"filename": "stabic_ibtc",
+	"category": "Banking / Financial Services"
+}, {
+	"title": "Wema Bank",
+	"filename": "wema_bank",
+	"category": "Banking / Financial Services"
+}, {
+	"title": "Heritage Bank PLC",
+	"filename": "heritage_bank",
+	"category": "Banking / Financial Services"
+}, {
+	"title": "Keystone Bank Limited",
+	"filename": "keystone_bank",
+	"category": "Banking / Financial Services"
+}, {
+	"title": "Diamond Bank",
+	"filename": "standard_chartered",
+	"category": "Banking / Financial Services"
 }]
