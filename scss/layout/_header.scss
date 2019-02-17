@@ -60,7 +60,7 @@ header {
             .results {
                 background-color: $col-green-2;
                 position: absolute;
-                bottom: -50px; // fix for results div touching search bar on some screens
+                top: 50px; 
                 right: -1%;
                 border: 1px solid $col-green-1;
                 border-radius: 4px;
