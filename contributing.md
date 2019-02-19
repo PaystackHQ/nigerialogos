@@ -23,7 +23,7 @@ company_name
 |       company_name.svg
 ```
 
-Your folder and file name should be lowercase. If your company name has multiple words, separate them with an underscore.
+Your folder and file names should be lowercase. If your company name has multiple words, kindly separate them with an underscore.
 
 3. Finally, in **js/logos.json**, add a `JSON` entry for your company
 
