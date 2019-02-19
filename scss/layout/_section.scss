@@ -58,7 +58,7 @@ main {
             overflow-x: hidden;
 
             &:hover {
-                overflow-x: scroll;
+                overflow-x: auto;
                 text-overflow: initial;
             }
         }
@@ -70,7 +70,7 @@ main {
             overflow-x: hidden;
 
             &:hover {
-                overflow-x: scroll;
+                overflow-x: auto;
                 text-overflow: initial;
             }
         }
