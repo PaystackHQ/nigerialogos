@@ -222,11 +222,14 @@
 	"title": "Health Assur Ltd",
 	"filename": "health_assur",
 	"category": "Health / NGO"
-=======
 }, {
 	"title": "SiriusLabs",
 	"filename": "siriuslabs",
 	"category": "Product Design"
+}, {
+  "title": "How Do You Tech",
+  "filename": "howdoyoutech",
+  "category": "EdTech"
 }, {
 	"title": "Quidax",
 	"filename": "quidax",
@@ -283,4 +286,4 @@
 	"title": "Diamond Bank",
 	"filename": "diamond_bank",
 	"category": "Banking / Financial Services"
-}]
+}];
