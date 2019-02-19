@@ -1,26 +1,29 @@
 # Contributing
 
-To contribute to this project:
+There are two ways to contribute to this project:
 
-1. Ensure your SVG and PNG logos have been properly optimised with tools like:
+### Using the form
+You can upload your logos directly to the online form here: https://airtable.com/shr3BAQio2rPWaGN7. This usually takes about 72 hours to be reviewed and merged.
+
+### Sending in a pull request
+Another way to contribute is to directly send in a pull request. Here are some guidelines for this:
+
+1. Ensure your logos have been properly optimised with tools like:
     [SVGOMG](https://jakearchibald.github.io/svgomg/) &
-    [Squoosh](https://squoosh.app/) **(OptiPNG works well)** for SVG's and PNG's respectively
+    [Squoosh](https://squoosh.app/) **(OptiPNG works well)**
 
+Kindly ensure your file sizes are as small as possible. Also, your SVG file should be text-only and not contain any bitmaps.
 
 2. Add a folder to **logos** named after your company. In this folder, put the svg and png versions of your logo. The files should have the same name as the folder.
 
 ## Folder Structure
 ```
-filename
-|       filename.png
-|       filename.svg
+company_name
+|       company_name.png
+|       company_name.svg
 ```
-**Example**
-```
-polaris_bank
-|       polaris_bank.png
-|       polaris_bank.svg
-```
+
+Your folder and file name should be lowercase. If your company name has multiple words, separate them with an underscore.
 
 3. Finally, in **js/logos.json**, add a `JSON` entry for your company
 
@@ -52,3 +55,5 @@ polaris_bank
 * Branding
 * EdTech / InfoTech
 ```
+
+Pull requests are usually reviewed within 24 hours. Once your pull request is merged, you should see your logo on the site a few minutes after.
