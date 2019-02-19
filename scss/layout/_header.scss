@@ -59,7 +59,7 @@ header {
             .results {
                 background-color: $col-green-2;
                 position: absolute;
-                bottom: -100%;
+                bottom: -50px; // fix for results div touching search bar on some screens
                 right: -1%;
                 border: 1px solid $col-green-1;
                 border-radius: 4px;
@@ -80,7 +80,7 @@ header {
                 font-size: 16px; // iOS Safari zooms in if less than 16px causing weird issues
                 font-family: inherit;
                 color: $col-white;
-                padding: .6em 1.4em .5em .8em;
+                padding: .2em .6em; // fix for category text being cut halfway
                 line-height: 1.3;
                 height: 100%;
                 width: 100%;
@@ -124,5 +124,14 @@ header {
                 text-decoration-color: inherit;
             }
         }
+    }
+    .visuallyhidden{
+        position: absolute;
+        clip: rect(1px, 1px, 1px, 1px);
+        padding: 0;
+        border: 0;
+        height: 1px;
+        width: 1px;
+        overflow: hidden;
     }
 }

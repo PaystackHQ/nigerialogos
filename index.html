@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon.ico/apple-icon-57x57.png">
@@ -66,7 +66,8 @@
             
             <div class="searchbar">
                 <div class="select">
-                    <select name="Categories">
+                    <label for="Categories" class="visuallyhidden"><span>Categories</span></label>
+                    <select name="Categories" id="Categories">
                         <option value="All Categories">All Categories</option>
                         <option value="Banking / Financial Services">Banking / Financial Services</option>
                         <option value="Ecommerce / Construction / Real Estate">Ecommerce / Construction / Real Estate</option>
@@ -75,9 +76,10 @@
                     </select>
                 </div>
                 <div class="search">
-                    <label>
-                        <input type="text" name="search" placeholder="search for a company"> 
+                    <label for="search" class="visuallyhidden">
+                        <span>Search</span>
                     </label>
+                    <input type="text" name="search" id="search" placeholder="search for a company"> 
                     <div class="results">All Results</div>
                 </div>
             </div>
