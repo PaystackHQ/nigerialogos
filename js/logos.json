@@ -278,4 +278,16 @@
 	"title": "Diamond Bank",
 	"filename": "diamond_bank",
 	"category": "Banking / Financial Services"
+}, {
+	"title": "Interswitch",
+	"filename": "interswitch",
+	"category": "Banking / Financial Services"
+}, {
+	"title": "Verve",
+	"filename": "verve",
+	"category": "Banking / Financial Services"
+}, {
+	"title": "Quickteller",
+	"filename": "quickteller",
+	"category": "Banking / Financial Services"
 }]
