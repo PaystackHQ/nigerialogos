@@ -25,7 +25,7 @@ polaris_bank
 3. Finally, in **js/logos.json**, add a `JSON` entry for your company
 
 ## JSON Object
-``` 
+```
 {
 	"title": "Company Name",
 	"filename": "company_name",
@@ -50,4 +50,5 @@ polaris_bank
 * Cryptocurrency
 * Health / NGO
 * Branding
+* EdTech / InfoTech
 ```

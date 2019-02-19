@@ -218,10 +218,18 @@
 	"title": "Mobnia",
 	"filename": "mobnia",
 	"category": "Branding"
+},{
+	"title": "Health Assur Ltd",
+	"filename": "health_assur",
+	"category": "Health / NGO"
 }, {
 	"title": "SiriusLabs",
 	"filename": "siriuslabs",
 	"category": "Product Design"
+}, {
+  "title": "How Do You Tech",
+  "filename": "howdoyoutech",
+  "category": "EdTech"
 }, {
 	"title": "Quidax",
 	"filename": "quidax",
@@ -290,4 +298,4 @@
 	"title": "Quickteller",
 	"filename": "quickteller",
 	"category": "Banking / Financial Services"
-}]
+}];
