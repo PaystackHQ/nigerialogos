@@ -21,7 +21,7 @@ company_name
 |       company_name.svg
 ```
 
-3. Finally, in **js/logos.json**, add a `JSON` entry for your company
+3. In **js/logos.json**, add a `JSON` entry for your company
 
 ### JSON Object
 ```
@@ -40,9 +40,10 @@ company_name
 }
 ```
 
-## Categories
-Here are the current categories we recognize. If your company category is not reflected here, feel free to use a new category. If you do so, kindly edit this file in your PR as well.
 
+4. If your company category is not reflected in categories section *below*, feel free to use a new category. If you do so, kindly edit this file (**/contributing.md**) in your PR as well.
+
+### Categories
 ```
 * Banking / Financial Services
 * Ecommerce / Construction / Real Estate
@@ -52,6 +53,7 @@ Here are the current categories we recognize. If your company category is not re
 * Health / NGO
 * Branding
 * EdTech / InfoTech
+* Software / ICT
 ```
 
-Pull requests are usually reviewed within 24 hours. Once your pull request is merged, you should see your logo on the site a few minutes after.
+**NOTE**: _Pull requests are usually reviewed within 24 hours. Once your pull request is merged, you should see your logo on the site a few minutes after._
