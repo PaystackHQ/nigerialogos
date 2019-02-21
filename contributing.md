@@ -21,7 +21,7 @@ company_name
 |       company_name.svg
 ```
 
-3. In **js/logos.json**, add a `JSON` entry for your company
+3. In **[js/logos.json](https://github.com/PaystackHQ/nigerialogos/blob/master/js/logos.json)**, add a `JSON` entry for your company
 
 ### JSON Object
 ```
@@ -41,7 +41,7 @@ company_name
 ```
 
 
-4. If your company category is not reflected in categories section *below*, feel free to use a new category. If you do so, kindly edit this file (**/contributing.md**) in your PR as well.
+4. If your company category is not reflected in categories section *below*, feel free to use a new category. If you do so, kindly edit this file (**[/contributing.md](https://github.com/PaystackHQ/nigerialogos/blob/master/contributing.md)**) in your PR as well.
 
 ### Categories
 ```
