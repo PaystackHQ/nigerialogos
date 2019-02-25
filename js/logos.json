@@ -29,7 +29,7 @@
 }, {
 	"title": "Julius Berger",
 	"filename": "julius_berger",
-	"category": "Ecommerce / Construction / Real Estate"
+	"category": "Construction / Real Estate"
 }, {
 	"title": "Zenith Bank",
 	"filename": "zenith_bank",
@@ -41,7 +41,7 @@
 }, {
 	"title": "Hotels.ng",
 	"filename": "hotels_ng",
-	"category": "Ecommerce / Construction / Real Estate"
+	"category": "Hospitality"
 }, {
 	"title": "United Bank for Africa",
 	"filename": "united_bank_for_africa",
@@ -49,11 +49,11 @@
 }, {
 	"title": "Aero Contractors",
 	"filename": "aero_contractors",
-	"category": "FMCG / Conglomerate"
+	"category": "Aviation / Conglomerate"
 }, {
 	"title": "Arik Air",
 	"filename": "arik_air",
-	"category": "FMCG / Conglomerate"
+	"category": "Aviation / Conglomerate"
 }, {
 	"title": "Konga",
 	"filename": "konga",
@@ -89,7 +89,7 @@
 }, {
 	"title": "MTN",
 	"filename": "mtn",
-	"category": "FMCG / Conglomerate"
+	"category": "Telco / Conglomerate"
 }, {
 	"title": "Opera",
 	"filename": "opera",
@@ -97,7 +97,7 @@
 }, {
 	"title": "Iroko TV",
 	"filename": "iroko_tv",
-	"category": "FMCG / Conglomerate"
+	"category": "Media / Conglomerate"
 }, {
 	"title": "Reliance HMO",
 	"filename": "reliance_hmo",
@@ -117,11 +117,11 @@
 }, {
 	"title": "GUO Transport",
 	"filename": "guo_transport",
-	"category":"FMCG / Conglomerate"
+	"category":"Transportation / Logistics / Conglomerate"
 }, {
 	"title": "GIGM",
 	"filename": "gigm",
-	"category":"FMCG / Conglomerate"
+	"category":"Transportation / Logistics / Conglomerate"
 }, {
 	"title": "AXA Mansard",
 	"filename": "axa_mansard",
