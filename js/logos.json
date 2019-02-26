@@ -89,7 +89,7 @@
 }, {
 	"title": "MTN",
 	"filename": "mtn",
-	"category": "FMCG / Conglomerate"
+	"category": "Telecommunication / ISP"
 }, {
 	"title": "Opera",
 	"filename": "opera",
@@ -310,4 +310,16 @@
 	"title": "Andela Nigeria",
 	"filename": "andela",
 	"category": "Software / ICT"
+}, {
+	"title": "Airtel Nigeria",
+	"filename": "airtel",
+	"category": "Telecommunication / ISP"
+}, {
+	"title": "9mobile",
+	"filename": "9mobile",
+	"category": "Telecommunication / ISP"
+}, {
+	"title": "Globacom Limited",
+	"filename": "glo",
+	"category": "Telecommunication / ISP"
 }]
