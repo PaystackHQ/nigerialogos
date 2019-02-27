@@ -10,11 +10,17 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 [Node.js](https://nodejs.org/)
 
-### Installing
+### Instruction
 
 * Install dependencies with `npm install`
-* Run `npm run scss` to build the css files
-* Open the index file in your browser to view the site
+* Run `npm run build` to build/generate the css files
+* Optionally `npm run scss` to watch the css files
+* Finally, open the [index.html](https://github.com/PaystackHQ/nigerialogos/blob/master/index.html) file in your browser to view the site 
+
+### NOTE 
+For **Chrome Browser**, you will need to allow "XMLHttpRequest" to access files from other files using `--allow-file-access-from-files`
+<br />Windows Users: `Chrome.exe --allow-file-access-from-files`
+<br />Mac Users: `open /Applications/Google\ Chrome.app/ --args --allow-file-access-from-files`
 
 ## Contributing
 
