@@ -49,27 +49,27 @@
 }, {
 	"title": "Aero Contractors",
 	"filename": "aero_contractors",
-	"category": "Aviation / Conglomerate"
+	"category": "Aviation"
 }, {
 	"title": "Arik Air",
 	"filename": "arik_air",
-	"category": "Aviation / Conglomerate"
+	"category": "Aviation"
 }, {
 	"title": "Konga",
 	"filename": "konga",
-	"category": "Ecommerce / Construction / Real Estate"
+	"category": "Ecommerce / Hospitality"
 }, {
 	"title": "Peak Milk",
 	"filename": "peak_milk",
-	"category": "FMCG / Conglomerate"
+	"category": "FMCG"
 }, {
 	"title": "Softcom",
 	"filename": "softcom",
-	"category": "FMCG / Conglomerate"
+	"category": "Fintech"
 }, {
 	"title": "Taxify",
 	"filename": "taxify",
-	"category": "FMCG / Conglomerate"
+	"category": "Ride Service"
 }, {
 	"title": "Nairabet",
 	"filename": "nairabet",
@@ -85,19 +85,19 @@
 }, {
 	"title": "Farmcrowdy",
 	"filename": "farmcrowdy",
-	"category": "FMCG / Conglomerate"
+	"category": "Agriculture"
 }, {
 	"title": "MTN",
 	"filename": "mtn",
-	"category": "Telco / Conglomerate"
+	"category": "Telco"
 }, {
 	"title": "Opera",
 	"filename": "opera",
-	"category": "FMCG / Conglomerate"
+	"category": "FMCG "
 }, {
 	"title": "Iroko TV",
 	"filename": "iroko_tv",
-	"category": "Media / Conglomerate"
+	"category": "Media"
 }, {
 	"title": "Reliance HMO",
 	"filename": "reliance_hmo",
@@ -117,11 +117,11 @@
 }, {
 	"title": "GUO Transport",
 	"filename": "guo_transport",
-	"category":"Transportation / Logistics / Conglomerate"
+	"category":"Transportation / Logistics"
 }, {
 	"title": "GIGM",
 	"filename": "gigm",
-	"category":"Transportation / Logistics / Conglomerate"
+	"category":"Transportation / Logistics"
 }, {
 	"title": "AXA Mansard",
 	"filename": "axa_mansard",
@@ -133,7 +133,7 @@
 }, {
 	"title": "Smile",
 	"filename": "smile",
-	"category": "FMCG / Conglomerate"
+	"category": "ISP"
 }, {
 	"title": "SportyBet",
 	"filename": "sportybet",
@@ -141,7 +141,7 @@
 }, {
 	"title": "Terra Kulture",
 	"filename": "terra_kulture",
-	"category": "Ecommerce / Construction / Real Estate"
+	"category": "Entertainment"
 }, {
 	"title": "Verifi",
 	"filename": "verifi",
@@ -169,7 +169,7 @@
 }, {
 	"title": "Arla Food Inc.",
 	"filename": "arla",
-	"category": "FMCG / Conglomerate"
+	"category": "FMCG"
 }, {
 	"title": "Bet9ja",
 	"filename": "bet9ja",
@@ -177,7 +177,7 @@
 }, {
 	"title": "Dano Milk",
 	"filename": "dano",
-	"category": "FMCG / Conglomerate"
+	"category": "FMCG"
 }, {
 	"title": "First City Monument Bank Ltd",
 	"filename": "fcmb",
@@ -185,11 +185,11 @@
 }, {
 	"title": "Milo",
 	"filename": "milo",
-	"category": "FMCG / Conglomerate"
+	"category": "FMCG"
 }, {
 	"title": "Nestle",
 	"filename": "nestle",
-	"category": "FMCG / Conglomerate"
+	"category": "FMCG"
 }, {
 	"title": "Paga",
 	"filename": "paga",
@@ -261,7 +261,7 @@
 }, {
 	"title": "Nigerian Breweries PLC",
 	"filename": "nigerian_breweries",
-	"category": "FMCG / Conglomerate"
+	"category": "FMCG"
 }, {
 	"title": "Vconnect",
 	"filename": "vconnect",
