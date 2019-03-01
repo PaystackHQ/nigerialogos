@@ -50,7 +50,7 @@ header {
                 font-size: 16px;
                 font-family: inherit;
                 background-color: $col-green-2;
-                background-image: url('/images/icons/search.svg');
+                background-image: url('../images/icons/search.svg');
                 background-repeat: no-repeat;
                 background-position: right 1em top 50%;
                 background-size: 1em auto;
@@ -94,7 +94,7 @@ header {
                 -webkit-appearance: none;
                 appearance: none;
                 background-color: $col-green-1;
-                background-image: url('/images/dropdown_button.svg'), linear-gradient($col-green-1, $col-green-1);
+                background-image: url('../images/dropdown_button.svg'), linear-gradient($col-green-1, $col-green-1);
                 background-repeat: no-repeat;
                 background-position: right .7em top 50%;
                 background-size: .65em auto;
