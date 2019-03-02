@@ -15,6 +15,7 @@ function loadJSON(callback) {
     loadJSON(response => {
        const logoArray = JSON.parse(response);
        createLogos(logoArray);
+       insertCategories(logoArray);
     });
    }
 
@@ -27,4 +28,25 @@ function createLogos(logoArray) {
             const main = document.querySelector('main');
             main.insertAdjacentHTML('beforeend', html);
         });      
+}
+
+function insertCategories (logoArray) {
+    const map = generateCategoryMap(logoArray);
+    const categories = Object.values(map).sort();
+    categories.forEach(category => {
+        const html = `<option value="${category}">${category}</option>`;
+        const dropdown = document.getElementById('Categories');
+        dropdown.insertAdjacentHTML('beforeend', html);
+    })
+}
+
+// returns a map with each category appearing just once.
+function generateCategoryMap (logoArray) {
+    const categoryMap = {}
+    
+    logoArray.forEach(logo => {
+        categoryMap[logo.category] = logo.category;
+    });
+
+    return categoryMap;
 }
