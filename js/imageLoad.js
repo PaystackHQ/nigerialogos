@@ -34,7 +34,7 @@ function insertCategories (logoArray) {
     const map = generateCategoryMap(logoArray);
     const categories = Object.values(map).sort();
     categories.forEach(category => {
-        const html = `<option value=${category}">${category}</option>`;
+        const html = `<option value="${category}">${category}</option>`;
         const dropdown = document.getElementById('Categories');
         dropdown.insertAdjacentHTML('beforeend', html);
     })
