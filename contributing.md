@@ -45,7 +45,7 @@ company_name
 e.g  
 "category": "NGO / Ecommerce" or  
 "category": "NGO / Ecommerce / Marketplace" or  
-"categpry": "NGO"
+"category": "NGO"
 
 ### Categories
 ```
