@@ -42,7 +42,7 @@ company_name
 
 4. If your company category is not reflected in categories section *below*, feel free to use a new category. If you do so, kindly edit this file; adding the newly used category (**[/contributing.md](https://github.com/PaystackHQ/nigerialogos/blob/master/contributing.md)**) in your PR as well.  
 **NB:** Your jsonObject (*above*) category can also be a combined form of 2 or 3 categories, separated with " / " *(3-categories is the maximum)*  
-e.g :
+*e.g.:*  
 "category": "NGO / Ecommerce" or  
 "category": "NGO / Ecommerce / Marketplace" or  
 "category": "NGO"
