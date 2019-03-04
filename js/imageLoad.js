@@ -32,7 +32,15 @@ function createLogos(logoArray) {
 
 function insertCategories (logoArray) {
     const map = generateCategoryMap(logoArray);
-    const categories = Object.values(map).sort();
+    const rawcategories = Object.values(map).sort();
+    const categories = []; 
+    rawcategories.forEach(category => {
+        category.replace(" /", "/").replace("/ ","/") //Avoided replace(" / ") so all cases are checked and replaced
+        .split("/").forEach(element => {
+            if (categories.indexOf(element) === -1)
+                categories.push(element);
+        });
+    });
     categories.forEach(category => {
         const html = `<option value="${category}">${category}</option>`;
         const dropdown = document.getElementById('Categories');

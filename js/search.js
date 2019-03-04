@@ -12,8 +12,8 @@ searchbar.addEventListener('keyup', (e)=> {
         const logoCategory = searchParagraph.lastElementChild.textContent;
         let selectedCategory = select.value;
 
-        const isPresent = searchTitle.toLowerCase().indexOf(typed) !== -1;
-        const categoryMatch = selectedCategory === 'All Categories' || selectedCategory === logoCategory;
+        const isPresent = searchTitle.toLowerCase().includes(typed) || logoCategory.toLowerCase().includes(typed);
+        const categoryMatch = selectedCategory === 'All Categories' || logoCategory.includes(selectedCategory);
         const shouldShow = isPresent && categoryMatch;
         
         logo.style.display = shouldShow ? 'block' : 'none';
@@ -31,4 +31,5 @@ function selectReload() {
         searchbar.dispatchEvent(enterPressed);
     })
 }
+
 selectReload();
