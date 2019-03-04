@@ -55,6 +55,7 @@ company_name
 * EdTech / InfoTech
 * Software / ICT
 * Telecommunication / ISP
+* Hosting Company
 ```
 
 **NOTE**: _Pull requests are usually reviewed within 24 hours. Once your pull request is merged, you should see your logo on the site a few minutes after._
