@@ -1,35 +1,35 @@
 [{
-    "title": "Paystack",
+	"title": "Paystack",
 	"filename": "paystack",
 	"category": "Banking / Financial Services"
 }, {
-    "title": "ALAT by Wema",
+	"title": "ALAT by Wema",
 	"filename": "alat_by_wema",
 	"category": "Banking / Financial Services"
 }, {
-    "title": "Mainstreet Bank",
+	"title": "Mainstreet Bank",
 	"filename": "mainstreet_bank",
 	"category": "Banking / Financial Services"
-},{
-    "title": "Ekondo Microfinance Bank",
+}, {
+	"title": "Ekondo Microfinance Bank",
 	"filename": "ekondo_microfinance_bank",
 	"category": "Banking / Financial Services"
 }, {
-    "title": "Aso Savings",
+	"title": "Aso Savings",
 	"filename": "aso_savings_loans",
 	"category": "Banking / Financial Services"
 }, {
 	"title": "Polaris Bank",
 	"filename": "polaris_bank",
 	"category": "Banking / Financial Services"
-},{
+}, {
 	"title": "Guaranty Trust Bank",
 	"filename": "guaranty_trust_bank",
 	"category": "Banking / Financial Services"
 }, {
 	"title": "Julius Berger",
 	"filename": "julius_berger",
-	"category": "Ecommerce / Construction / Real Estate"
+	"category": "Construction"
 }, {
 	"title": "Zenith Bank",
 	"filename": "zenith_bank",
@@ -41,7 +41,7 @@
 }, {
 	"title": "Hotels.ng",
 	"filename": "hotels_ng",
-	"category": "Ecommerce / Construction / Real Estate"
+	"category": "Real Estate"
 }, {
 	"title": "United Bank for Africa",
 	"filename": "united_bank_for_africa",
@@ -57,7 +57,7 @@
 }, {
 	"title": "Konga",
 	"filename": "konga",
-	"category": "Ecommerce / Construction / Real Estate"
+	"category": "Ecommerce"
 }, {
 	"title": "Peak Milk",
 	"filename": "peak_milk",
@@ -65,11 +65,11 @@
 }, {
 	"title": "Softcom",
 	"filename": "softcom",
-	"category": "FMCG / Conglomerate"
+	"category": "Software / ICT"
 }, {
 	"title": "Taxify",
 	"filename": "taxify",
-	"category": "FMCG / Conglomerate"
+	"category": "Transportation"
 }, {
 	"title": "Nairabet",
 	"filename": "nairabet",
@@ -93,11 +93,11 @@
 }, {
 	"title": "Opera",
 	"filename": "opera",
-	"category": "FMCG / Conglomerate"
+	"category": "Web Browser"
 }, {
 	"title": "Iroko TV",
 	"filename": "iroko_tv",
-	"category": "FMCG / Conglomerate"
+	"category": "Media / Entertainment"
 }, {
 	"title": "Reliance HMO",
 	"filename": "reliance_hmo",
@@ -117,11 +117,11 @@
 }, {
 	"title": "GUO Transport",
 	"filename": "guo_transport",
-	"category":"FMCG / Conglomerate"
+	"category": "FMCG / Conglomerate"
 }, {
 	"title": "GIGM",
 	"filename": "gigm",
-	"category":"FMCG / Conglomerate"
+	"category": "FMCG / Conglomerate"
 }, {
 	"title": "AXA Mansard",
 	"filename": "axa_mansard",
@@ -133,7 +133,7 @@
 }, {
 	"title": "Smile",
 	"filename": "smile",
-	"category": "FMCG / Conglomerate"
+	"category": "Telecommunication / ISP"
 }, {
 	"title": "SportyBet",
 	"filename": "sportybet",
@@ -141,31 +141,31 @@
 }, {
 	"title": "Terra Kulture",
 	"filename": "terra_kulture",
-	"category": "Ecommerce / Construction / Real Estate"
+	"category": "Ecommerce / NGO"
 }, {
 	"title": "Verifi",
 	"filename": "verifi",
-	"category":"Banking / Financial Services"
+	"category": "Banking / Financial Services"
 }, {
 	"title": "Aella Credit",
 	"filename": "aella_credit",
-	"category":"Banking / Financial Services"
+	"category": "Banking / Financial Services"
 }, {
 	"title": "BuyCoins",
 	"filename": "buycoins",
-	"category":"Cryptocurrency"
+	"category": "Cryptocurrency"
 }, {
 	"title": "PoFela Nigeria",
 	"filename": "pofela",
-	"category":"Cryptocurrency"
+	"category": "Cryptocurrency"
 }, {
 	"title": "Kadarko.com Marketplace",
 	"filename": "kadarko",
-	"category":"Ecommerce / Marketplace"
+	"category": "Ecommerce / Marketplace"
 }, {
 	"title": "Barter",
 	"filename": "barter",
-	"category":"Banking / Financial Services"
+	"category": "Banking / Financial Services"
 }, {
 	"title": "Arla Food Inc.",
 	"filename": "arla",
@@ -181,7 +181,7 @@
 }, {
 	"title": "First City Monument Bank Ltd",
 	"filename": "fcmb",
-	"category":"Banking / Financial Services"
+	"category": "Banking / Financial Services"
 }, {
 	"title": "Milo",
 	"filename": "milo",
@@ -197,28 +197,28 @@
 }, {
 	"title": "Sterling Bank Plc",
 	"filename": "sterling_bank",
-	"category":"Banking / Financial Services"
+	"category": "Banking / Financial Services"
 }, {
 	"title": "TeamApt",
 	"filename": "teamapt",
-	"category":"Banking / Financial Services"
+	"category": "Software / ICT"
 }, {
 	"title": "Union Bank Nigeria",
 	"filename": "union_bank",
-	"category":"Banking / Financial Services"
+	"category": "Banking / Financial Services"
 }, {
 	"title": "eHealth Africa",
 	"filename": "ehealth_africa",
-	"category":"Health / NGO"
+	"category": "Health / NGO"
 }, {
 	"title": "Check DC",
 	"filename": "check_dc",
-	"category":"Branding"
+	"category": "Branding"
 }, {
 	"title": "Mobnia",
 	"filename": "mobnia",
 	"category": "Branding"
-},{
+}, {
 	"title": "Health Assur Ltd",
 	"filename": "health_assur",
 	"category": "Health / NGO"
@@ -227,9 +227,9 @@
 	"filename": "siriuslabs",
 	"category": "Product Design"
 }, {
-  "title": "How Do You Tech",
-  "filename": "how_do_you_tech",
-  "category": "EdTech"
+	"title": "How Do You Tech",
+	"filename": "how_do_you_tech",
+	"category": "EdTech"
 }, {
 	"title": "Quidax",
 	"filename": "quidax",
@@ -265,7 +265,7 @@
 }, {
 	"title": "Vconnect",
 	"filename": "vconnect",
-	"category":"Marketplace"
+	"category": "Marketplace"
 }, {
 	"title": "Stanbic IBTC Bank",
 	"filename": "stanbic_ibtc",
@@ -322,4 +322,60 @@
 	"title": "Globacom Limited",
 	"filename": "glo",
 	"category": "Telecommunication / ISP"
+}, {
+	"title": "Business Day",
+	"filename": "business_day",
+	"category": "Newspaper / Blog"
+}, {
+	"title": "Circa",
+	"filename": "circa",
+	"category": "Restaurant"
+}, {
+	"title": "Disrupt Africa",
+	"filename": "disrupt_africa",
+	"category": "Newspaper / Blog"
+}, {
+	"title": "Federal Inland Revenue Service",
+	"filename": "firs",
+	"category": "Government Agency"
+}, {
+	"title": "Investment One",
+	"filename": "investment_one",
+	"category": "Banking / Financial Services"
+}, {
+	"title": "Nigeria Football Federation",
+	"filename": "nff",
+	"category": "Government Agency / Sports"
+}, {
+	"title": "National Identity Management Commission",
+	"filename": "nimc",
+	"category": "Government Agency"
+}, {
+	"title": "Oando PLC",
+	"filename": "oando",
+	"category": "Petroleum and Gas"
+}, {
+	"title": "ThankUCash",
+	"filename": "thank_u_cash",
+	"category": "Banking / Financial Services"
+}, {
+	"title": "The Tony Elumelu Foundation",
+	"filename": "tony_elumelu_foundation",
+	"category": "Foundation / NGO"
+}, {
+	"title": "Total Nigeria",
+	"filename": "total",
+	"category": "Petroleum and Gas"
+}, {
+	"title": "Wallet.ng",
+	"filename": "walletng",
+	"category": "Banking / Financial Services"
+}, {
+	"title": "Wilson’s Juice Co",
+	"filename": "wilsons",
+	"category": "FMCG / Conglomerate"
+}, {
+	"title": "Workstation",
+	"filename": "workstation",
+	"category": "Coworking / Virtual Office"
 }]

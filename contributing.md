@@ -40,21 +40,46 @@ company_name
 }
 ```
 
-
-4. If your company category is not reflected in categories section *below*, feel free to use a new category. If you do so, kindly edit this file (**[/contributing.md](https://github.com/PaystackHQ/nigerialogos/blob/master/contributing.md)**) in your PR as well.
+4. If your company category is not reflected in categories section *below*, feel free to use a new category. If you do so, kindly edit this file; adding the newly used category (**[/contributing.md](https://github.com/PaystackHQ/nigerialogos/blob/master/contributing.md)**) in your PR as well.  
+**NB:** Your jsonObject category can also be a combined form of 2 or 3 categories, separated with " / " *(3-categories is the maximum)*  
+e.g  
+"category": "NGO / Ecommerce" or  
+"category": "NGO / Ecommerce / Marketplace" or  
+"categpry": "NGO"
 
 ### Categories
 ```
-* Banking / Financial Services
-* Ecommerce / Construction / Real Estate
-* FMCG / Conglomerate
-* Gaming / Sports
-* Cryptocurrency
-* Health / NGO
+* Banking
+* Financial Services
 * Branding
-* EdTech / InfoTech
-* Software / ICT
-* Telecommunication / ISP
+* Construction
+* Coworking
+* Virtual Office
+* Cryptocurrency
+* Ecommerce
+* Marketplace
+* NGO
+* EdTech
+* FMCG
+* Conglomerate
+* Foundation
+* Gaming
+* Sports
+* Government Agency
+* Health
+* Media and Entertainment
+* Newspaper
+* Blog
+* Petroleum and Gas
+* Product Design
+* Real Estate
+* Restaurant
+* Software
+* ICT
+* Telecommunication
+* ISP
+* Transportation
+* Web Browser
 ```
 
 **NOTE**: _Pull requests are usually reviewed within 24 hours. Once your pull request is merged, you should see your logo on the site a few minutes after._
