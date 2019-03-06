@@ -28,7 +28,7 @@ company_name
 {
 	"title": "Company Name",
 	"filename": "company_name",
-	"category": "Category"
+	"category": ["Category"]
 }
 ```
 **Example**
@@ -36,17 +36,17 @@ company_name
 {
 	"title": "Polaris Bank",
 	"filename": "polaris_bank",
-	"category": "Banking / Financial Services"
+	"category": ["Banking", "Financial Services"]
 }
 ```
 
 4. If your company category is not reflected in categories section *below*, feel free to use a new category.  
 If you do so, kindly edit this file; adding the newly used category (**[/contributing.md](https://github.com/PaystackHQ/nigerialogos/blob/master/contributing.md)**) in your PR as well.  
-**NB:** Your jsonObject category can also be a combined form of 2 or 3(max) categories, separated with " / "  **e.g.**  
+**NB:** Your jsonObject category can also be a combined form 2 or more categories in this form:  **e.g.**  
 ```
-"category": "NGO / Ecommerce" or  
-"category": "NGO / Ecommerce / Marketplace" or  
-"category": "NGO"
+"category": ["NGO", "Ecommerce"] or  
+"category": ["NGO", "Ecommerce", "Marketplace"] or  
+"category": ["NGO"]
 ```
 
 ### Categories
@@ -81,7 +81,6 @@ If you do so, kindly edit this file; adding the newly used category (**[/contrib
 * Telecommunication
 * ISP
 * Transportation
-* Web Browser
 ```
 
 **NOTE**: _Pull requests are usually reviewed within 24 hours. Once your pull request is merged, you should see your logo on the site a few minutes after._
