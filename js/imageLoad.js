@@ -40,7 +40,6 @@ function init() {
     loadJSON(response => {
         const logoArray = JSON.parse(response);
         createLogos(logoArray);
-        insertCategories(logoArray);
         results.innerHTML = `All <span>(${logoArray.length})</span> results`
     });
 }
