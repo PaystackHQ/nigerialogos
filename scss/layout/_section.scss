@@ -38,6 +38,10 @@ main {
         }
     }
 
+    &__image {
+        width: 100%;
+    }
+    
     &__image img {
         width: 70%;
     }
@@ -54,7 +58,7 @@ main {
             overflow-x: hidden;
 
             &:hover {
-                overflow-x: scroll;
+                overflow-x: auto;
                 text-overflow: initial;
             }
         }
@@ -66,7 +70,7 @@ main {
             overflow-x: hidden;
 
             &:hover {
-                overflow-x: scroll;
+                overflow-x: auto;
                 text-overflow: initial;
             }
         }
