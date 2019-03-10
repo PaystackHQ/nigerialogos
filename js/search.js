@@ -1,4 +1,4 @@
-// searchbar, select, results - Global variables decalered from imageLoad.js
+// searchbar, select, results - Global variables initialized in imageLoad.js
 
 searchbar.addEventListener('keyup', (e)=> {
     const typed = e.target.value.toLowerCase();
@@ -14,6 +14,17 @@ searchbar.addEventListener('keyup', (e)=> {
         const categoryMatch = selectedCategory === 'All Categories' || logoCategory.includes(selectedCategory);
         const shouldShow = isPresent && categoryMatch;
         
+        // Handle alphabet links and anchors
+        if (typed != "" || selectedCategory != 'All Categories') {
+            document.querySelectorAll('.companies-alphabet-title').forEach(element => {element.style.display = 'none';});
+            document.querySelectorAll('.companies-alphabet-link').forEach(element => {element.style.display = 'none';});
+            document.querySelectorAll('.companies-alphabet-anchor').forEach(element => {element.style.display = 'none';});
+        } else {
+            document.querySelectorAll('.companies-alphabet-title').forEach(element => {element.removeAttribute("style")});
+            document.querySelectorAll('.companies-alphabet-link').forEach(element => {element.removeAttribute("style")});
+            document.querySelectorAll('.companies-alphabet-anchor').forEach(element => {element.removeAttribute("style")});
+        }
+
         logo.style.display = shouldShow ? 'block' : 'none';
         if(shouldShow) numberOfResults += 1;
     });
@@ -31,7 +42,7 @@ function selectReload() {
     });
     select.addEventListener('change', ()=> {
         searchbar.dispatchEvent(enterPressed);
-    })
+    });
 }
 
 selectReload();
