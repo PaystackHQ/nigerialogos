@@ -81,7 +81,6 @@ If you do so, kindly edit this file; adding the newly used category (**[/contrib
 * Telecommunication
 * ISP
 * Transportation
-* Technology
 ```
 
 **NOTE**: _Pull requests are usually reviewed within 24 hours. Once your pull request is merged, you should see your logo on the site a few minutes after._
