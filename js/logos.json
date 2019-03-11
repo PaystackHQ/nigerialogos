@@ -390,4 +390,9 @@
 	"title": "Workstation",
 	"filename": "workstation",
 	"category": ["Coworking", "Virtual Office"]
+},
+{
+	"title": "OkadaBooks",
+	"filename": "okadabooks",
+	"category": ["Publishing"]
 }]
