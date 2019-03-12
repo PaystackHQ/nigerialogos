@@ -390,6 +390,10 @@
 	"title": "Workstation",
 	"filename": "workstation",
 	"category": ["Coworking", "Virtual Office"]
+}, {
+	"title": "Verdant",
+	"filename": "verdant",
+	"category": ["Agritech"]
 },
 {
 	"title": "OkadaBooks",
