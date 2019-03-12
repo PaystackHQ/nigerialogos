@@ -16,11 +16,9 @@ searchbar.addEventListener('keyup', (e)=> {
         
         // Handle alphabet links and anchors
         if (typed != "" || selectedCategory != 'All Categories') {
-            document.querySelectorAll('.companies-alphabet-title').forEach(element => {element.style.display = 'none';});
             document.querySelectorAll('.companies-alphabet-link').forEach(element => {element.style.display = 'none';});
             document.querySelectorAll('.companies-alphabet-anchor').forEach(element => {element.style.display = 'none';});
         } else {
-            document.querySelectorAll('.companies-alphabet-title').forEach(element => {element.removeAttribute("style")});
             document.querySelectorAll('.companies-alphabet-link').forEach(element => {element.removeAttribute("style")});
             document.querySelectorAll('.companies-alphabet-anchor').forEach(element => {element.removeAttribute("style")});
         }
