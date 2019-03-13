@@ -29,5 +29,6 @@ For details on contributing, please read [contributing.md](https://github.com/Pa
 
 ## Authors
 
-* [**Chinonso Raymond**](https://twitter.com/ChinonsoRay) 
 * [**Demilade Olaleye**](https://github.com/Demilad)
+* [**Chinonso Raymond**](https://twitter.com/ChinonsoRay) 
+* [**Adedoyin Akande**](https://github.com/dbkonxepts)
