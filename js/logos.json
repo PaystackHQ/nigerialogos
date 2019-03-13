@@ -113,8 +113,7 @@
 }, {
 	"title": "PiggyVest",
 	"filename": "piggyvest",
-	"category": "Banking / Financial Services"
-
+	"category": ["Banking", "Financial Services"]
 }, {
 	"title": "GUO Transport",
 	"filename": "guo_transport",
@@ -391,8 +390,7 @@
 	"title": "Verdant",
 	"filename": "verdant",
 	"category": ["Agritech"]
-},
-{
+}, {
 	"title": "OkadaBooks",
 	"filename": "okadabooks",
 	"category": ["Publishing"]
