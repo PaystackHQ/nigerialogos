@@ -112,7 +112,11 @@
 	"category": "Banking / Financial Services"
 }, {
 	"title": "PiggyVest",
+<<<<<<< HEAD
 	"filename": "piggyvest",
+=======
+	"filename": "piggyvest,
+>>>>>>> 90227d22bc030b59b2857a38aacc7ee9f5a269bf
 	"category": "Banking / Financial Services"
 }, {
 	"title": "GUO Transport",
