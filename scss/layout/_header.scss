@@ -1,6 +1,6 @@
 header {
     width: 75vw;
-    margin: 5% auto;
+    margin: 3% auto;
 
     .heading {
         width: 76.2vw;
@@ -94,7 +94,7 @@ header {
                 -webkit-appearance: none;
                 appearance: none;
                 background-color: $col-green-1;
-                background-image: url('../images/dropdown_button.svg'), linear-gradient($col-green-1, $col-green-1);
+                background-image: url('../images/icons/dropdown_button.svg'), linear-gradient($col-green-1, $col-green-1);
                 background-repeat: no-repeat;
                 background-position: right .7em top 50%;
                 background-size: .65em auto;
@@ -111,8 +111,6 @@ header {
         }
     }
     h1 {
-        font-weight: $fw-medium;
-        font-size: 150%;
         min-width: 500px;
         position: absolute;
         left: 0;
