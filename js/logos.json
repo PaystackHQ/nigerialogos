@@ -112,7 +112,11 @@
 	"category": "Banking / Financial Services"
 }, {
 	"title": "PiggyVest",
+<<<<<<< HEAD
 	"filename": "piggyvest",
+=======
+	"filename": "piggyvest,
+>>>>>>> Updated JSON file to update from Piggybank.ng to Piggyvest
 	"category": "Banking / Financial Services"
 }, {
 	"title": "GUO Transport",
