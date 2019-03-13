@@ -81,6 +81,7 @@ If you do so, kindly edit this file; adding the newly used category (**[/contrib
 * Telecommunication
 * ISP
 * Transportation
+* Agritech
 * Publishing
 ```
 
