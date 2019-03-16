@@ -73,15 +73,20 @@ function init() {
 
     // Animate Scroll to top
     let intervalId = 0;
+    let scrolling = false;
     const $scrollButton = document.querySelector('.totopbutton');
     function scrollStep() {
+        scrolling = true;
         if (window.pageYOffset === 0) {
             clearInterval(intervalId);
+            scrolling = false;
         }
         window.scroll(0, window.pageYOffset - 100);
     }
     function scrollToTop() {
-        intervalId = setInterval(scrollStep, 2);
+        if (!scrolling) {
+            intervalId = setInterval(scrollStep, 2);
+        }
     }
     $scrollButton.addEventListener('click', scrollToTop);
 }
