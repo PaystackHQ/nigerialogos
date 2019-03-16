@@ -160,6 +160,7 @@ main {
     width: 100%;
     display: block;
     border: 20px solid transparent;
+    opacity: .5;
 }
 
 .companies-alphabet-link {
@@ -176,4 +177,5 @@ main {
 a.companies-alphabet-link{
     color:$col-grey-1;
     font-weight: $fw-medium;
+    opacity: .5;
 }
