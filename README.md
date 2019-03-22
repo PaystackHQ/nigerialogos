@@ -31,4 +31,4 @@ For details on contributing, please read [contributing.md](https://github.com/Pa
 
 * [**Demilade Olaleye**](https://github.com/Demilad)
 * [**Chinonso Raymond**](https://twitter.com/ChinonsoRay) 
-* [**Adedoyin Akande**](https://github.com/dbkonxepts)
+* [**Adedoyin Akande**](https://github.com/desdevbyade)
