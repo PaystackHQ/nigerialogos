@@ -49,11 +49,11 @@
 }, {
 	"title": "Aero Contractors",
 	"filename": "aero_contractors",
-	"category": ["FMCG" , "Conglomerate"]
+	"category": ["FMCG", "Conglomerate"]
 }, {
 	"title": "Arik Air",
 	"filename": "arik_air",
-	"category": ["FMCG" , "Conglomerate"]
+	"category": ["FMCG", "Conglomerate"]
 }, {
 	"title": "Konga",
 	"filename": "konga",
@@ -61,7 +61,7 @@
 }, {
 	"title": "Peak Milk",
 	"filename": "peak_milk",
-	"category": ["FMCG" , "Conglomerate"]
+	"category": ["FMCG", "Conglomerate"]
 }, {
 	"title": "Softcom",
 	"filename": "softcom",
@@ -73,7 +73,7 @@
 }, {
 	"title": "Nairabet",
 	"filename": "nairabet",
-	"category": ["Gaming" , "Sports"]
+	"category": ["Gaming", "Sports"]
 }, {
 	"title": "Betway",
 	"filename": "betway",
@@ -85,7 +85,7 @@
 }, {
 	"title": "Farmcrowdy",
 	"filename": "farmcrowdy",
-	"category": ["FMCG" , "Conglomerate"]
+	"category": ["FMCG", "Conglomerate"]
 }, {
 	"title": "MTN",
 	"filename": "mtn",
@@ -117,11 +117,11 @@
 }, {
 	"title": "GUO Transport",
 	"filename": "guo_transport",
-	"category": ["FMCG" , "Conglomerate"]
+	"category": ["FMCG", "Conglomerate"]
 }, {
 	"title": "GIGM",
 	"filename": "gigm",
-	"category": ["FMCG" , "Conglomerate"]
+	"category": ["FMCG", "Conglomerate"]
 }, {
 	"title": "AXA Mansard",
 	"filename": "axa_mansard",
@@ -169,7 +169,7 @@
 }, {
 	"title": "Arla Food Inc.",
 	"filename": "arla",
-	"category": ["FMCG" , "Conglomerate"]
+	"category": ["FMCG", "Conglomerate"]
 }, {
 	"title": "Bet9ja",
 	"filename": "bet9ja",
@@ -177,7 +177,7 @@
 }, {
 	"title": "Dano Milk",
 	"filename": "dano",
-	"category": ["FMCG" , "Conglomerate"]
+	"category": ["FMCG", "Conglomerate"]
 }, {
 	"title": "First City Monument Bank Ltd",
 	"filename": "fcmb",
@@ -185,11 +185,11 @@
 }, {
 	"title": "Milo",
 	"filename": "milo",
-	"category": ["FMCG" , "Conglomerate"]
+	"category": ["FMCG", "Conglomerate"]
 }, {
 	"title": "Nestle",
 	"filename": "nestle",
-	"category": ["FMCG" , "Conglomerate"]
+	"category": ["FMCG", "Conglomerate"]
 }, {
 	"title": "Paga",
 	"filename": "paga",
@@ -261,7 +261,7 @@
 }, {
 	"title": "Nigerian Breweries PLC",
 	"filename": "nigerian_breweries",
-	"category": ["FMCG" , "Conglomerate"]
+	"category": ["FMCG", "Conglomerate"]
 }, {
 	"title": "Vconnect",
 	"filename": "vconnect",
@@ -281,10 +281,6 @@
 }, {
 	"title": "Keystone Bank Limited",
 	"filename": "keystone_bank",
-	"category": ["Banking", "Financial Services"]
-}, {
-	"title": "Diamond Bank",
-	"filename": "diamond_bank",
 	"category": ["Banking", "Financial Services"]
 }, {
 	"title": "Interswitch",
@@ -381,7 +377,7 @@
 }, {
 	"title": "Wilson’s Juice Co",
 	"filename": "wilsons",
-	"category": ["FMCG" , "Conglomerate"]
+	"category": ["FMCG", "Conglomerate"]
 }, {
 	"title": "Workstation",
 	"filename": "workstation",
@@ -395,7 +391,7 @@
 	"filename": "okadabooks",
 	"category": ["Publishing"]
 }, {
-"title": "ntel",
-"filename": "ntel",
-"category": ["Telecommunication", "ISP"]
+	"title": "ntel",
+	"filename": "ntel",
+	"category": ["Telecommunication", "ISP"]
 }]
