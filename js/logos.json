@@ -391,11 +391,11 @@
 	"filename": "okadabooks",
 	"category": ["Publishing"]
 }, {
-  "title": "ntel",
-  "filename": "ntel",
-  "category": ["Telecommunication", "ISP"]
+	"title": "ntel",
+	"filename": "ntel",
+	"category": ["Telecommunication", "ISP"]
 }, {
-  "title": "Tecno",
-  "filename": "tecno",
-  "category": ["ICT"]
+	"title": "Tecno",
+	"filename": "tecno",
+	"category": ["ICT"]
 }]
