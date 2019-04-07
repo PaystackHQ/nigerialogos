@@ -282,11 +282,7 @@
 	"title": "Keystone Bank Limited",
 	"filename": "keystone_bank",
 	"category": ["Banking", "Financial Services"]
-}, {
-	"title": "Diamond Bank",
-	"filename": "diamond_bank",
-	"category": ["Banking", "Financial Services"]
-}, {
+},  {
 	"title": "Interswitch",
 	"filename": "interswitch",
 	"category": ["Banking", "Financial Services"]
