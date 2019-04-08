@@ -1,6 +1,6 @@
 const searchbar = document.querySelector('.search input');
 const select = document.querySelector('.select select');
-const results = document.querySelector('.results');
+const results = document.querySelector('#results');
 const alphabetlink = document.querySelector('.companies-alphabet');
 
 function loadJSON(callback) {
@@ -37,7 +37,7 @@ function createLogos(logoArray) {
         // Set anchor
         if (logotitle.charAt(0).toLowerCase() != currentanchorchar.toLowerCase()) {
             currentanchorchar = logotitle.charAt(0);
-            groupanchor = `<h1 class="companies-alphabet-anchor"><a name="${currentanchorchar}">${currentanchorchar}</a></h1>`;
+            groupanchor = `<div class="companies-alphabet-anchor"><a name="${currentanchorchar}">${currentanchorchar}</a></div>`;
             alphalinkhtml = `<a class="companies-alphabet-link" href="#${currentanchorchar}">${currentanchorchar}</a>`;
         }
         else{
@@ -68,7 +68,7 @@ function init() {
     loadJSON(response => {
         const logoArray = JSON.parse(response);
         createLogos(logoArray);
-        results.innerHTML = `All <span>(${logoArray.length})</span> results`
+        results.innerHTML = `${logoArray.length}+`
     });
 }
 

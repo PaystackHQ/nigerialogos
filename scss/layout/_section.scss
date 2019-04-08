@@ -143,39 +143,28 @@ main {
 }
 
 .companies-alphabet {
-    border-bottom: 1px solid $col-grey-3;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    border-bottom: .5px solid $col-grey-3;
     display: flex;
-    font-size: 20px;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
     width: 75vw;
-    margin: 1% auto;
-    padding: 1% 0;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    padding-bottom: 4px;
 }
 
 .companies-alphabet-anchor {
-    width: 100%;
-    display: block;
-    border: 20px solid transparent;
-    opacity: .5;
+    width: 0%;
+    display: inline-block;
+    opacity: 0;
 }
 
 .companies-alphabet-link {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    padding: 10px 0;
     text-decoration: none;
 }
 
 a.companies-alphabet-link{
     color:$col-grey-1;
-    font-weight: $fw-medium;
-    opacity: .5;
+    font-weight: $fw-normal;
+    opacity: .7;
 }
