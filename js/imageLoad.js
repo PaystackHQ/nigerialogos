@@ -70,12 +70,6 @@ function init() {
         createLogos(logoArray);
         results.innerHTML = `All <span>(${logoArray.length})</span> results`
     });
-
-    //Scroll to top [Smoothness handled by CSS]
-    const $scrollButton = document.querySelector('.totopbutton');
-    $scrollButton.addEventListener('click', function scrollToTop() {
-        window.scroll(0, 0);
-    });
 }
 
 init();
