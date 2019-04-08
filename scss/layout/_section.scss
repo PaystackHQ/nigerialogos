@@ -169,3 +169,18 @@ a.companies-alphabet-link{
     font-weight: $fw-normal;
     opacity: .7;
 }
+
+.result {
+    width: 75vw;
+    font-size: 150%;
+    color: $col-grey-2;
+    left: 12.5vw;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: .3s all ease-in-out;
+}
+.typed {
+    color: $col-grey-1; 
+    font-weight: $fw-medium;
+}

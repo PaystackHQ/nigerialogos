@@ -25,9 +25,9 @@ function sortObjectArray(array, key) {
 
 function createLogos(logoArray) {
     let categories = [];
-    let groupanchor = ``;
-    let logotitle = ``;
-    let currentanchorchar = ``;
+    let groupanchor = '';
+    let logotitle = '';
+    let currentanchorchar = '';
 
     sortObjectArray(logoArray, 'title').forEach(logo => {
         // Fix company name that start with number
@@ -41,8 +41,8 @@ function createLogos(logoArray) {
             alphalinkhtml = `<a class="companies-alphabet-link" href="#${currentanchorchar}">${currentanchorchar}</a>`;
         }
         else{
-            groupanchor = ``;
-            alphalinkhtml = ``;
+            groupanchor = '';
+            alphalinkhtml = '';
         }
         const html = groupanchor + `<div class='logo'> <div class='logo__holder'> <div class='logo__image'> <img src='logos/${logo.filename}/${logo.filename}.svg' alt='${logo.title}logo'> </div><div class='logo__download'> <div class='logo__download__overlay'> <a href='logos/${logo.filename}/${logo.filename}.svg' download='${logo.title} Logo.svg'> <span class='logo__download__overlay--svg'> Download SVG </span> </a> <a href='logos/${logo.filename}/${logo.filename}.png' download='${logo.title} Logo.png'> <span class='logo__download__overlay--png'> Download PNG </span> </a> </div></div></div><div class='logo__text'> <p class='logo__text--primary'>${logo.title}</p><p class='logo__text--secondary'>${(logo.category+"").replace(","," / ")}</p></div></div>`;
         const main = document.querySelector('main');
@@ -68,7 +68,7 @@ function init() {
     loadJSON(response => {
         const logoArray = JSON.parse(response);
         createLogos(logoArray);
-        results.innerHTML = `${logoArray.length}+`
+        results.innerHTML = `${logoArray.length}`
     });
 }
 
