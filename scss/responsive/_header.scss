@@ -1,8 +1,51 @@
+@media screen and (max-width: 1600px) {
+    header {
+        .scroll-show {
+            .secondary-alphabet {
+                width: 50%;
+                left: 19%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1350px) {
+    header {
+        .scroll-show {
+            .secondary-alphabet {
+                width: 40%;
+                left: 18%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1100px) {
+    header {
+        .scroll-show {
+            .secondary-alphabet {
+                width: 45%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1000px) {
+    header {
+        .scroll-show {
+            display: none;
+        }
+    }
+}
 @media screen and (max-width: 880px) {
     header{
         width: 90vw;
+        .contribute {
+            display: none;
+        }
+        .subcopy {
+            width: 100%;
+            text-align: center;
+        }
         .heading {
-            height: 40vw;
+            height: 45vw;
 
             & .site-logo {
                 left: 50%;
@@ -32,6 +75,8 @@
                     padding: .6em 0 .5em 1em;
                     width: 100%;
                     margin-top: 2%;
+                    border-radius: 5px;
+                    margin-left: 5px;
                 }
                 .results {
                     top: 65px;
@@ -40,6 +85,10 @@
     
             .select {
                 width: 100%;
+
+                & select {
+                    border-radius: 5px;
+                }
             } 
         }
         h1 {
@@ -48,7 +97,6 @@
             left: 50%;
             transform: translateX(-50%);
         }
-
     }
 }
 
