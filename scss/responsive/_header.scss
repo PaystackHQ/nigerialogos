@@ -40,6 +40,9 @@
         .contribute {
             display: none;
         }
+        .contribute-mobile {
+            display: block;
+        }
         .subcopy {
             width: 100%;
             text-align: center;
@@ -48,7 +51,7 @@
             height: 45vw;
 
             & .site-logo {
-                left: 50%;
+                left: 5%;
                 transform: translateX(-56%);
             }
         }
@@ -130,6 +133,5 @@
             top: 20vw;
             font-size: 16px;
         }
-
     }
 }

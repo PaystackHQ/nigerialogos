@@ -213,4 +213,13 @@ header {
             }
         }
     }
+    .contribute-mobile {
+        color: $col-grey-1;
+        text-decoration-color: $col-green-1;
+        position: absolute;
+        top: 4.5%;
+        right: 8%;
+        font-size: 150%;
+        display: none;
+    }
 }

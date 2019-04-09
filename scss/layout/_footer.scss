@@ -57,3 +57,47 @@ footer {
         }
     }
 }
+.back-to-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $col-green-2;
+    width: 100vw;
+    height: 70px;
+    color: $col-grey-1;
+    position: fixed;
+    font-size: 140%;
+    left: 0;
+    bottom: 0;
+    border-left: 3px solid $col-green-1;
+    display: none;
+
+    .up-arrow {
+        width: 1px;
+        height: 10px;
+        background-color: $col-green-1;
+        margin-right: 10px;
+        position: relative;
+
+        &::before {
+            position: absolute;
+            content: '';
+            width: 1px;
+            height: 6px;
+            background-color: inherit;
+            transform: rotate(45deg);
+            right: 190%;
+            bottom: 48%;
+        }
+        &::after {
+            position: absolute;
+            content: '';
+            width: 1px;
+            height: 6px;
+            background-color: inherit;
+            transform: rotate(-45deg);
+            left: 190%;
+            bottom: 48%;
+        }
+    }
+}
