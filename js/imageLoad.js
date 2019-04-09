@@ -1,5 +1,5 @@
-const searchbar = document.querySelector('.search input');
-const select = document.querySelector('.select select');
+const searchbars = document.querySelectorAll('.search input');
+const selects = document.querySelectorAll('.select select');
 const results = document.querySelector('#results');
 const alphabetlink = document.querySelector('.companies-alphabet');
 
@@ -59,8 +59,26 @@ function createLogos(logoArray) {
     // Load category dropdown
     categories.forEach(cat => {
         const html = `<option value="${cat}">${cat}</option>`;
-        select.insertAdjacentHTML('beforeend', html);
+        selects.forEach(select => {
+            select.insertAdjacentHTML('beforeend', html);   
+        });
     });
+}
+
+function createSecondaryAlphabet() {
+    const secondaryAlphabet =  document.querySelector('.secondary-alphabet');
+    const letterACode = 65;
+    const letterZCode =  91;
+
+    function characterFromCode(code){
+        return String.fromCharCode(code);
+    }
+
+    for (let index = letterACode; index < letterZCode; index++) {
+        let letter = characterFromCode(index);
+        let html = `<a href="#${letter}">${letter}</a>`
+        secondaryAlphabet.insertAdjacentHTML('beforeend', html);
+    }
 }
 
 function init() {
@@ -73,3 +91,4 @@ function init() {
 }
 
 init();
+createSecondaryAlphabet();
