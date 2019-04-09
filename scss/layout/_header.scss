@@ -127,6 +127,7 @@ header {
     }
     .contribute {
         position: absolute;
+        cursor: pointer;
         top: 27vh;
         background-color: $col-green-1;
         color: $col-white;
@@ -202,7 +203,8 @@ header {
             width: 53%;
             top: 35px; 
             left: 18%;
-            z-index: 666;
+            z-index: 668;
+            opacity: 0;
             & a {
                 text-decoration: none;
                 color: inherit;
