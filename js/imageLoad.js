@@ -1,6 +1,6 @@
-const searchbar = document.querySelector('.search input');
-const select = document.querySelector('.select select');
-const results = document.querySelector('.results');
+const searchbars = document.querySelectorAll('.search input');
+const selects = document.querySelectorAll('.select select');
+const results = document.querySelector('#results');
 const alphabetlink = document.querySelector('.companies-alphabet');
 
 function loadJSON(callback) {
@@ -25,9 +25,9 @@ function sortObjectArray(array, key) {
 
 function createLogos(logoArray) {
     let categories = [];
-    let groupanchor = ``;
-    let logotitle = ``;
-    let currentanchorchar = ``;
+    let groupanchor = '';
+    let logotitle = '';
+    let currentanchorchar = '';
 
     sortObjectArray(logoArray, 'title').forEach(logo => {
         // Fix company name that start with number
@@ -37,12 +37,12 @@ function createLogos(logoArray) {
         // Set anchor
         if (logotitle.charAt(0).toLowerCase() != currentanchorchar.toLowerCase()) {
             currentanchorchar = logotitle.charAt(0);
-            groupanchor = `<h1 class="companies-alphabet-anchor"><a name="${currentanchorchar}">${currentanchorchar}</a></h1>`;
+            groupanchor = `<div class="companies-alphabet-anchor"><a name="${currentanchorchar}">${currentanchorchar}</a></div>`;
             alphalinkhtml = `<a class="companies-alphabet-link" href="#${currentanchorchar}">${currentanchorchar}</a>`;
         }
         else{
-            groupanchor = ``;
-            alphalinkhtml = ``;
+            groupanchor = '';
+            alphalinkhtml = '';
         }
         const html = groupanchor + `<div class='logo'> <div class='logo__holder'> <div class='logo__image'> <img src='logos/${logo.filename}/${logo.filename}.svg' alt='${logo.title}logo'> </div><div class='logo__download'> <div class='logo__download__overlay'> <a href='logos/${logo.filename}/${logo.filename}.svg' download='${logo.title} Logo.svg'> <span class='logo__download__overlay--svg'> Download SVG </span> </a> <a href='logos/${logo.filename}/${logo.filename}.png' download='${logo.title} Logo.png'> <span class='logo__download__overlay--png'> Download PNG </span> </a> </div></div></div><div class='logo__text'> <p class='logo__text--primary'>${logo.title}</p><p class='logo__text--secondary'>${(logo.category+"").replace(","," / ")}</p></div></div>`;
         const main = document.querySelector('main');
@@ -59,8 +59,26 @@ function createLogos(logoArray) {
     // Load category dropdown
     categories.forEach(cat => {
         const html = `<option value="${cat}">${cat}</option>`;
-        select.insertAdjacentHTML('beforeend', html);
+        selects.forEach(select => {
+            select.insertAdjacentHTML('beforeend', html);   
+        });
     });
+}
+
+function createSecondaryAlphabet() {
+    const secondaryAlphabet =  document.querySelector('.secondary-alphabet');
+    const letterACode = 65;
+    const letterZCode =  91;
+
+    function characterFromCode(code){
+        return String.fromCharCode(code);
+    }
+
+    for (let index = letterACode; index < letterZCode; index++) {
+        let letter = characterFromCode(index);
+        let html = `<a href="#${letter}">${letter}</a>`
+        secondaryAlphabet.insertAdjacentHTML('beforeend', html);
+    }
 }
 
 function init() {
@@ -68,14 +86,9 @@ function init() {
     loadJSON(response => {
         const logoArray = JSON.parse(response);
         createLogos(logoArray);
-        results.innerHTML = `All <span>(${logoArray.length})</span> results`
-    });
-
-    //Scroll to top [Smoothness handled by CSS]
-    const $scrollButton = document.querySelector('.totopbutton');
-    $scrollButton.addEventListener('click', function scrollToTop() {
-        window.scroll(0, 0);
+        results.innerHTML = `${logoArray.length}`
     });
 }
 
 init();
+createSecondaryAlphabet();

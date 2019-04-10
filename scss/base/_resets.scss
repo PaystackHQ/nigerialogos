@@ -3,6 +3,7 @@
 *::after {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 html {
     box-sizing: border-box;
@@ -12,4 +13,7 @@ body {
     box-sizing: inherit;
     overflow-x: hidden;
     width: 100vw;
+    font-kerning: normal;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }

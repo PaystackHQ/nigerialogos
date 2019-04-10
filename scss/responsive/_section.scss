@@ -12,6 +12,18 @@
     } 
 }
 
+@media screen and (max-width: 880px) {
+    .companies-alphabet {
+        flex-direction: column;
+        position: fixed;
+        right: 3.5vw;
+        top: 15vh;
+        width: auto;
+        border-bottom: 0;
+        font-size: 105%;
+    }
+}
+
 @media screen and (max-width: 650px){
     body {
         font-size: 85%;
@@ -74,29 +86,5 @@
     .companies-alphabet {
         margin: 10% auto 0;
         text-align: center;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .companies-alphabet {
-        clear: both;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        -webkit-box-pack: start;
-        -ms-flex-pack: start;
-        justify-content: flex-start
-    }
-
-    .companies-alphabet-letter-list {
-        -webkit-column-count: 2;
-        column-count: 2
-    }
-
-    .companies-alphabet-link {
-        display: block;
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 44px;
-        flex: 0 0 44px;
-        text-align: center
     }
 }

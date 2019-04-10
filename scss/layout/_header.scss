@@ -1,10 +1,11 @@
 header {
     width: 75vw;
     margin: 3% auto;
+    overflow-x: hidden;
 
     .heading {
         width: 76.2vw;
-        height: 20vh;
+        height: 33vh;
         margin: 0 auto;
         position: relative;
 
@@ -44,7 +45,8 @@ header {
                 border: 1px solid $col-green-1;
                 width: 100%;
                 height: 40px;
-                border-radius: .2em;
+                border-top-right-radius: .2em;
+                border-bottom-right-radius: .2em;
                 line-height: 1.3;
                 margin: 0;
                 font-size: 16px;
@@ -55,40 +57,26 @@ header {
                 background-position: right 1em top 50%;
                 background-size: 1em auto;
                 padding-left: 1em;
-                margin-left: 5px;
-            }
-
-            .results {
-                background-color: $col-green-2;
-                position: absolute;
-                top: 50px; 
-                right: -1%;
-                border: 1px solid $col-green-1;
-                border-radius: 4px;
-                padding: .3rem .5rem;
-                color: $col-green-1;
-
-                & span {
-                    font-weight: $fw-medium;
-                    color: $col-grey-1;
-                }
             }
         }
         .select{
-            width: calc(35% - 5px); // account for the margin on the input
+            width: calc(35% - 2px); // account for the margin on the input
 
             & select {
                 cursor: pointer;
                 font-size: 16px; // iOS Safari zooms in if less than 16px causing weird issues
                 font-family: inherit;
                 color: $col-white;
-                padding: .2em .6em; // fix for category text being cut halfway
+                padding: .2em 1em; // fix for category text being cut halfway
                 line-height: 1.3;
                 height: 40px;
                 width: 100%;
                 box-sizing: border-box;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
                 margin: 0;
-                border-radius: .2em;
                 border-color: $col-green-1;
                 -moz-appearance: none;
                 -webkit-appearance: none;
@@ -104,8 +92,7 @@ header {
                 }
                 &:focus,
                 &:active {
-                    border-color: $col-green-2;
-                    outline: none;
+                    outline: $col-green-2;
                 }
             }
         }
@@ -133,5 +120,106 @@ header {
         height: 1px;
         width: 1px;
         overflow: hidden;
+    }
+    .subcopy {
+        position: absolute;
+        top: 22vh;
+    }
+    .contribute {
+        position: absolute;
+        cursor: pointer;
+        top: 27vh;
+        background-color: $col-green-1;
+        color: $col-white;
+        font-size: inherit;
+        padding: 1% 2%;
+        outline: none;
+        border: none;
+        border-radius: 4px;
+        transition: .2s all ease-in-out;
+    }
+    .white-bg {
+        width: 100%;
+        height: 10%;
+        background-color: $col-white;
+        position: fixed;
+        top: 0;
+        z-index: 665;
+        transform: translateY(-100%);
+        transition: all .25s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    .scroll-show {
+        height: 90px;
+        position: absolute;
+
+        & .site-logo{
+            position: fixed;
+            top: 0; 
+            z-index: 666;
+            transform: scale(.6) translateX(-35%);
+            opacity: 0;
+            transition: all .2s ease-in-out;
+        }
+        & .searchbar {
+            position: fixed;
+            top: 25px;
+            right: 12.5%;
+            z-index: 666; 
+            opacity: 0;
+            transition: all .2s ease-in-out;
+
+            & input {
+                position: absolute;
+                right: 0;
+                width: 55%;
+                min-width: 240px;
+                transition: all .2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+            }
+            & input:focus {
+                width: 100%;
+            }
+        }
+        & .select {
+            opacity: 0;
+            transform: translateX(100%);
+            transition: all .2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+            &::before {
+                content: '...';
+                position: absolute;
+                left: -36px;
+                width: 35px;
+                height: 40px;
+                text-align: center;
+                line-height: 30px;
+                background-color: $col-white;
+
+            }
+        }
+        .secondary-alphabet {
+            display: flex;
+            justify-content: space-between;
+            position: fixed;
+            width: 53%;
+            top: 35px; 
+            left: 18%;
+            z-index: 668;
+            opacity: 0;
+            & a {
+                text-decoration: none;
+                color: inherit;
+                opacity: .7;
+                font-size: 90%;
+            }
+        }
+    }
+    .contribute-mobile {
+        color: $col-grey-1;
+        text-decoration-color: $col-green-1;
+        position: absolute;
+        top: 4.5%;
+        right: 8%;
+        font-size: 150%;
+        display: none;
     }
 }
