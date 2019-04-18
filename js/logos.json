@@ -398,4 +398,8 @@
 	"title": "Tecno",
 	"filename": "tecno",
 	"category": ["ICT"]
+}, {
+  "title": "Decagon",
+  "filename": "decagon",
+  "category": ["Software", "ICT"]
 }]
