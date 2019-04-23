@@ -22,6 +22,9 @@
         border-bottom: 0;
         font-size: 105%;
     }
+    .result {
+        transform: translateY(50px);
+    }
 }
 
 @media screen and (max-width: 650px){
@@ -39,6 +42,13 @@
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .companies-alphabet {
+        margin: 10% auto 0;
+        text-align: center;
     }
 }
 
@@ -79,12 +89,5 @@
 @media screen and (max-width: 450px){
     body {
         font-size: 60%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .companies-alphabet {
-        margin: 10% auto 0;
-        text-align: center;
     }
 }

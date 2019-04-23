@@ -36,13 +36,14 @@ function searchState() {
     const subcopy = document.querySelector('.subcopy');
     const contributeButton = document.querySelector('.contribute');
     const searchResultDisplay = document.querySelector('.result');
-
+    const mediaQuery = window.matchMedia( '(max-width: 880px)' );
     searchbars.forEach(searchbar => {
         if (searchbar.value) {
             alphabetRow.style.display = 'none';
             subcopy.style.display = 'none';
             searchResultDisplay.style.opacity = '1';
-            searchResultDisplay.style.transform = 'translateY(-45px)';
+            mediaQuery.matches ? searchResultDisplay.style.transform = 'translateY(-18px)'
+            : searchResultDisplay.style.transform = 'translateY(-45px)';
             contributeButton.style.transform = 'translateY(-4vh)';
             
         } else {
