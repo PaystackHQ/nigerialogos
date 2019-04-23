@@ -17,3 +17,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 }
+::selection {
+    background-color: $col-green-1;
+    color: $col-white;
+}
