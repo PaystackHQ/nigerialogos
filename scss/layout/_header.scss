@@ -6,6 +6,7 @@ header {
     .heading {
         width: 76.2vw;
         height: 33vh;
+        min-height: 300px;
         margin: 0 auto;
         position: relative;
 
@@ -123,12 +124,15 @@ header {
     }
     .subcopy {
         position: absolute;
-        top: 22vh;
+        // top: 22vh;
+        bottom: 0;
+        margin-bottom: 80px;
     }
     .contribute {
         position: absolute;
         cursor: pointer;
-        top: 27vh;
+        bottom: 0;
+        margin-bottom: 15px;
         background-color: $col-green-1;
         color: $col-white;
         font-size: inherit;
