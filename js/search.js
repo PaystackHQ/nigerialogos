@@ -18,7 +18,7 @@ searchbars.forEach(searchbar => {
             selects.forEach(select => {
                 select.value = selectedCategory;
             });
-
+            searchTermHighlight(logo, typed);
             const isPresent = searchTitle.toLowerCase().includes(typed);
             const categoryMatch = selectedCategory === 'All Categories' || logoCategory.includes(selectedCategory);
             const shouldShow = isPresent && categoryMatch;
@@ -29,6 +29,11 @@ searchbars.forEach(searchbar => {
         results.innerHTML = `${numberOfResults}`
         searchState();
     }) 
+    function searchTermHighlight(logo, term) {
+        logoText = logo.querySelector('.logo__text--primary');
+        logoTextTitle = logoText.textContent;
+        logoText.innerHTML = logoTextTitle.replace(new RegExp(term, "gi"), (match) => `<mark>${match}</mark>`);
+    }
 });
 
 function searchState() {
