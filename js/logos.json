@@ -402,4 +402,8 @@
   "title": "Decagon",
   "filename": "decagon",
   "category": ["Software", "ICT"]
+}, {
+	"title": "Spectranet",
+	"filename": "spectranet",
+	"category": ["ISP"]
 }]
