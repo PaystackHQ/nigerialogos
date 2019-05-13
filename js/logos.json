@@ -406,4 +406,12 @@
 	"title": "Spectranet",
 	"filename": "spectranet",
 	"category": ["ISP"]
+}, {
+	"title": "TechCity",
+	"filename": "techcity",
+	"category": ["Blog"]
+}, {
+	"title": "Slot",
+	"filename": "slot",
+	"category": ["Marketplace", "Ecommerce"]
 }]
