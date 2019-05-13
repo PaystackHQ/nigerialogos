@@ -391,6 +391,10 @@
 	"filename": "okadabooks",
 	"category": ["Publishing"]
 }, {
+	"title": "Hall 7 Real Estate",
+	"filename": "hall_7_real_estate",
+	"category": ["Construction", "Real Estate"]
+}, {
 	"title": "ntel",
 	"filename": "ntel",
 	"category": ["Telecommunication", "ISP"]
