@@ -418,4 +418,16 @@
 	"title": "Slot",
 	"filename": "slot",
 	"category": ["Marketplace", "Ecommerce"]
+}, {
+	"title": "Ventures Platform",
+	"filename": "ventures_platform",
+	"category": ["Financial Services", "Foundation"]
+}, {
+	"title": "Printivo",
+	"filename": "printivo",
+	"category": ["Ecommerce", "Branding"]
+}, {
+	"title": "Spinlet",
+	"filename": "spinlet",
+	"category": ["Media and Entertainment"]
 }]
