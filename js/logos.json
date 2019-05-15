@@ -430,4 +430,12 @@
 	"title": "Spinlet",
 	"filename": "spinlet",
 	"category": ["Media", "Entertainment"]
+}, {
+	"title": "ipNX",
+	"filename": "ipnx",
+	"category": ["ISP", "Telecommunication"]
+}, {
+	"title": "Whogohost",
+	"filename": "whogohost",
+	"category": ["Web Host", "Domain Registrar"]
 }]
