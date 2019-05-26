@@ -438,4 +438,8 @@
 	"title": "Whogohost",
 	"filename": "whogohost",
 	"category": ["Web Host", "Domain Registrar"]
+}, {
+	"title": "TechCabal",
+	"filename": "techcabal",
+	"category": ["Blog"]
 }]
