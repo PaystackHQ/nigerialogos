@@ -438,4 +438,20 @@
 	"title": "Whogohost",
 	"filename": "whogohost",
 	"category": ["Web Host", "Domain Registrar"]
+}, {
+	"title": "TechCabal",
+	"filename": "techcabal",
+	"category": ["Media"]
+}, {
+	"title": "Glamafric",
+	"filename": "glamafric",
+	"category": ["Marketplace"]
+}, {
+	"title": "Lendsqr",
+	"filename": "lendsqr",
+	"category": ["Software", "ICT"]
+}, {
+	"title": "Mercurie",
+	"filename": "mercurie",
+	"category": ["Digital Marketing"]
 }]
