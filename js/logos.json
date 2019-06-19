@@ -470,4 +470,12 @@
 	"title": "Ariga",
 	"filename": "ariga",
 	"category": ["Marketplace", "Ecommerce"]
+}, {
+	"title": "Fieldinsight",
+	"filename": "fieldinsight",
+	"category": ["Software", "ICT"]
+}, {
+	"title": "The Guardian",
+	"filename": "the_guardian",
+	"category": ["Newspaper"]
 }]
