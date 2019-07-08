@@ -1,0 +1,24 @@
+{
+  "name": "nigerialogos",
+  "version": "1.0.0",
+  "description": "an open source website for downloading high quality",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss/main.scss -o css/",
+    "build": "node-sass scss/main.scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaystackHQ/nigerialogos.git"
+  },
+  "author": "Demilade Olaleye, Chinonso Raymond",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaystackHQ/nigerialogos/issues"
+  },
+  "homepage": "https://github.com/PaystackHQ/nigerialogos#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
