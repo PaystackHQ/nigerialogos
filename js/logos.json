@@ -478,4 +478,12 @@
 	"title": "The Guardian",
 	"filename": "the_guardian",
 	"category": ["Newspaper"]
+}, {
+	"title": "Africa Fintech Foundry",
+	"filename": "africa_fintech_foundry",
+	"category": ["Virtual Office", "Fintech"]
+}, {
+	"title": "Cool FM",
+	"filename": "cool_fm",
+	"category": ["Radio", "Broadcasting"]
 }]
