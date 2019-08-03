@@ -726,8 +726,8 @@
 		]
 	},
 	{
-		"title": "Wallet.ng",
-		"filename": "walletng",
+		"title": "Wallets Africa",
+		"filename": "wallets_africa",
 		"category": [
 			"Banking",
 			"Financial Services"
@@ -960,6 +960,13 @@
 		"category": [
 			"Merchant Bank",
 			"Banking"
+		]
+	},
+	{
+		"title": "Busha",
+		"filename": "busha",
+		"category": [
+			"Cryptocurrency"
 		]
 	}
 ]
