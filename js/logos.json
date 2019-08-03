@@ -961,5 +961,12 @@
 			"Merchant Bank",
 			"Banking"
 		]
+	},
+	{
+		"title": "Busha",
+		"filename": "busha",
+		"category": [
+			"Cryptocurrency"
+		]
 	}
 ]
