@@ -97,16 +97,14 @@
 		"title": "Aero Contractors",
 		"filename": "aero_contractors",
 		"category": [
-			"FMCG",
-			"Conglomerate"
+			"Transportation"
 		]
 	},
 	{
 		"title": "Arik Air",
 		"filename": "arik_air",
 		"category": [
-			"FMCG",
-			"Conglomerate"
+			"Transportation"
 		]
 	},
 	{
@@ -231,16 +229,14 @@
 		"title": "GUO Transport",
 		"filename": "guo_transport",
 		"category": [
-			"FMCG",
-			"Conglomerate"
+			"Transportation"
 		]
 	},
 	{
 		"title": "GIGM",
 		"filename": "gigm",
 		"category": [
-			"FMCG",
-			"Conglomerate"
+			"Transportation"
 		]
 	},
 	{
