@@ -69,7 +69,8 @@ If you do so, kindly edit this file; adding the newly used category (**[/contrib
 * Sports
 * Government Agency
 * Health
-* Media and Entertainment
+* Media
+* Entertainment
 * Newspaper
 * Blog
 * Petroleum and Gas
