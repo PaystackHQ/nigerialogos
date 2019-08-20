@@ -964,5 +964,21 @@
 		"category": [
 			"Cryptocurrency"
 		]
+	},
+	{
+		"title": "ProduqtEdge",
+		"filename": "produqtedge",
+		"category": [
+			"Product Management"
+		]
+	},
+	{
+		"title": "Omenka",
+		"filename": "omenka",
+		"category": [
+			"Art Gallery"
+		]
 	}
+	
+
 ]
