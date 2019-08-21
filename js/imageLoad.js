@@ -56,6 +56,9 @@ function createLogos(logoArray) {
         });
     });
 
+    // Sort category alphabetically
+    categories = categories.sort();    
+
     // Load category dropdown
     categories.forEach(cat => {
         const html = `<option value="${cat}">${cat}</option>`;
