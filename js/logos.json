@@ -978,7 +978,11 @@
 		"category": [
 			"Art Gallery"
 		]
+	},
+	{
+		"title": "Thrive Agric",
+		"filename": "thrive_agric",
+		"category": ["Agritech"]
 	}
-	
 
 ]
