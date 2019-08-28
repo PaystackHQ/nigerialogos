@@ -983,6 +983,14 @@
 		"title": "Thrive Agric",
 		"filename": "thrive_agric",
 		"category": ["Agritech"]
+	},
+	{
+		"title": "Summitech Computing Limited",
+		"filename": "summitech",
+		"category": [
+			"Software",
+			"ICT"
+		]
 	}
 
 ]
