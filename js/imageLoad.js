@@ -23,6 +23,27 @@ function sortObjectArray(array, key) {
     });
 }
 
+
+function isValidURL(url) {
+    var pattern = new RegExp(/^(?:http(s)?:\/\/)[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$/);
+    return pattern.test(url);
+}
+
+function setLogoCompanyLink(logoArray) {
+    logoArray.map((logo) => {
+        let logoUrl = logo.url;
+
+        if (logoUrl === '' || !isValidURL(logoUrl)) {
+            logo.url = `https://www.google.com/search?q=${encodeURIComponent(logo.title)}`;
+            logo.urlTitle = `Search for ${logo.title} on Google`;
+        } else {
+            logo.url = logoUrl;
+            logo.urlTitle = `Visit ${logo.title} official website`;
+        }
+    });
+    return;
+}
+
 function createLogos(logoArray) {
     let categories = [];
     let groupanchor = '';
@@ -44,7 +65,7 @@ function createLogos(logoArray) {
             groupanchor = '';
             alphalinkhtml = '';
         }
-        const html = groupanchor + `<div class='logo'> <div class='logo__holder'> <div class='logo__image'> <img src='logos/${logo.filename}/${logo.filename}.svg' alt='${logo.title}logo'> </div><div class='logo__download'> <div class='logo__download__overlay'> <a href='logos/${logo.filename}/${logo.filename}.svg' download='${logo.title} Logo.svg'> <span class='logo__download__overlay--svg'> Download SVG </span> </a> <a href='logos/${logo.filename}/${logo.filename}.png' download='${logo.title} Logo.png'> <span class='logo__download__overlay--png'> Download PNG </span> </a> </div></div></div><div class='logo__text'> <p class='logo__text--primary'>${logo.title}</p><p class='logo__text--secondary'>${(logo.category+"").replace(","," / ")}</p></div></div>`;
+        const html = groupanchor + `<div class='logo'> <div class='logo__holder'> <div class='logo__image'> <img src='logos/${logo.filename}/${logo.filename}.svg' alt='${logo.title}logo'> </div><div class='logo__download'> <div class='logo__download__overlay'> <a href='logos/${logo.filename}/${logo.filename}.svg' download='${logo.title} Logo.svg'> <span class='logo__download__overlay--svg'> Download SVG </span> </a> <a href='logos/${logo.filename}/${logo.filename}.png' download='${logo.title} Logo.png'> <span class='logo__download__overlay--png'> Download PNG </span> </a> </div></div></div><div class='logo__text'> <p class='logo__text--primary'><a href='${logo.url}' title='${logo.urlTitle}' target='_blank' class='logo__text--link'>${logo.title}</a></p><p class='logo__text--secondary'>${(logo.category+"").replace(","," / ")}</p></div></div>`;
         const main = document.querySelector('main');
         main.insertAdjacentHTML('beforeend', html);
         alphabetlink.insertAdjacentHTML('beforeend', alphalinkhtml);
@@ -88,6 +109,9 @@ function init() {
     // Create logos
     loadJSON(response => {
         const logoArray = JSON.parse(response);
+
+        setLogoCompanyLink(logoArray);
+
         createLogos(logoArray);
         results.innerHTML = `${logoArray.length}`
     });
