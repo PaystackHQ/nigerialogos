@@ -1,5 +1,4 @@
-[
-	{
+[{
 		"title": "Paystack",
 		"filename": "paystack",
 		"url": "https://paystack.com/",
@@ -1111,6 +1110,13 @@
 		"filename": "thrive_agric",
 		"url": "http://www.thriveagric.com/",
 		"category": ["Agritech"]
+	},
+	{
+		"title": "Schoolable",
+		"filename": "schoolable",
+		"category": [
+			"Financial Services",
+			"EdTech"
+		]
 	}
-
 ]
