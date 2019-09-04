@@ -28,9 +28,9 @@ searchbars.forEach(searchbar => {
         });
         results.innerHTML = `${numberOfResults}`
         searchState();
-    }) 
+    }); 
     function searchTermHighlight(logo, term) {
-        logoText = logo.querySelector('.logo__text--primary');
+        logoText = logo.querySelector('.logo__text--link');
         logoTextTitle = logoText.textContent;
         logoText.innerHTML = logoTextTitle.replace(new RegExp(term, "gi"), (match) => `<mark>${match}</mark>`);
     }

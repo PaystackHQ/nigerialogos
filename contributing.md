@@ -27,7 +27,8 @@ company_name
 ```
 {
 	"title": "Company Name",
-	"filename": "company_name",
+  "filename": "company_name",
+  "url": "https://company_url.com",
 	"category": ["Category"]
 }
 ```
@@ -36,6 +37,7 @@ company_name
 {
 	"title": "Polaris Bank",
 	"filename": "polaris_bank",
+  "url": "https://www.polarisbanklimited.com/",
 	"category": ["Banking", "Financial Services"]
 }
 ```
@@ -47,6 +49,15 @@ If you do so, kindly edit this file; adding the newly used category (**[/contrib
 "category": ["NGO", "Ecommerce"] or  
 "category": ["NGO", "Ecommerce", "Marketplace"] or  
 "category": ["NGO"]
+```
+
+5. Make sure your company URL has the `http://` or `https://` prefix or it will be rendered as invalid (this is to prevent some quirks in link redirection).
+**NB:** By default, all empty or invalid urls will be linked to google search rather than the official website.
+```
+"url": "https://paystack.com" or
+"url": "https://www.paystack.com" 
+but not 
+"url": "paystack.com"
 ```
 
 ### Categories

@@ -74,6 +74,14 @@ main {
                 text-overflow: initial;
             }
         }
+        &--link {
+            color: inherit;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;;
+            }
+        }
     }
 
     &__download {
