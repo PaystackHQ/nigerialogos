@@ -1118,5 +1118,14 @@
 			"Financial Services",
 			"EdTech"
 		]
+	},
+	{
+		"title": "Summitech Computing Limited",
+		"filename": "summitech",
+		"url": "https://www.summitech.ng/",
+		"category": [
+			"Software",
+			"ICT"
+		]
 	}
 ]
