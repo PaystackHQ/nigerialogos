@@ -6,7 +6,7 @@ const alphabetlink = document.querySelector('.companies-alphabet');
 function loadJSON(callback) {
     const xobj = new XMLHttpRequest();
     xobj.overrideMimeType("application/json");
-    xobj.open('GET', 'js/logos.json', true);
+    xobj.open('GET', 'logos.json', true);
     xobj.onreadystatechange = function () {
         if (xobj.readyState == 4) {
             callback(xobj.responseText);

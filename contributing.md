@@ -21,7 +21,7 @@ company_name
 |       company_name.svg
 ```
 
-3. In **[js/logos.json](https://github.com/PaystackHQ/nigerialogos/blob/master/js/logos.json)**, add a `JSON` entry for your company
+3. In **[logos.json](https://github.com/PaystackHQ/nigerialogos/blob/master/logos.json)**, add a `JSON` entry for your company
 
 ### JSON Object
 ```
