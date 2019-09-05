@@ -1,43 +1,45 @@
 # NigeriaLogos
 
-This is an open source website for downloading high quality
-Free vector logos of Nigerian companies.
+This is an open source project for downloading free, high quality vector logos of Nigerian companies. Visit the website at [nigerialogos.com](https://nigerialogos.com).
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+NigeriaLogos is a simple web app built with HTML and plain Javascript. Styles are written in SCSS and compiled locally. Follow the instructions below to set up the project on your local machine for development and testing purposes. 
 
 ### Prerequisites
 [Node.js](https://nodejs.org/)
 
-### Instruction
+### Running this project locally
+- Clone the project to your computer
+- To view the site locally, open the [index.html](https://github.com/PaystackHQ/nigerialogos/blob/master/index.html) file in your browser
 
-* Install dependencies with `npm install`
-* Run `npm run build` to build/generate the css files
-* Optionally `npm run scss` to watch the css files
-* Finally, open the [index.html](https://github.com/PaystackHQ/nigerialogos/blob/master/index.html) file in your browser to view the site 
+If you're working on this, you'll need to compile the SCSS locally. Here's how to do this:
 
-### NOTE 
-For **Chrome Browser**, you will need to allow "XMLHttpRequest" to access files from other files using `--allow-file-access-from-files`
+- Install dependencies with `npm install`.
+- Run `npm run build` to build/generate CSS files. You can use `npm run scss` to build the CSS in real time.
 
-**Windows Users:** `Chrome.exe --allow-file-access-from-files` <br />
-To confirm you have it set correctly, go to **chrome://version/** in a new chrome browser window you should see "**--allow-file-access-from-files**" listed within the **Command Line** section on the page. If not found, follow the steps below to have get it set:
+### Allowing File Access
 
-- Exit your Chrome browser if running (close all instances if you have multiple windows open).
-- Open a command prompt window.
-- Run `Chrome.exe --allow-file-access-from-files` from the cli. If chrome.exe is not recognized follow the immediate 3 steps below:<br />
+All logos are saved in the `logos` folder and referenced from the `logos.json` file in the code. If you run this project in Chrome, the logos might not load by default. This is because your browser needs special access to your local files. If this happens to you, here's how to fix it:
 
-> - From the cli, navigate to where your **chrome.exe** file is located: eg `cd "C:\Program Files (x86)\Google\Chrome\Application"`. <br />
-> - Use the command `dir` to ascertain chrome.exe resides in the directory. 
-> - Run `Chrome.exe --allow-file-access-from-files` from the cli again.
+**Mac Users:** 
+- Run `open /Applications/Google\ Chrome.app/ --args --allow-file-access-from-files` in your command line.
 
-- A new chrome browser window will start up, you may check **Command line** section on the **chrome://version/** page again if correctly set. However, the index.html file should now work with full functionalities. 
+**Windows Users:** 
+- Close your Chrome app completety.
+- Open a command line window and run `Chrome.exe --allow-file-access-from-files`. 
 
-**Mac Users:** `open /Applications/Google\ Chrome.app/ --args --allow-file-access-from-files`
+If the `chrome.exe` command is not recognized, try this:
+
+- From the cli, navigate to where your **chrome.exe** file is located e.g. `cd "C:\Program Files (x86)\Google\Chrome\Application"`.
+- Run the `dir` command and confirm that the chrome.exe executable exists/ 
+- Run `Chrome.exe --allow-file-access-from-files` again.
+
+To know if you've enabled this, browse to **chrome://version/** in a Chrome browser window. If you're enable, you should see "**--allow-file-access-from-files**" under **Command Line**.
 
 ## Contributing
 
-For details on contributing, please read [contributing.md](https://github.com/PaystackHQ/nigerialogos/blob/master/contributing.md)
+To learn more about contributing to NigeriaLogos, please read [contributing.md](https://github.com/PaystackHQ/nigerialogos/blob/master/contributing.md)
 
 
 ## Authors
