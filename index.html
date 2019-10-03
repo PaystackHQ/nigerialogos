@@ -16,7 +16,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="images/favicon.ico/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.ico/favicon-16x16.png">
-    <link rel="manifest" href="images/favicon.ico/manifest.json">
+    <link rel="manifest" href="/manifest.json">
     <!-- Primary Meta Tags -->
     <title>Nigeria Logos - An open source project</title>
     <meta name="title" content="Nigeria Logos - An open source project">
@@ -45,6 +45,16 @@
     <meta name="theme-color" content="#06DAAF" />
     <meta name="msapplication-navbutton-color" content="#06DAAF">
     <meta name="apple-mobile-web-app-status-bar-style" content="#06DAAF">
+    <!-- Scripts -->
+    <script>
+        // Check that service workers are supported
+        if ('serviceWorker' in navigator) {
+            // Use the window load event to keep the page load performant
+            window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/service-worker.js');
+            });
+        }
+    </script>
 </head>
 
 <body>

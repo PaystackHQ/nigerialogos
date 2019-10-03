@@ -1,0 +1,21 @@
+{
+	"name": "NigeriaLogos",
+	"short_name": "NL",
+	"icons": [
+		{
+			"src": "/images/favicon.ico/android-icon-192x192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/images/favicon.ico/android-icon-512x512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"theme_color": "#06DAAF",
+	"background_color": "#ffffff",
+	"display": "fullscreen",
+	"scope": "/",
+	"start_url": "/"
+}
