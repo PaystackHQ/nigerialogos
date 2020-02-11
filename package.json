@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/PaystackHQ/nigerialogos#readme",
   "devDependencies": {
-    "node-sass": "^4.11.0",
     "eslint": "^6.1.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.3.0",
@@ -29,12 +28,13 @@
     "eslint-plugin-prettier": "^3.1.0",
     "husky": "^3.0.5",
     "lint-staged": "^9.2.5",
+    "node-sass": "^4.13.1",
     "prettier": "1.18.2"
   },
   "lint-staged": {
     "*.js": [
-			"npm run format:js",
-			"npm run lint:js:fix",
+      "npm run format:js",
+      "npm run lint:js:fix",
       "git add"
     ]
   },
