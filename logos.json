@@ -1128,5 +1128,13 @@
 			"Software",
 			"ICT"
 		]
+	},
+	{
+		"title": "Abeg",
+		"filename": "abeg",
+		"url": "https://www.abeg.app/",
+		"category": [
+			"Financial Services"
+		]
 	}
 ]
