@@ -1136,5 +1136,54 @@
 		"category": [
 			"Financial Services"
 		]
+	},
+	{
+		"title": "Air Peace",
+		"filename": "air_peace",
+		"url": "https://www.flyairpeace.com/",
+		"category": [
+			"Transportation"
+		]
+	},
+	{
+		"title": "Buypower",
+		"filename": "buypower",
+		"url": "https://buypower.ng/",
+		"category": [
+			"Power Distribution",
+			"ICT"
+		]
+	},
+	{
+		"title": "Filmhouse Cinemas",
+		"filename": "filmhouse",
+		"url": "https://filmhouseng.com/",
+		"category": [
+			"Entertainment"
+		]
+	},
+	{
+		"title": "Ibom Air",
+		"filename": "ibom_air",
+		"url": "https://www.ibomair.com/",
+		"category": [
+			"Transportation"
+		]
+	},
+	{
+		"title": "Kuda Bank",
+		"filename": "kuda_bank",
+		"url": "https://kudabank.com/",
+		"category": [
+			"Financial Services"
+		]
+	},
+	{
+		"title": "UPS",
+		"filename": "ups",
+		"url": "https://www.ups.com/",
+		"category": [
+			"Logistics"
+		]
 	}
 ]
