@@ -1185,5 +1185,13 @@
 		"category": [
 			"Logistics"
 		]
+	},
+	{
+		"title": "Silverbird Cinemas",
+		"filename": "silverbird_cinemas",
+		"url": "https://silverbirdcinemas.com/",
+		"category": [
+			"Entertainment"
+		]
 	}
 ]
