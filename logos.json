@@ -35,6 +35,16 @@
 		]
 	},
 	{
+		"title": "SalesRuby Limited",
+		"filename": "sales_ruby",
+		"url": "https://salesruby.com",
+		"category": [
+			"Sales",
+			"Consulting",
+			"Training"
+		]
+	},
+	{
 		"title": "Mainstreet Bank",
 		"filename": "mainstreet_bank",
 		"url": "http://mainstreetcapltd.com/",

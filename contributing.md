@@ -64,6 +64,7 @@ but not
 ```
 * Banking
 * Financial Services
+* Sales
 * Consulting
 * Training
 * Digital Marketing
