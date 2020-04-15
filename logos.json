@@ -19,10 +19,19 @@
 	{
 		"title": "Learn Factory",
 		"filename": "learn_factory",
-		"url": "https://learnfactory.com.ng",
+		"url": "https://learnfactory.com.ng/",
 		"category": [
 			"Software",
 			"EdTech"
+		]
+	},
+	{
+		"title": "Amplify",
+		"filename": "amplify",
+		"url": "https://www.amplify.ng/",
+		"category": [
+			"Digital Marketing",
+			"Branding"
 		]
 	},
 	{
