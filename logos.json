@@ -45,6 +45,15 @@
 		]
 	},
 	{
+		"title": "Allianz",
+		"filename": "allianz",
+		"url": "https://allianz.ng",
+		"category": [
+			"Insurance",
+			"Financial Services"
+		]
+	},
+	{
 		"title": "Mainstreet Bank",
 		"filename": "mainstreet_bank",
 		"url": "http://mainstreetcapltd.com/",

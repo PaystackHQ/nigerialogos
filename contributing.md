@@ -94,6 +94,7 @@ but not
 * Restaurant
 * Software
 * ICT
+* Insurance
 * Telecommunication
 * ISP
 * Transportation
