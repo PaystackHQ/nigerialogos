@@ -1193,5 +1193,13 @@
 		"category": [
 			"Entertainment"
 		]
+	},
+	{
+		"title": "Middletrust",
+		"filename": "middletrust",
+		"url": "https://middletrust.com/",
+		"category": [
+			"Financial Services"
+		]
 	}
 ]
