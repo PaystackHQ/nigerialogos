@@ -1193,5 +1193,13 @@
 		"category": [
 			"Entertainment"
 		]
+	},
+	{
+		"title": "Pettysave",
+		"filename": "pettysave",
+		"url": "https://www.pettysave.com/",
+		"category": [
+			"Financial Services"
+		]
 	}
 ]
