@@ -1201,5 +1201,13 @@
 		"category": [
 			"Ecommerce"
 		]
+	},
+	{
+		"title": "Yellowcard",
+		"filename": "yellowcard",
+		"url": "https://yellowcard.io/",
+		"category": [
+			"Cryptocurrency"
+		]
 	}
 ]
