@@ -1193,5 +1193,13 @@
 		"category": [
 			"Entertainment"
 		]
+	},
+	{
+		"title": "Seller",
+		"filename": "seller",
+		"url": "https://seller.ng/",
+		"category": [
+			"Ecommerce"
+		]
 	}
 ]
