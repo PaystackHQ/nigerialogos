@@ -1209,5 +1209,15 @@
 		"category": [
 			"Cryptocurrency"
 		]
+	},
+	{
+		"title": "Cravvings",
+		"filename": "cravvings",
+		"url": "https://www.cravvings.com/",
+		"category": [
+			"Local Search",
+			"Business Ratings and Reviews",
+			"Online Food Delivery"
+		]
 	}
 ]
