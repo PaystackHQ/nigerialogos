@@ -1195,6 +1195,22 @@
 		]
 	},
 	{
+		"title": "Seller",
+		"filename": "seller",
+		"url": "https://seller.ng/",
+		"category": [
+			"Ecommerce"
+		]
+	},
+	{
+		"title": "Yellowcard",
+		"filename": "yellowcard",
+		"url": "https://yellowcard.io/",
+		"category": [
+			"Cryptocurrency"
+		]
+	},
+	{
 		"title": "Cravvings",
 		"filename": "cravvings",
 		"url": "https://www.cravvings.com/",
