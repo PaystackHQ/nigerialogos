@@ -1219,5 +1219,12 @@
 			"Business Ratings and Reviews",
 			"Online Food Delivery"
 		]
-	}
-]
+	},
+  {
+   	"title": "Pettysave",
+		"filename": "pettysave",
+		"url": "https://www.pettysave.com/",
+		"category": [
+			"Financial Services"
+    ]
+  }]
