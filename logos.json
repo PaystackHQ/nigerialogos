@@ -1227,4 +1227,22 @@
 		"category": [
 			"Financial Services"
     ]
-  }]
+  },
+  {
+   	"title": "DearDesigner",
+		"filename": "dear_designer",
+		"url": "https://deardesigner.xyz/",
+		"category": [
+			"EdTech",
+			"Software",
+			"Product Design"
+    ]
+	},
+	{
+		"title": "Peace Mass Transit",
+	 "filename": "peace_mass_transit",
+	 "url": "https://pmt.ng/",
+	 "category": [
+		 "Transportation"
+	 ]
+ }]
