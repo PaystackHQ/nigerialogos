@@ -3,20 +3,20 @@
 
 <head>
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon.ico/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon.ico/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon.ico/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon.ico/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon.ico/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon.ico/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon.ico/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon.ico/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.ico/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="images/favicon.ico/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon.ico/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.ico/favicon-16x16.png">
-    <link rel="manifest" href="images/favicon.ico/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
     <!-- Primary Meta Tags -->
     <title>Nigeria Logos - An open source project</title>
     <meta name="title" content="Nigeria Logos - An open source project">
@@ -45,6 +45,14 @@
     <meta name="theme-color" content="#06DAAF" />
     <meta name="msapplication-navbutton-color" content="#06DAAF">
     <meta name="apple-mobile-web-app-status-bar-style" content="#06DAAF">
+    <!-- Scripts -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/sw-dist.js');
+            });
+        }
+    </script>
 </head>
 
 <body>
@@ -80,7 +88,7 @@
             </div>
             <h1>NigeriaLogos, an <a href="https://github.com/PaystackHQ/nigerialogos" target="_blank">open source</a> collection<br>of
                 high quality, pixel perfect Nigerian<br>company logos for free use.</h1>
-            <p class="subcopy">Search through 100+ vector logos from 27+ contributors</p>
+            <p class="subcopy">Search through 100+ vector logos from 36+ contributors</p>
             <a href="https://github.com/PaystackHQ/nigerialogos" target="_blank"><button class="contribute">Contribute on Github</button></a>
 
             <div class="searchbar">

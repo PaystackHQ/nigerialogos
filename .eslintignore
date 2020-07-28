@@ -1,0 +1,4 @@
+/node_modules/**
+/templates/**
+gulpfile.js
+!.eslintrc.js

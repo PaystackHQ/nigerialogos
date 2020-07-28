@@ -1128,5 +1128,103 @@
 			"Software",
 			"ICT"
 		]
-	}
-]
+	},
+	{
+		"title": "Abeg",
+		"filename": "abeg",
+		"url": "https://www.abeg.app/",
+		"category": [
+			"Financial Services"
+		]
+	},
+	{
+		"title": "Air Peace",
+		"filename": "air_peace",
+		"url": "https://www.flyairpeace.com/",
+		"category": [
+			"Transportation"
+		]
+	},
+	{
+		"title": "Buypower",
+		"filename": "buypower",
+		"url": "https://buypower.ng/",
+		"category": [
+			"Power Distribution",
+			"ICT"
+		]
+	},
+	{
+		"title": "Filmhouse Cinemas",
+		"filename": "filmhouse",
+		"url": "https://filmhouseng.com/",
+		"category": [
+			"Entertainment"
+		]
+	},
+	{
+		"title": "Ibom Air",
+		"filename": "ibom_air",
+		"url": "https://www.ibomair.com/",
+		"category": [
+			"Transportation"
+		]
+	},
+	{
+		"title": "Kuda Bank",
+		"filename": "kuda_bank",
+		"url": "https://kudabank.com/",
+		"category": [
+			"Financial Services"
+		]
+	},
+	{
+		"title": "UPS",
+		"filename": "ups",
+		"url": "https://www.ups.com/",
+		"category": [
+			"Logistics"
+		]
+	},
+	{
+		"title": "Silverbird Cinemas",
+		"filename": "silverbird_cinemas",
+		"url": "https://silverbirdcinemas.com/",
+		"category": [
+			"Entertainment"
+		]
+	},
+	{
+		"title": "Seller",
+		"filename": "seller",
+		"url": "https://seller.ng/",
+		"category": [
+			"Ecommerce"
+		]
+	},
+	{
+		"title": "Yellowcard",
+		"filename": "yellowcard",
+		"url": "https://yellowcard.io/",
+		"category": [
+			"Cryptocurrency"
+		]
+	},
+	{
+		"title": "Cravvings",
+		"filename": "cravvings",
+		"url": "https://www.cravvings.com/",
+		"category": [
+			"Local Search",
+			"Business Ratings and Reviews",
+			"Online Food Delivery"
+		]
+	},
+  {
+   	"title": "Pettysave",
+		"filename": "pettysave",
+		"url": "https://www.pettysave.com/",
+		"category": [
+			"Financial Services"
+    ]
+  }]

@@ -1,0 +1,31 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true
+	},
+	"parserOptions": {
+		"parser": "babel-eslint"
+	},
+	"extends": [
+		"airbnb-base",
+		"plugin:prettier/recommended"
+	],
+	"plugins": ["prettier"],
+	"rules": {
+		"prettier/prettier": ["error"],
+		"no-use-before-define": ["error", { "functions": false, "classes": false }],
+		"no-param-reassign": ["warn"],
+		"max-len": [
+			"error",
+			{
+				"code": 150,
+				"ignoreTemplateLiterals": true,
+				"ignoreStrings": true
+			}
+		],
+		"no-shadow": ["error"],
+		// Allow the use of uniary operator ++
+		"no-plusplus": ["off"],
+		"no-mixed-operators": ["error"]
+	}
+}
