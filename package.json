@@ -9,7 +9,7 @@
     "build": "node-sass scss/main.scss -o css",
     "format:js": "prettier --write",
     "lint:js:fix": "eslint --fix",
-		"run dev": "node index.js",
+		"dev": "nodemon index.js",
   },
   "repository": {
     "type": "git",
