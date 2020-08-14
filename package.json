@@ -8,7 +8,8 @@
     "scss": "node-sass --watch scss/main.scss -o css/",
     "build": "node-sass scss/main.scss -o css",
     "format:js": "prettier --write",
-    "lint:js:fix": "eslint --fix"
+    "lint:js:fix": "eslint --fix",
+		"run dev": "node index.js",
   },
   "repository": {
     "type": "git",
