@@ -1,46 +1,50 @@
 {
-  "name": "nigerialogos",
-  "version": "1.0.0",
-  "description": "an open source website for downloading high quality",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass --watch scss/main.scss -o css/",
-    "build": "node-sass scss/main.scss -o css",
-    "format:js": "prettier --write",
-    "lint:js:fix": "eslint --fix"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PaystackHQ/nigerialogos.git"
-  },
-  "author": "Demilade Olaleye, Chinonso Raymond",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PaystackHQ/nigerialogos/issues"
-  },
-  "homepage": "https://github.com/PaystackHQ/nigerialogos#readme",
-  "devDependencies": {
-    "eslint": "^6.1.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-config-prettier": "^6.3.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-prettier": "^3.1.0",
-    "husky": "^3.0.5",
-    "lint-staged": "^9.2.5",
-    "node-sass": "^4.13.1",
-    "prettier": "1.18.2"
-  },
-  "lint-staged": {
-    "*.js": [
-      "npm run format:js",
-      "npm run lint:js:fix",
-      "git add"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  }
+	"name": "nigerialogos",
+	"version": "1.0.0",
+	"description": "an open source website for downloading high quality",
+	"main": "index.html",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"scss": "node-sass --watch scss/main.scss -o css/",
+		"build": "node-sass scss/main.scss -o css",
+		"format:js": "prettier --write",
+		"lint:js:fix": "eslint --fix",
+		"dev": "npm run build && node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/PaystackHQ/nigerialogos.git"
+	},
+	"author": "Demilade Olaleye, Chinonso Raymond",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/PaystackHQ/nigerialogos/issues"
+	},
+	"homepage": "https://github.com/PaystackHQ/nigerialogos#readme",
+	"devDependencies": {
+		"eslint": "^6.1.0",
+		"eslint-config-airbnb-base": "^14.0.0",
+		"eslint-config-prettier": "^6.3.0",
+		"eslint-plugin-import": "^2.18.2",
+		"eslint-plugin-prettier": "^3.1.0",
+		"husky": "^3.0.5",
+		"lint-staged": "^9.2.5",
+		"node-sass": "^4.13.1",
+		"prettier": "1.18.2"
+	},
+	"lint-staged": {
+		"*.js": [
+			"npm run format:js",
+			"npm run lint:js:fix",
+			"git add"
+		]
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"dependencies": {
+		"express": "^4.17.1"
+	}
 }
