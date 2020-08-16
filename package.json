@@ -9,7 +9,7 @@
 		"build": "node-sass scss/main.scss -o css",
 		"format:js": "prettier --write",
 		"lint:js:fix": "eslint --fix",
-		"dev": "npm run build && node index.js"
+		"dev": "npm run build && nodemon index.js"
 	},
 	"repository": {
 		"type": "git",
@@ -30,6 +30,7 @@
 		"husky": "^3.0.5",
 		"lint-staged": "^9.2.5",
 		"node-sass": "^4.13.1",
+		"nodemon": "^2.0.4",
 		"prettier": "1.18.2"
 	},
 	"lint-staged": {
