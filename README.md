@@ -17,11 +17,11 @@ NigeriaLogos is a simple web app built with HTML and plain Javascript. Styles ar
 - serve with hot reload at _localhost:8080_ or some random port if 8080 is inuse.  
 `$ npm run dev`  
 
-- Optionallly: If you don't want to serve automatically as above  
-    - generate css/main.css file changes  
+- Optionallly: If you don't want to serve with hot reload as above  
+    - generate css/main.css  
     `$ npm run build`  
   
-    - automatically generate css/main.css as scss files changes  
+    - generate and automatically update css/main.css as scss/* files changes  
     `$ npm run watch`
 
 ## Contributing
