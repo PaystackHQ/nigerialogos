@@ -1248,10 +1248,14 @@
 	},
 	{
 		"title": "Peace Mass Transit",
-	 "filename": "peace_mass_transit",
-	 "url": "https://pmt.ng/",
-	 "category": [
-		 "Transportation",
-		 "Logistics"
-	 ]
- }]
+		"filename": "peace_mass_transit",
+		"url": "https://pmt.ng/",
+		"category": ["Transportation", "Logistics"]
+	},
+	{
+		"title": "Patricia",
+		"filename": "patricia",
+		"url": "https://patricia.com.ng/",
+		"category": ["Ecommerce", "Financial Services"]
+	}
+]
