@@ -53,6 +53,14 @@
 		]
 	},
 	{
+		"title":"FourthCanvas",
+		"filename":"fourthcanvas",
+		"url":"https://fourthcanvas.co",
+		"category": [
+			"Branding"
+		]
+	},
+	{
 		"title": "Guaranty Trust Bank",
 		"filename": "guaranty_trust_bank",
 		"url": "https://www.gtbank.com/",
@@ -1227,4 +1235,23 @@
 		"category": [
 			"Financial Services"
     ]
-  }]
+  },
+  {
+   	"title": "DearDesigner",
+		"filename": "dear_designer",
+		"url": "https://deardesigner.xyz/",
+		"category": [
+			"EdTech",
+			"Software",
+			"Product Design"
+    ]
+	},
+	{
+		"title": "Peace Mass Transit",
+	 "filename": "peace_mass_transit",
+	 "url": "https://pmt.ng/",
+	 "category": [
+		 "Transportation",
+		 "Logistics"
+	 ]
+ }]
