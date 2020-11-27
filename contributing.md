@@ -17,8 +17,8 @@ Another way to contribute is to directly send in a pull request. Here are some g
 ### Folder Structure
 ```
 company_name
-|       company_name.png
-|       company_name.svg
+| company_name.png
+| company_name.svg
 ```
 
 3. In **[logos.json](https://github.com/PaystackHQ/nigerialogos/blob/master/logos.json)**, add a `JSON` entry for your company
@@ -26,19 +26,19 @@ company_name
 ### JSON Object
 ```
 {
-	"title": "Company Name",
+  "title": "Company Name",
   "filename": "company_name",
   "url": "https://company_url.com",
-	"category": ["Category"]
+  "category": ["Category"]
 }
 ```
 **Example**
 ```
 {
-	"title": "Polaris Bank",
-	"filename": "polaris_bank",
+  "title": "Polaris Bank",
+  "filename": "polaris_bank",
   "url": "https://www.polarisbanklimited.com/",
-	"category": ["Banking", "Financial Services"]
+  "category": ["Banking", "Financial Services"]
 }
 ```
 
@@ -56,8 +56,9 @@ If you do so, kindly edit this file; adding the newly used category (**[/contrib
 ```
 "url": "https://paystack.com" or
 "url": "https://www.paystack.com" 
-but not 
-"url": "paystack.com"
+not 
+"url": "paystack.com" or
+"url": "www.paystack.com"
 ```
 
 ### Categories
