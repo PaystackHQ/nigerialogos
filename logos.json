@@ -1254,4 +1254,11 @@
 		 "Transportation",
 		 "Logistics"
 	 ]
- }]
+ },
+ {
+  "title": "Fundall",
+  "filename": "fundall",
+  "url": "https://www.fundall.io/",
+  "category": ["Banking", "Financial Services"]
+}
+]
