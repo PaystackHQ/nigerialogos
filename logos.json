@@ -1271,5 +1271,15 @@
   "filename": "fundall",
   "url": "https://www.fundall.io/",
   "category": ["Banking", "Financial Services"]
+},
+{
+	"title": "Startuplist Africa",
+ "filename": "startuplist_africa",
+ "url": "https://startuplist.africa",
+ "category": [
+	 "Big Data",
+	 "Business Intelligence",
+	 "Analytics"
+ ]
 }
 ]
