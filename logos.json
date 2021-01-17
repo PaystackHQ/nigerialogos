@@ -61,9 +61,9 @@
 		]
 	},
 	{
-		"title":"FourthCanvas",
-		"filename":"fourthcanvas",
-		"url":"https://fourthcanvas.co",
+		"title": "FourthCanvas",
+		"filename": "fourthcanvas",
+		"url": "https://fourthcanvas.co",
 		"category": [
 			"Branding"
 		]
@@ -1244,23 +1244,23 @@
 			"Online Food Delivery"
 		]
 	},
-  {
-   	"title": "Pettysave",
+	{
+		"title": "Pettysave",
 		"filename": "pettysave",
 		"url": "https://www.pettysave.com/",
 		"category": [
 			"Financial Services"
-    ]
-  },
-  {
-   	"title": "DearDesigner",
+		]
+	},
+	{
+		"title": "DearDesigner",
 		"filename": "dear_designer",
 		"url": "https://deardesigner.xyz/",
 		"category": [
 			"EdTech",
 			"Software",
 			"Product Design"
-    ]
+		]
 	},
 	{
 		"title": "Peace Mass Transit",
@@ -1274,20 +1274,29 @@
 		"url": "https://patricia.com.ng/",
 		"category": ["Ecommerce", "Financial Services"]
 	},
- {
-  "title": "Fundall",
-  "filename": "fundall",
-  "url": "https://www.fundall.io/",
-  "category": ["Banking", "Financial Services"]
-},
-{
-	"title": "Startuplist Africa",
- "filename": "startuplist_africa",
- "url": "https://startuplist.africa",
- "category": [
-	 "Big Data",
-	 "Business Intelligence",
-	 "Analytics"
- ]
-}
+	{
+		"title": "Fundall",
+		"filename": "fundall",
+		"url": "https://www.fundall.io/",
+		"category": ["Banking", "Financial Services"]
+	},
+	{
+		"title": "Startuplist Africa",
+		"filename": "startuplist_africa",
+		"url": "https://startuplist.africa",
+		"category": [
+			"Big Data",
+			"Business Intelligence",
+			"Analytics"
+		]
+	},
+	{
+		"title": "Mono",
+		"filename": "mono",
+		"url": "https://mono.co",
+		"category": [
+			"Financial Data",
+			"Software"
+		]
+	}
 ]
