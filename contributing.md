@@ -42,12 +42,12 @@ company_name
 }
 ```
 
-4. If your company category is not reflected in categories section *below*, feel free to use a new category.  
-If you do so, kindly edit this file; adding the newly used category (**[/contributing.md](https://github.com/PaystackHQ/nigerialogos/blob/master/contributing.md)**) in your PR as well.  
-**NB:** Your jsonObject category can also be a combined form 2 or more categories in this form:  **e.g.**  
+4. If your company category is not reflected in categories section *below*, feel free to use a new category.
+If you do so, kindly edit this file; adding the newly used category (**[/contributing.md](https://github.com/PaystackHQ/nigerialogos/blob/master/contributing.md)**) in your PR as well.
+**NB:** Your jsonObject category can also be a combined form 2 or more categories in this form:  **e.g.**
 ```
-"category": ["NGO", "Ecommerce"] or  
-"category": ["NGO", "Ecommerce", "Marketplace"] or  
+"category": ["NGO", "Ecommerce"] or
+"category": ["NGO", "Ecommerce", "Marketplace"] or
 "category": ["NGO"]
 ```
 
@@ -55,8 +55,8 @@ If you do so, kindly edit this file; adding the newly used category (**[/contrib
 **NB:** By default, all empty or invalid urls will be linked to google search rather than the official website.
 ```
 "url": "https://paystack.com" or
-"url": "https://www.paystack.com" 
-not 
+"url": "https://www.paystack.com"
+not
 "url": "paystack.com" or
 "url": "www.paystack.com"
 ```
@@ -101,6 +101,7 @@ not
 * Local Search
 * Business Ratings and Reviews
 * Online Food Delivery
+* Event Management
 ```
 
 **NOTE**: _Pull requests are usually reviewed within 24 hours. Once your pull request is merged, you should see your logo on the site a few minutes after._

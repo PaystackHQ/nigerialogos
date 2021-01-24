@@ -1298,5 +1298,11 @@
 			"Financial Data",
 			"Software"
 		]
+	},
+	{
+		"title": "Tix Africa",
+		"filename": "tix_africa",
+		"url": "https://tix.africa",
+		"category": [ "Event Management" ]
 	}
 ]
