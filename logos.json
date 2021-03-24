@@ -1303,6 +1303,12 @@
 		"title": "Tix Africa",
 		"filename": "tix_africa",
 		"url": "https://tix.africa",
-		"category": [ "Event Management" ]
+		"category": ["Event Management"]
+	},
+	{
+		"title": "gidimo",
+		"filename": "gidimo",
+		"url": "https://gidimo.com/",
+		"category": ["EdTech"]
 	}
 ]
