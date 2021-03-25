@@ -1,4 +1,16 @@
-[{
+[
+	{
+		"title": "Seedbuilders",
+		"filename": "seedbuilders",
+		"url": "https://seedbuildersng.com/",
+		"category": [
+			"Coworking",
+			"Virtual Office",
+			"Foundation",
+			"ICT"
+		]
+	},
+	{
 		"title": "Paystack",
 		"filename": "paystack",
 		"url": "https://paystack.com/",
