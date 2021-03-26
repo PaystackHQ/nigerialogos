@@ -1322,5 +1322,14 @@
 		"filename": "gidimo",
 		"url": "https://gidimo.com/",
 		"category": ["EdTech"]
+	},
+	{
+		"title": "Bolmapay",
+		"filename": "bolmapay",
+		"url": "https://bolmapay.com/",
+		"category": [
+			"Banking",
+			"Financial Services"
+		]
 	}
 ]
