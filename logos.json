@@ -1,4 +1,16 @@
-[{
+[
+	{
+		"title": "Seedbuilders",
+		"filename": "seedbuilders",
+		"url": "https://seedbuildersng.com/",
+		"category": [
+			"Coworking",
+			"Virtual Office",
+			"Foundation",
+			"ICT"
+		]
+	},
+	{
 		"title": "Paystack",
 		"filename": "paystack",
 		"url": "https://paystack.com/",
@@ -44,6 +56,14 @@
 		]
 	},
 	{
+		"title": "web boss",
+		"filename": "web_boss",
+		"url": "https://www.web-boss.com.ng/",
+		"category": [
+			"EdTech"
+		]
+	},
+	{
 		"title": "Polaris Bank",
 		"filename": "polaris_bank",
 		"url": "https://www.polarisbanklimited.com/",
@@ -53,9 +73,9 @@
 		]
 	},
 	{
-		"title":"FourthCanvas",
-		"filename":"fourthcanvas",
-		"url":"https://fourthcanvas.co",
+		"title": "FourthCanvas",
+		"filename": "fourthcanvas",
+		"url": "https://fourthcanvas.co",
 		"category": [
 			"Branding"
 		]
@@ -1129,6 +1149,14 @@
 		]
 	},
 	{
+		"title": "SeamPay",
+		"filename": "seampay",
+		"url": "https://www.seampay.com/",
+		"category": [
+			"Financial Services"
+		]
+	},
+	{
 		"title": "Summitech Computing Limited",
 		"filename": "summitech",
 		"url": "https://www.summitech.ng/",
@@ -1228,30 +1256,71 @@
 			"Online Food Delivery"
 		]
 	},
-  {
-   	"title": "Pettysave",
+	{
+		"title": "Pettysave",
 		"filename": "pettysave",
 		"url": "https://www.pettysave.com/",
 		"category": [
 			"Financial Services"
-    ]
-  },
-  {
-   	"title": "DearDesigner",
+		]
+	},
+	{
+		"title": "DearDesigner",
 		"filename": "dear_designer",
 		"url": "https://deardesigner.xyz/",
 		"category": [
 			"EdTech",
 			"Software",
 			"Product Design"
-    ]
+		]
 	},
 	{
 		"title": "Peace Mass Transit",
-	 "filename": "peace_mass_transit",
-	 "url": "https://pmt.ng/",
-	 "category": [
-		 "Transportation",
-		 "Logistics"
-	 ]
- }]
+		"filename": "peace_mass_transit",
+		"url": "https://pmt.ng/",
+		"category": ["Transportation", "Logistics"]
+	},
+	{
+		"title": "Patricia",
+		"filename": "patricia",
+		"url": "https://patricia.com.ng/",
+		"category": ["Ecommerce", "Financial Services"]
+	},
+	{
+		"title": "Fundall",
+		"filename": "fundall",
+		"url": "https://www.fundall.io/",
+		"category": ["Banking", "Financial Services"]
+	},
+	{
+		"title": "Startuplist Africa",
+		"filename": "startuplist_africa",
+		"url": "https://startuplist.africa",
+		"category": [
+			"Big Data",
+			"Business Intelligence",
+			"Analytics"
+		]
+	},
+	{
+		"title": "Mono",
+		"filename": "mono",
+		"url": "https://mono.co",
+		"category": [
+			"Financial Data",
+			"Software"
+		]
+	},
+	{
+		"title": "Tix Africa",
+		"filename": "tix_africa",
+		"url": "https://tix.africa",
+		"category": ["Event Management"]
+	},
+	{
+		"title": "gidimo",
+		"filename": "gidimo",
+		"url": "https://gidimo.com/",
+		"category": ["EdTech"]
+	}
+]
