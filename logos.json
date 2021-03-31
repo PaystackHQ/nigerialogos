@@ -11,6 +11,15 @@
 		]
 	},
 	{
+		"title": "BellaNaija",
+		"filename": "bellanaija",
+		"url": "https://www.bellanaija.com/",
+		"category": [
+			"Media"
+		]
+	},
+	
+	{
 		"title": "Paystack",
 		"filename": "paystack",
 		"url": "https://paystack.com/",
