@@ -1333,6 +1333,15 @@
 		"category": ["EdTech"]
 	},
 	{
+		"title": "Peerstack",
+		"filename": "peerstack",
+		"url": "https://www.thepeerstack.com",
+		"category": [
+			"Financial Services",
+			"Software"
+		]
+	},
+	{
 		"title": "Serah Kassim",
 		"filename": "serah_kassim",
 		"url": "https://serahkassim.com/",
