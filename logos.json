@@ -1,4 +1,25 @@
-[{
+[
+	{
+		"title": "Seedbuilders",
+		"filename": "seedbuilders",
+		"url": "https://seedbuildersng.com/",
+		"category": [
+			"Coworking",
+			"Virtual Office",
+			"Foundation",
+			"ICT"
+		]
+	},
+	{
+		"title": "BellaNaija",
+		"filename": "bellanaija",
+		"url": "https://www.bellanaija.com/",
+		"category": [
+			"Media"
+		]
+	},
+	
+	{
 		"title": "Paystack",
 		"filename": "paystack",
 		"url": "https://paystack.com/",
@@ -44,12 +65,28 @@
 		]
 	},
 	{
+		"title": "web boss",
+		"filename": "web_boss",
+		"url": "https://www.web-boss.com.ng/",
+		"category": [
+			"EdTech"
+		]
+	},
+	{
 		"title": "Polaris Bank",
 		"filename": "polaris_bank",
 		"url": "https://www.polarisbanklimited.com/",
 		"category": [
 			"Banking",
 			"Financial Services"
+		]
+	},
+	{
+		"title": "FourthCanvas",
+		"filename": "fourthcanvas",
+		"url": "https://fourthcanvas.co",
+		"category": [
+			"Branding"
 		]
 	},
 	{
@@ -1121,6 +1158,14 @@
 		]
 	},
 	{
+		"title": "SeamPay",
+		"filename": "seampay",
+		"url": "https://www.seampay.com/",
+		"category": [
+			"Financial Services"
+		]
+	},
+	{
 		"title": "Summitech Computing Limited",
 		"filename": "summitech",
 		"url": "https://www.summitech.ng/",
@@ -1128,5 +1173,163 @@
 			"Software",
 			"ICT"
 		]
+	},
+	{
+		"title": "Abeg",
+		"filename": "abeg",
+		"url": "https://www.abeg.app/",
+		"category": [
+			"Financial Services"
+		]
+	},
+	{
+		"title": "Air Peace",
+		"filename": "air_peace",
+		"url": "https://www.flyairpeace.com/",
+		"category": [
+			"Transportation"
+		]
+	},
+	{
+		"title": "Buypower",
+		"filename": "buypower",
+		"url": "https://buypower.ng/",
+		"category": [
+			"Power Distribution",
+			"ICT"
+		]
+	},
+	{
+		"title": "Filmhouse Cinemas",
+		"filename": "filmhouse",
+		"url": "https://filmhouseng.com/",
+		"category": [
+			"Entertainment"
+		]
+	},
+	{
+		"title": "Ibom Air",
+		"filename": "ibom_air",
+		"url": "https://www.ibomair.com/",
+		"category": [
+			"Transportation"
+		]
+	},
+	{
+		"title": "Kuda Bank",
+		"filename": "kuda_bank",
+		"url": "https://kudabank.com/",
+		"category": [
+			"Financial Services"
+		]
+	},
+	{
+		"title": "UPS",
+		"filename": "ups",
+		"url": "https://www.ups.com/",
+		"category": [
+			"Logistics"
+		]
+	},
+	{
+		"title": "Silverbird Cinemas",
+		"filename": "silverbird_cinemas",
+		"url": "https://silverbirdcinemas.com/",
+		"category": [
+			"Entertainment"
+		]
+	},
+	{
+		"title": "Seller",
+		"filename": "seller",
+		"url": "https://seller.ng/",
+		"category": [
+			"Ecommerce"
+		]
+	},
+	{
+		"title": "Yellowcard",
+		"filename": "yellowcard",
+		"url": "https://yellowcard.io/",
+		"category": [
+			"Cryptocurrency"
+		]
+	},
+	{
+		"title": "Cravvings",
+		"filename": "cravvings",
+		"url": "https://www.cravvings.com/",
+		"category": [
+			"Local Search",
+			"Business Ratings and Reviews",
+			"Online Food Delivery"
+		]
+	},
+	{
+		"title": "Pettysave",
+		"filename": "pettysave",
+		"url": "https://www.pettysave.com/",
+		"category": [
+			"Financial Services"
+		]
+	},
+	{
+		"title": "DearDesigner",
+		"filename": "dear_designer",
+		"url": "https://deardesigner.xyz/",
+		"category": [
+			"EdTech",
+			"Software",
+			"Product Design"
+		]
+	},
+	{
+		"title": "Peace Mass Transit",
+		"filename": "peace_mass_transit",
+		"url": "https://pmt.ng/",
+		"category": ["Transportation", "Logistics"]
+	},
+	{
+		"title": "Patricia",
+		"filename": "patricia",
+		"url": "https://patricia.com.ng/",
+		"category": ["Ecommerce", "Financial Services"]
+	},
+	{
+		"title": "Fundall",
+		"filename": "fundall",
+		"url": "https://www.fundall.io/",
+		"category": ["Banking", "Financial Services"]
+	},
+	{
+		"title": "Startuplist Africa",
+		"filename": "startuplist_africa",
+		"url": "https://startuplist.africa",
+		"category": [
+			"Big Data",
+			"Business Intelligence",
+			"Analytics"
+		]
+	},
+	{
+		"title": "Mono",
+		"filename": "mono",
+		"url": "https://mono.co",
+		"category": [
+			"Financial Data",
+			"Software"
+		]
+	},
+	{
+		"title": "Tix Africa",
+		"filename": "tix_africa",
+		"url": "https://tix.africa",
+		"category": ["Event Management"]
+	},
+	{
+		"title": "gidimo",
+		"filename": "gidimo",
+		"url": "https://gidimo.com/",
+		"category": ["EdTech"]
 	}
 ]
