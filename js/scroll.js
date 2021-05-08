@@ -1,5 +1,5 @@
 (function() {
-	const alphabets = document.querySelector('.companies-alphabet');
+	const main = document.querySelector('main');
 	const scrollShow = document.querySelector('.scroll-show');
 	const secondaryAlphabet = document.querySelector('.secondary-alphabet');
 	const scrollShowInput = document.querySelector('.scroll-show input');
@@ -16,10 +16,14 @@
 		secondaryAlphabet.style.zIndex = '666';
 	};
 	const windowOnScroll = () => {
-		if (alphabets.getBoundingClientRect().bottom < 0) {
-			scrollShow.style.display = 'block';
+		if (window.screen.width > 1000) {
+			if (main.getBoundingClientRect().top < 0) {
+				scrollShow.style.display = 'block';
+			} else {
+				scrollShow.style.display = 'none';
+			}
 		} else {
-			scrollShow.style.display = 'none';
+			scrollShow.removeAttribute('style');
 		}
 	};
 
