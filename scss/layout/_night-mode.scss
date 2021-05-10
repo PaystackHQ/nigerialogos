@@ -78,7 +78,8 @@ body.dark-mode {
             border-color: initial;
         }
 
-        .mode-button {
+        .mode-button,
+        .mode-button-mobile {
             border-color: $dm-border-color-2;
             background-color: $dm-bg-color-4;
             color: $dm-fg-color-1;

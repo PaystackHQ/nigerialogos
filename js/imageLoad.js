@@ -2,7 +2,7 @@
 const selects = document.querySelectorAll('.select select');
 const results = document.querySelector('#results');
 const alphabetlink = document.querySelector('.companies-alphabet');
-const modeButton = document.querySelector('.mode-button');
+const modeButtons = document.querySelectorAll('.mode-button,.mode-button-mobile');
 const modeButtonText = document.querySelector('.mode-button .text');
 
 const loadJSON = callback => {
@@ -123,6 +123,8 @@ const createSecondaryAlphabet = () => {
 };
 
 // Night Mode
+const getMode = localStorage.getItem('mode') || 'light';
+
 const loadMode = mode => {
 	mode = mode.toLowerCase();
 	if (mode === 'system') {
@@ -142,19 +144,28 @@ const updateModeUI = mode => {
 	loadMode(mode);
 	switch (mode.toLowerCase()) {
 		case 'system':
-			modeButton.className = 'mode-button light';
+			modeButtons.forEach(modeButton => {
+				modeButton.className = `${Array.from(modeButton.classList).shift()} light`;
+				modeButton.setAttribute('title', 'Light');
+			});
 			modeButtonText.textContent = 'Light';
 			localStorage.setItem('mode', 'system');
 			break;
 
 		case 'light':
-			modeButton.className = 'mode-button dark';
+			modeButtons.forEach(modeButton => {
+				modeButton.className = `${Array.from(modeButton.classList).shift()} dark`;
+				modeButton.setAttribute('title', 'Dark');
+			});
 			modeButtonText.textContent = 'Dark';
 			localStorage.setItem('mode', 'light');
 			break;
 
 		case 'dark':
-			modeButton.className = 'mode-button system';
+			modeButtons.forEach(modeButton => {
+				modeButton.className = `${Array.from(modeButton.classList).shift()} system`;
+				modeButton.setAttribute('title', 'System');
+			});
 			modeButtonText.textContent = 'System';
 			localStorage.setItem('mode', 'dark');
 			break;
@@ -164,8 +175,11 @@ const updateModeUI = mode => {
 	}
 };
 
-modeButton.addEventListener('click', () => {
-	updateModeUI(modeButtonText.textContent);
+modeButtons.forEach(modeButton => {
+	updateModeUI(getMode, modeButton);
+	modeButton.addEventListener('click', e => {
+		updateModeUI(modeButtonText.textContent, e.target);
+	});
 });
 
 window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
@@ -174,9 +188,6 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e =
 		loadMode(newColorScheme);
 	}
 });
-
-const getMode = localStorage.getItem('mode') || 'light';
-updateModeUI(getMode);
 
 init = () => {
 	// Create logos

@@ -270,13 +270,58 @@ header {
         }
     }
 
-    .contribute-mobile {
-        color: $col-grey-1;
-        text-decoration-color: $col-green-1;
+    .right-nav {
         position: absolute;
         top: 4.5%;
         right: 8%;
-        font-size: 150%;
         display: none;
+
+        .mode-button-mobile {
+            margin-right: 5px;
+            padding: 2px 5px;
+            cursor: pointer;
+            outline: none;
+            border: none;
+            border-radius: 2px;
+            transition: .2s all ease-in-out;
+
+            &.dark {
+                .icon {
+                    &.dark-mode {
+                        display: inline;
+                    }
+                }
+            }
+
+            &.light {
+                .icon {
+                    &.light-mode {
+                        display: inline;
+                    }
+                }
+            }
+
+            &.system {
+                .icon {
+                    &.system-mode {
+                        display: inline;
+                    }
+                }
+            }
+
+            .icon {
+                width: 1em;
+                display: inline;
+                position: relative;
+                top: 0.15em;
+                display: none;
+            }
+        }
+
+        .contribute-mobile {
+            color: $col-grey-1;
+            text-decoration-color: $col-green-1;
+            font-size: 150%;
+        }
     }
 }
