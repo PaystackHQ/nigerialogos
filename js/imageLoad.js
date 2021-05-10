@@ -2,36 +2,40 @@
 const selects = document.querySelectorAll('.select select');
 const results = document.querySelector('#results');
 const alphabetlink = document.querySelector('.companies-alphabet');
+const modeButton = document.querySelector('.mode-button');
+const modeButtonText = document.querySelector('.mode-button .text');
 
-function loadJSON(callback) {
+const loadJSON = callback => {
 	const xobj = new XMLHttpRequest();
 	xobj.overrideMimeType('application/json');
 	xobj.open('GET', 'logos.json', true);
-	xobj.onreadystatechange = function() {
+	xobj.onreadystatechange = () => {
 		if (xobj.readyState === 4) {
 			callback(xobj.responseText);
 		}
 	};
 	xobj.send(null);
-}
+};
 
-function sortObjectArray(array, key) {
+const sortObjectArray = (array, key) => {
 	return array.sort(function(a1, a2) {
 		const b1 = a1[key].toLowerCase();
 		const b2 = a2[key].toLowerCase();
-		if (b1 < b2) {
-			return -1;
-		}
-		return b1 > b2 ? 1 : 0;
-	});
-}
 
-function isValidURL(url) {
+		// return b1 < b2 ? -1 : b1 > b2 ? 1 : 0;
+		if (b1 === b2) {
+			return 0;
+		}
+		return b1 > b2 ? 1 : -1;
+	});
+};
+
+const isValidURL = url => {
 	const pattern = new RegExp(/^(?:http(s)?:\/\/)[\w.-]+(?:\.[\w.-]+)+[\w\-._~:/?#[\]@!$&'()*+,;=.]+$/);
 	return pattern.test(url);
-}
+};
 
-function setLogoCompanyLink(logoArray) {
+const setLogoCompanyLink = logoArray => {
 	logoArray.map(logo => {
 		const logoUrl = logo.url;
 
@@ -45,9 +49,9 @@ function setLogoCompanyLink(logoArray) {
 
 		return true;
 	});
-}
+};
 
-function createLogos(logoArray) {
+const createLogos = logoArray => {
 	let categories = [];
 	let groupanchor = '';
 	let logotitle = '';
@@ -100,9 +104,9 @@ function createLogos(logoArray) {
 			select.insertAdjacentHTML('beforeend', html);
 		});
 	});
-}
+};
 
-function createSecondaryAlphabet() {
+const createSecondaryAlphabet = () => {
 	const secondaryAlphabet = document.querySelector('.secondary-alphabet');
 	const letterACode = 65;
 	const letterZCode = 91;
@@ -116,9 +120,65 @@ function createSecondaryAlphabet() {
 		const html = `<a href="#${letter}">${letter}</a>`;
 		secondaryAlphabet.insertAdjacentHTML('beforeend', html);
 	}
-}
+};
 
-function init() {
+// Night Mode
+const loadMode = mode => {
+	mode = mode.toLowerCase();
+	if (mode === 'system') {
+		if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+			loadMode('dark');
+		} else {
+			loadMode('light');
+		}
+	} else if (mode === 'dark') {
+		document.body.className = 'dark-mode';
+	} else {
+		document.body.className = '';
+	}
+};
+
+const updateModeUI = mode => {
+	loadMode(mode);
+	switch (mode.toLowerCase()) {
+		case 'system':
+			modeButton.className = 'mode-button light';
+			modeButtonText.textContent = 'Light';
+			localStorage.setItem('mode', 'system');
+			break;
+
+		case 'light':
+			modeButton.className = 'mode-button dark';
+			modeButtonText.textContent = 'Dark';
+			localStorage.setItem('mode', 'light');
+			break;
+
+		case 'dark':
+			modeButton.className = 'mode-button system';
+			modeButtonText.textContent = 'System';
+			localStorage.setItem('mode', 'dark');
+			break;
+
+		default:
+			break;
+	}
+};
+
+modeButton.addEventListener('click', () => {
+	updateModeUI(modeButtonText.textContent);
+});
+
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+	const newColorScheme = e.matches ? 'dark' : 'light';
+	if (localStorage.getItem('mode') === 'system') {
+		loadMode(newColorScheme);
+	}
+});
+
+const getMode = localStorage.getItem('mode') || 'light';
+updateModeUI(getMode);
+
+init = () => {
 	// Create logos
 	loadJSON(response => {
 		const logoArray = JSON.parse(response);
@@ -128,7 +188,7 @@ function init() {
 		createLogos(logoArray);
 		results.innerHTML = `${logoArray.length}`;
 	});
-}
+};
 
 init();
 createSecondaryAlphabet();

@@ -135,6 +135,49 @@ header {
         margin-bottom: 80px;
     }
 
+    .mode-button {
+        margin-left: 10px;
+        padding: 2px 5px;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        border-radius: 2px;
+        transition: .2s all ease-in-out;
+
+        &.dark {
+            .icon {
+                &.dark-mode {
+                    display: inline;
+                }
+            }
+        }
+
+        &.light {
+            .icon {
+                &.light-mode {
+                    display: inline;
+                }
+            }
+        }
+
+        &.system {
+            .icon {
+                &.system-mode {
+                    display: inline;
+                }
+            }
+        }
+
+        .icon {
+            width: 1em;
+            display: inline;
+            margin-right: 5px;
+            position: relative;
+            top: 0.15em;
+            display: none;
+        }
+    }
+
     .contribute {
         position: absolute;
         cursor: pointer;
