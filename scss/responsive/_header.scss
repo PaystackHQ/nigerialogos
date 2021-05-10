@@ -8,6 +8,7 @@
         }
     }
 }
+
 @media screen and (max-width: 1350px) {
     header {
         .scroll-show {
@@ -18,6 +19,7 @@
         }
     }
 }
+
 @media screen and (max-width: 1100px) {
     header {
         .scroll-show {
@@ -27,6 +29,7 @@
         }
     }
 }
+
 @media screen and (max-width: 1000px) {
     header {
         .scroll-show {
@@ -34,21 +37,34 @@
         }
     }
 }
+
 @media screen and (max-width: 880px) {
-    header{
+    .mode-button {
+        display: none;
+    }
+
+    header {
         width: 90vw;
+
         .contribute {
             display: none;
         }
+
+        .right-nav {
+            display: flex;
+        }
+
         .contribute-mobile {
             display: block;
         }
+
         .subcopy {
             width: 100%;
             top: 22vh;
             margin-bottom: 0;
             text-align: center;
         }
+
         .heading {
             height: 45vw;
 
@@ -57,6 +73,7 @@
                 transform: translateX(-56%);
             }
         }
+
         .searchbar {
             flex-direction: column;
             justify-content: space-between;
@@ -66,7 +83,7 @@
             right: 50%;
             transform: translateX(50%);
             bottom: 3vw;
-    
+
             .search {
                 width: 100%;
                 margin-left: -1.2%;
@@ -83,19 +100,21 @@
                     border-radius: 5px;
                     margin-left: 5px;
                 }
+
                 .results {
                     top: 65px;
                 }
             }
-    
+
             .select {
                 width: 100%;
 
                 & select {
                     border-radius: 5px;
                 }
-            } 
+            }
         }
+
         h1 {
             top: 10vw;
             text-align: center;
@@ -106,13 +125,15 @@
 }
 
 @media screen and (max-width: 600px) {
-    header{
+    header {
         .heading {
             height: 80vw;
         }
+
         .searchbar {
             bottom: 18vw;
             width: 74vw;
+
             .search {
                 margin-left: -2%;
 
@@ -120,17 +141,20 @@
                     font-size: 16px;
                     padding: .45em 0 .3em 1em;
                 }
+
                 .results {
                     right: 50%;
                     transform: translateX(60%);
                 }
             }
+
             .select {
                 & select {
                     font-size: 16px;
                 }
-            } 
+            }
         }
+
         h1 {
             top: 20vw;
             font-size: 16px;
