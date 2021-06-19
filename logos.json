@@ -1337,5 +1337,23 @@
 		"filename": "thepeer",
 		"url": "https://thepeer.co",
 		"category": ["Financial Services"]
+	},
+	{
+		"title": "Circlepanda",
+		"filename": "circlepanda",
+		"url": "https://circlepanda.io",
+		"category": ["Software"]
+	},
+	{
+		"title": "Pandascrow",
+		"filename": "pandascrow",
+		"url": "https://pandascrow.io",
+		"category": ["Financial Services"]
+	},
+	{
+		"title": "Farmsby",
+		"filename": "farmsby",
+		"url": "https://farmsby.com",
+		"category": ["Agritech"]
 	}
 ]
