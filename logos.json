@@ -18,7 +18,7 @@
 			"Media"
 		]
 	},
-	
+
 	{
 		"title": "Paystack",
 		"filename": "paystack",
@@ -1339,5 +1339,11 @@
 		"filename": "gidimo",
 		"url": "https://gidimo.com/",
 		"category": ["EdTech"]
+	},
+	{
+		"title": "Thepeer",
+		"filename": "thepeer",
+		"url": "https://thepeer.co",
+		"category": ["Financial Services"]
 	}
 ]
