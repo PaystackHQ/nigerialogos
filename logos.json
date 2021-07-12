@@ -1337,5 +1337,11 @@
 		"filename": "thepeer",
 		"url": "https://thepeer.co",
 		"category": ["Financial Services"]
+	},
+	{
+		"title": "Okra",
+		"filename": "okra",
+		"url": "https://okra.ng/",
+		"category": ["Open Banking", "Fintech"]
 	}
 ]
