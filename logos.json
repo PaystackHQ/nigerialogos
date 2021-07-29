@@ -18,7 +18,7 @@
 			"Media"
 		]
 	},
-	
+
 	{
 		"title": "Paystack",
 		"filename": "paystack",
@@ -541,6 +541,14 @@
 		"url": "https://howdoyou.tech/",
 		"category": [
 			"EdTech"
+		]
+	},
+	{
+		"title": "Fluidcoins",
+		"filename": "fluidcoins",
+		"url": "https://fluidcoins.com",
+		"category": [
+			"Cryptocurrency"
 		]
 	},
 	{
@@ -1346,5 +1354,17 @@
 		"filename": "serah_kassim",
 		"url": "https://serahkassim.com/",
 		"category": ["fashion"]
+  },
+  {
+		"title": "Thepeer",
+		"filename": "thepeer",
+		"url": "https://thepeer.co",
+		"category": ["Financial Services"]
+	},
+	{
+		"title": "Okra",
+		"filename": "okra",
+		"url": "https://okra.ng/",
+		"category": ["Financial Services", "Software"]
 	}
 ]
