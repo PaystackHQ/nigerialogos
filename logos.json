@@ -544,6 +544,14 @@
 		]
 	},
 	{
+		"title": "Fluidcoins",
+		"filename": "fluidcoins",
+		"url": "https://fluidcoins.com",
+		"category": [
+			"Cryptocurrency"
+		]
+	},
+	{
 		"title": "Quidax",
 		"filename": "quidax",
 		"url": "https://www.quidax.com/",
@@ -1305,20 +1313,13 @@
 		"title": "Startuplist Africa",
 		"filename": "startuplist_africa",
 		"url": "https://startuplist.africa",
-		"category": [
-			"Big Data",
-			"Business Intelligence",
-			"Analytics"
-		]
+		"category": ["Big Data", "Business Intelligence", "Analytics"]
 	},
 	{
 		"title": "Mono",
 		"filename": "mono",
 		"url": "https://mono.co",
-		"category": [
-			"Financial Data",
-			"Software"
-		]
+		"category": ["Financial Data", "Software"]
 	},
 	{
 		"title": "Tix Africa",
@@ -1355,5 +1356,11 @@
 		"filename": "farmsby",
 		"url": "https://farmsby.com",
 		"category": ["Agritech"]
+	},
+  {
+		"title": "Okra",
+		"filename": "okra",
+		"url": "https://okra.ng/",
+		"category": ["Financial Services", "Software"]
 	}
 ]
