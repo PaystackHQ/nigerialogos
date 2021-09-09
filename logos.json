@@ -1375,5 +1375,11 @@
 		"filename": "okra",
 		"url": "https://okra.ng/",
 		"category": ["Financial Services", "Software"]
+	},
+	{
+		"title": "CredPal",
+		"filename": "credpal",
+		"url": "https://credpal.com",
+		"category": [ "Financial Services", "Software"]
 	}
 ]
