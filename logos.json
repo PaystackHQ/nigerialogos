@@ -1392,5 +1392,11 @@
 		"filename": "credpal",
 		"url": "https://credpal.com",
 		"category": [ "Financial Services", "Software"]
+	},
+	{
+		"title": "Spleet Africa",
+		"filename": "spleet",
+		"url": "https://spleet.africa",
+		"category": ["PropTech", "Real Estate"]
 	}
 ]
