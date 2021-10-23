@@ -1,5 +1,14 @@
 [
 	{
+		"title": "TalentQL",
+		"filename": "talentql",
+		"url": "https://talentql.com/",
+		"category": [
+			"Software",
+			"ICT" 
+		]
+	},
+	{
 		"title": "Seedbuilders",
 		"filename": "seedbuilders",
 		"url": "https://seedbuildersng.com/",
@@ -541,6 +550,14 @@
 		"url": "https://howdoyou.tech/",
 		"category": [
 			"EdTech"
+		]
+	},
+	{
+		"title": "Fluidcoins",
+		"filename": "fluidcoins",
+		"url": "https://fluidcoins.com",
+		"category": [
+			"Cryptocurrency"
 		]
 	},
 	{
@@ -1305,20 +1322,13 @@
 		"title": "Startuplist Africa",
 		"filename": "startuplist_africa",
 		"url": "https://startuplist.africa",
-		"category": [
-			"Big Data",
-			"Business Intelligence",
-			"Analytics"
-		]
+		"category": ["Big Data", "Business Intelligence", "Analytics"]
 	},
 	{
 		"title": "Mono",
 		"filename": "mono",
 		"url": "https://mono.co",
-		"category": [
-			"Financial Data",
-			"Software"
-		]
+		"category": ["Financial Data", "Software"]
 	},
 	{
 		"title": "Tix Africa",
@@ -1333,9 +1343,60 @@
 		"category": ["EdTech"]
 	},
 	{
+		"title": "Peerstack",
+		"filename": "peerstack",
+		"url": "https://www.thepeerstack.com",
+		"category": [
+			"Financial Services",
+			"Software"
+		]
+	},
+	{
+		"title": "Serah Kassim",
+		"filename": "serah_kassim",
+		"url": "https://serahkassim.com/",
+		"category": ["Fashion"]
+  },
+  {
 		"title": "Thepeer",
 		"filename": "thepeer",
 		"url": "https://thepeer.co",
 		"category": ["Financial Services"]
+	},
+	{
+		"title": "Circlepanda",
+		"filename": "circlepanda",
+		"url": "https://circlepanda.io",
+		"category": ["Software"]
+	},
+	{
+		"title": "Pandascrow",
+		"filename": "pandascrow",
+		"url": "https://pandascrow.io",
+		"category": ["Financial Services"]
+	},
+	{
+		"title": "Farmsby",
+		"filename": "farmsby",
+		"url": "https://farmsby.com",
+		"category": ["Agritech"]
+	},
+  {
+		"title": "Okra",
+		"filename": "okra",
+		"url": "https://okra.ng/",
+		"category": ["Financial Services", "Software"]
+	},
+	{
+		"title": "CredPal",
+		"filename": "credpal",
+		"url": "https://credpal.com",
+		"category": [ "Financial Services", "Software"]
+	},
+	{
+		"title": "Spleet Africa",
+		"filename": "spleet",
+		"url": "https://spleet.africa",
+		"category": ["PropTech", "Real Estate"]
 	}
 ]
