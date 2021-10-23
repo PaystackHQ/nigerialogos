@@ -31,8 +31,13 @@ const sortObjectArray = (array, key) => {
 };
 
 const isValidURL = url => {
-	const pattern = new RegExp(/^(?:http(s)?:\/\/)[\w.-]+(?:\.[\w.-]+)+[\w\-._~:/?#[\]@!$&'()*+,;=.]+$/);
-	return pattern.test(url);
+	let urlInstance;
+  try {
+    url = new URL(string);
+  } catch (_) {
+    return false;  
+  }
+  return url.protocol === "http:" || url.protocol === "https:";
 };
 
 const setLogoCompanyLink = logoArray => {
