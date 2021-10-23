@@ -33,7 +33,7 @@ const sortObjectArray = (array, key) => {
 const isValidURL = url => {
 	let urlInstance;
   try {
-    urlInstance = new URL(string);
+    urlInstance = new URL(url);
   } catch (_) {
     return false;  
   }
