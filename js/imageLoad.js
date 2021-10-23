@@ -33,11 +33,11 @@ const sortObjectArray = (array, key) => {
 const isValidURL = url => {
 	let urlInstance;
   try {
-    url = new URL(string);
+    urlInstance = new URL(string);
   } catch (_) {
     return false;  
   }
-  return url.protocol === "http:" || url.protocol === "https:";
+  return urlInstance.protocol === "http:" || urlInstance.protocol === "https:";
 };
 
 const setLogoCompanyLink = logoArray => {
