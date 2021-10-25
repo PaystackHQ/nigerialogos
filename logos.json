@@ -9,6 +9,15 @@
 		]
 	},
 	{
+		"title": "Getequity",
+		"filename": "getequity",
+		"url": "https://getequity.io/",
+		"category": [
+			"Financial Services",
+			"Venture Capital" 
+		]
+	},
+	{
 		"title": "Seedbuilders",
 		"filename": "seedbuilders",
 		"url": "https://seedbuildersng.com/",
