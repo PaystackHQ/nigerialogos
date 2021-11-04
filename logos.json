@@ -1407,5 +1407,11 @@
 		"filename": "spleet",
 		"url": "https://spleet.africa",
 		"category": ["PropTech", "Real Estate"]
+	},
+	{
+		"title": "Channels TV",
+		"filename": "channels_tv",
+		"url": "https://www.channelstv.com/",
+		"category": ["Media", "Blog"]
 	}
 ]
