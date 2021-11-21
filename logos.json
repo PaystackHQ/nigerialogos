@@ -1,11 +1,20 @@
 [
 	{
+		"title": "Yournotify",
+		"filename": "yournotify",
+		"url": "https://yournotify.com/",
+		"category": [
+			"Marketing",
+			"Software"
+		]
+	},
+	{
 		"title": "AltSchool Africa",
 		"filename": "altschool_africa",
 		"url": "https://altschoolafrica.com/",
 		"category": [
 			"Software",
-			"ICT" 
+			"ICT"
 		]
 	},
 	{
@@ -14,7 +23,7 @@
 		"url": "https://talentql.com/",
 		"category": [
 			"Software",
-			"ICT" 
+			"ICT"
 		]
 	},
 	{
