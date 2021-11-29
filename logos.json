@@ -1424,5 +1424,11 @@
 		"filename": "channels_tv",
 		"url": "https://www.channelstv.com/",
 		"category": ["Media", "Blog"]
+	},
+	{
+		"title": "Globus Bank",
+		"filename": "globus_bank",
+		"url": "https://www.globusbank.com",
+		"category": ["Banking", "Financial Services"]
 	}
 ]
