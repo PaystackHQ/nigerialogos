@@ -1430,5 +1430,11 @@
 		"filename": "techpoint_africa",
 		"url": "https://www.techpoint.africa",
 		"category": ["Media"]
+	},
+	{
+		"title": "Acumen Digital",
+		"filename": "acumen_digital",
+		"url": "https://acumen.digital",
+		"category": ["Software", "ICT"]
 	}
 ]
