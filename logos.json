@@ -1430,5 +1430,59 @@
 		"filename": "techpoint_africa",
 		"url": "https://www.techpoint.africa",
 		"category": ["Media"]
+	},
+	{
+		"title": "byte",
+		"filename": "byte",
+		"url": "https://www.mybyte.app/",
+		"category": ["Finacial service"]
+	},
+	{
+		"title": "Farm peer",
+		"filename": "farm_peer",
+		"url": "https://farmpeer.com/",
+		"category": ["AgroTech","Finacial service"]
+	},
+	{
+		"title": "Aboki Africa",
+		"filename": "aboki_africa",
+		"url": "https://aboki.africa/",
+		"category": ["Financial Services"]
+	},
+	{
+		"title": "Kings Chat",
+		"filename": "kings_chat",
+		"url": "https://kingsch.at/h/",
+		"category": ["Social Network"]
+	},
+	{
+		"title": "Sun Trust Bank",
+		"filename": "sun_trust",
+		"url": "https://www.suntrust.com/",
+		"category": ["Financial Services"]
+	},
+	{
+		"title": "Tastee Fried Chicken",
+		"filename": "TFC",
+		"url": "https://www.suntrust.com/",
+		"category": ["Food"]
+	},
+	{
+		"title": "getBumpa",
+		"filename": "getBumpa",
+		"url": "https://getbumpa.com/",
+		"category": ["Ecommerce","Marketplace"]
+	},
+	{
+		"title": "Our Eden Life",
+		"filename": "our_eden_life",
+		"url": "https://ouredenlife.com/",
+		"category": ["Food"]
+	},
+	{
+		"title": "Get Conovoy",
+		"filename": "get_convoy",
+		"url": "https://getconvoy.io/",
+		"category": ["Software"]
 	}
 ]
