@@ -1351,13 +1351,7 @@
 		"url": "https://pandascrow.io",
 		"category": ["Financial Services"]
 	},
-	{
-		"title": "Farmsby",
-		"filename": "farmsby",
-		"url": "https://farmsby.com",
-		"category": ["Agritech"]
-	},
-  {
+  	{
 		"title": "Okra",
 		"filename": "okra",
 		"url": "https://okra.ng/",
