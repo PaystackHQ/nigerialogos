@@ -17,34 +17,6 @@
 		]
 	},
 	{
-		"title": "Learn Factory",
-		"filename": "learn_factory",
-		"url": "https://learnfactory.com.ng/",
-		"category": [
-			"Software",
-			"EdTech"
-		]
-	},
-	{
-		"title": "Amplify",
-		"filename": "amplify",
-		"url": "https://www.amplify.ng/",
-		"category": [
-			"Digital Marketing",
-			"Branding"
-		]
-	},
-	{
-		"title": "SalesRuby Limited",
-		"filename": "sales_ruby",
-		"url": "https://salesruby.com",
-		"category": [
-			"Sales",
-			"Consulting",
-			"Training"
-		]
-	},
-	{
 		"title": "Swirge",
 		"filename": "swirge",
 		"url": "https://swirge.com/",
