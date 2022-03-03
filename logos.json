@@ -1436,5 +1436,11 @@
 		"filename": "moniepoint",
 		"url": "https://moniepoint.com/",
 		"category": ["Banking", "Financial Services"]
+	},
+	{
+		"title": "Ku Fm",
+		"filename": "ku_fm",
+		"url": "https://kufm.net/",
+		"category": ["Media", "Radio"]
 	}
 ]
