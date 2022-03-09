@@ -1436,5 +1436,11 @@
 		"filename": "moniepoint",
 		"url": "https://moniepoint.com/",
 		"category": ["Banking", "Financial Services"]
+	},
+	{
+		"title": "Punch Newspaper",
+		"filename": "punsh_newspaper",
+		"url": "https://punchng.com/",
+		"category": ["Media"]
 	}
 ]
