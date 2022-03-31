@@ -16,7 +16,7 @@
 		"url": "https://altschoolafrica.com/",
 		"category": [
 			"Software",
-			"ICT" 
+			"ICT"
 		]
 	},
 	{
@@ -25,7 +25,7 @@
 		"url": "https://talentql.com/",
 		"category": [
 			"Software",
-			"ICT" 
+			"ICT"
 		]
 	},
 	{
@@ -1432,6 +1432,7 @@
 		"category": ["Media"]
 	},
 	{
+
 		"title": "byte",
 		"filename": "byte",
 		"url": "https://www.mybyte.app/",
@@ -1484,5 +1485,10 @@
 		"filename": "get_convoy",
 		"url": "https://getconvoy.io/",
 		"category": ["Software"]
+
+		"title": "Moniepoint",
+		"filename": "moniepoint",
+		"url": "https://moniepoint.com/",
+		"category": ["Banking", "Financial Services"]
 	}
 ]
