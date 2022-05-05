@@ -1436,5 +1436,11 @@
 		"filename": "moniepoint",
 		"url": "https://moniepoint.com/",
 		"category": ["Banking", "Financial Services"]
+	},
+	{
+		"title": "Fincra",
+		"filename": "fincra",
+		"url": "https://fincra.com/",
+		"category": ["Financial Services"]
 	}
 ]
