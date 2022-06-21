@@ -38,7 +38,6 @@
 		"url": "https://www.bellanaija.com/",
 		"category": ["Media"]
 	},
-
 	{
 		"title": "Paystack",
 		"filename": "paystack",
@@ -1027,6 +1026,7 @@
 		"title": "Globus Bank",
 		"filename": "globus_bank",
 		"url": "https://www.globusbank.com",
+    "category": ["Banking", "Financial Services"]
   },
 	{
 		"title": "Techpoint Africa",
@@ -1047,6 +1047,12 @@
 		"category": ["Banking", "Financial Services"]
 	},
 	{
+		"title": "Fincra",
+		"filename": "fincra",
+		"url": "https://fincra.com/",
+		"category": ["Financial Services"]
+  },
+  {
 		"title": "Indicina",
 		"filename": "indicina",
 		"url": "https://indicina.co/",
