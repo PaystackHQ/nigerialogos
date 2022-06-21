@@ -7,1185 +7,825 @@
 			"Banking",
 			"Financial Services"
 		]
-	},	  
+	},
 	{
 		"title": "AlphaCX Intelligent Platforms",
 		"filename": "alphacx",
 		"url": "https://alphacx.co/",
+		"category": ["Software", "ICT", "CRM"]
+	},
+	{
+		"title": "Yournotify",
+		"filename": "yournotify",
+		"url": "https://yournotify.com/",
 		"category": [
-			"Software",
-			"ICT",
-			"CRM"
+			"Marketing",
+			"Software"
 		]
 	},
 	{
 		"title": "AltSchool Africa",
 		"filename": "altschool_africa",
 		"url": "https://altschoolafrica.com/",
-		"category": [
-			"Software",
-			"ICT"
-		]
+		"category": ["Software", "ICT"]
 	},
 	{
 		"title": "TalentQL",
 		"filename": "talentql",
 		"url": "https://talentql.com/",
-		"category": [
-			"Software",
-			"ICT"
-		]
+		"category": ["Software", "ICT"]
 	},
 	{
 		"title": "Seedbuilders",
 		"filename": "seedbuilders",
 		"url": "https://seedbuildersng.com/",
-		"category": [
-			"Coworking",
-			"Virtual Office",
-			"Foundation",
-			"ICT"
-		]
+		"category": ["Coworking", "Virtual Office", "Foundation", "ICT"]
 	},
 	{
 		"title": "BellaNaija",
 		"filename": "bellanaija",
 		"url": "https://www.bellanaija.com/",
-		"category": [
-			"Media"
-		]
+		"category": ["Media"]
 	},
-
 	{
 		"title": "Paystack",
 		"filename": "paystack",
 		"url": "https://paystack.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "ALAT by Wema",
 		"filename": "alat_by_wema",
 		"url": "https://www.alat.ng/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Mainstreet Bank",
 		"filename": "mainstreet_bank",
 		"url": "http://mainstreetcapltd.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Ekondo Microfinance Bank",
 		"filename": "ekondo_microfinance_bank",
 		"url": "http://www.ekondomfbank.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Aso Savings",
 		"filename": "aso_savings_loans",
 		"url": "http://www.asoplc.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "web boss",
 		"filename": "web_boss",
 		"url": "https://www.web-boss.com.ng/",
-		"category": [
-			"EdTech"
-		]
+		"category": ["EdTech"]
 	},
 	{
 		"title": "Polaris Bank",
 		"filename": "polaris_bank",
 		"url": "https://www.polarisbanklimited.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "FourthCanvas",
 		"filename": "fourthcanvas",
 		"url": "https://fourthcanvas.co",
-		"category": [
-			"Branding"
-		]
+		"category": ["Branding"]
 	},
 	{
 		"title": "Guaranty Trust Bank",
 		"filename": "guaranty_trust_bank",
 		"url": "https://www.gtbank.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Julius Berger",
 		"filename": "julius_berger",
 		"url": "https://www.julius-berger.com/",
-		"category": [
-			"Construction"
-		]
+		"category": ["Construction"]
 	},
 	{
 		"title": "Zenith Bank",
 		"filename": "zenith_bank",
 		"url": "https://www.zenithbank.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Cowrywise",
 		"filename": "cowrywise",
 		"url": "https://cowrywise.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Hotels.ng",
 		"filename": "hotels_ng",
 		"url": "https://hotels.ng/",
-		"category": [
-			"Real Estate"
-		]
+		"category": ["Real Estate"]
 	},
 	{
 		"title": "United Bank for Africa",
 		"filename": "united_bank_for_africa",
 		"url": "https://www.ubagroup.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Aero Contractors",
 		"filename": "aero_contractors",
 		"url": "http://www.flyaero.com/",
-		"category": [
-			"Transportation"
-		]
+		"category": ["Transportation"]
 	},
 	{
 		"title": "Arik Air",
 		"filename": "arik_air",
 		"url": "https://www.arikair.com/",
-		"category": [
-			"Transportation"
-		]
+		"category": ["Transportation"]
 	},
 	{
 		"title": "Konga",
 		"filename": "konga",
 		"url": "https://www.konga.com/",
-		"category": [
-			"Ecommerce"
-		]
+		"category": ["Ecommerce"]
 	},
 	{
 		"title": "Peak Milk",
 		"filename": "peak_milk",
 		"url": "https://www.peakmilk.com.ng/",
-		"category": [
-			"FMCG",
-			"Conglomerate"
-		]
+		"category": ["FMCG", "Conglomerate"]
 	},
 	{
 		"title": "Softcom",
 		"filename": "softcom",
 		"url": "https://softcom.ng/",
-		"category": [
-			"Software",
-			"ICT"
-		]
+		"category": ["Software", "ICT"]
 	},
 	{
 		"title": "Bolt",
 		"filename": "bolt",
 		"url": "https://bolt.eu",
-		"category": [
-			"Transportation"
-		]
+		"category": ["Transportation"]
 	},
 	{
 		"title": "Nairabet",
 		"filename": "nairabet",
 		"url": "https://www.nairabet.com/",
-		"category": [
-			"Gaming",
-			"Sports"
-		]
+		"category": ["Gaming", "Sports"]
 	},
 	{
 		"title": "Betway",
 		"filename": "betway",
 		"url": "https://betway.com/",
-		"category": [
-			"Gaming",
-			"Sports"
-		]
+		"category": ["Gaming", "Sports"]
 	},
 	{
 		"title": "Paylater",
 		"filename": "paylater",
 		"url": "https://app.getcarbon.co/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Farmcrowdy",
 		"filename": "farmcrowdy",
 		"url": "https://www.farmcrowdy.com/",
-		"category": [
-			"FMCG",
-			"Conglomerate"
-		]
+		"category": ["FMCG", "Conglomerate"]
 	},
 	{
 		"title": "MTN",
 		"filename": "mtn",
 		"url": "https://www.mtnonline.com/",
-		"category": [
-			"Telecommunication",
-			"ISP"
-		]
+		"category": ["Telecommunication", "ISP"]
 	},
 	{
 		"title": "Opera",
 		"filename": "opera",
 		"url": "https://www.opera.com/",
-		"category": [
-			"Software",
-			"ICT"
-		]
+		"category": ["Software", "ICT"]
 	},
 	{
 		"title": "Iroko TV",
 		"filename": "iroko_tv",
 		"url": "https://irokotv.com/",
-		"category": [
-			"Media",
-			"Entertainment"
-		]
+		"category": ["Media", "Entertainment"]
 	},
 	{
 		"title": "Reliance HMO",
 		"filename": "reliance_hmo",
 		"url": "https://www.reliancehmo.com/",
-		"category": [
-			"Health",
-			"NGO"
-		]
+		"category": ["Health", "NGO"]
 	},
 	{
 		"title": "Ren Money",
 		"filename": "ren_money",
 		"url": "https://renmoney.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Branch",
 		"filename": "branch",
 		"url": "https://branch.com.ng/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "PiggyVest",
 		"filename": "piggyvest",
 		"url": "https://www.piggyvest.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "GUO Transport",
 		"filename": "guo_transport",
 		"url": "https://guotransport.com/",
-		"category": [
-			"Transportation"
-		]
+		"category": ["Transportation"]
 	},
 	{
 		"title": "GIGM",
 		"filename": "gigm",
 		"url": "https://gigm.com/",
-		"category": [
-			"Transportation"
-		]
+		"category": ["Transportation"]
 	},
 	{
 		"title": "AXA Mansard",
 		"filename": "axa_mansard",
 		"url": "https://www.axamansard.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Flutterwave",
 		"filename": "flutterwave",
 		"url": "https://flutterwave.com/ng/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Smile",
 		"filename": "smile",
 		"url": "https://smile.com.ng/",
-		"category": [
-			"Telecommunication",
-			"ISP"
-		]
+		"category": ["Telecommunication", "ISP"]
 	},
 	{
 		"title": "SportyBet",
 		"filename": "sportybet",
 		"url": "https://www.sportybet.com/ng/",
-		"category": [
-			"Gaming",
-			"Sports"
-		]
+		"category": ["Gaming", "Sports"]
 	},
 	{
 		"title": "Terra Kulture",
 		"filename": "terra_kulture",
 		"url": "https://www.terrakulture.com/",
-		"category": [
-			"Media",
-			"Entertainment"
-		]
+		"category": ["Media", "Entertainment"]
 	},
 	{
 		"title": "Verifi",
 		"filename": "verifi",
 		"url": "https://www.verifi.ng/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Aella Credit",
 		"filename": "aella_credit",
 		"url": "https://aellacredit.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "BuyCoins",
 		"filename": "buycoins",
 		"url": "https://buycoins.africa/",
-		"category": [
-			"Cryptocurrency"
-		]
+		"category": ["Cryptocurrency"]
 	},
 	{
 		"title": "PoFela Nigeria",
 		"filename": "pofela",
 		"url": "https://www.pofela.com/",
-		"category": [
-			"Cryptocurrency"
-		]
+		"category": ["Cryptocurrency"]
 	},
 	{
 		"title": "Kadarko.com Marketplace",
 		"filename": "kadarko",
 		"url": "http://storesby.com/",
-		"category": [
-			"Ecommerce",
-			"Marketplace"
-		]
+		"category": ["Ecommerce", "Marketplace"]
 	},
 	{
 		"title": "Barter",
 		"filename": "barter",
 		"url": "https://barter.flutterwave.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Arla Food Inc.",
 		"filename": "arla",
 		"url": "https://www.arla.ng/",
-		"category": [
-			"FMCG",
-			"Conglomerate"
-		]
+		"category": ["FMCG", "Conglomerate"]
 	},
 	{
 		"title": "Bet9ja",
 		"filename": "bet9ja",
 		"url": "https://www.bet9ja.com/",
-		"category": [
-			"Gaming",
-			"Sports"
-		]
+		"category": ["Gaming", "Sports"]
 	},
 	{
 		"title": "Dano Milk",
 		"filename": "dano",
 		"url": "https://dano.com.ng/",
-		"category": [
-			"FMCG",
-			"Conglomerate"
-		]
+		"category": ["FMCG", "Conglomerate"]
 	},
 	{
 		"title": "First City Monument Bank Ltd",
 		"filename": "fcmb",
 		"url": "https://www.fcmb.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Milo",
 		"filename": "milo",
 		"url": "https://www.nestle.com/brands/allbrands/milo",
-		"category": [
-			"FMCG",
-			"Conglomerate"
-		]
+		"category": ["FMCG", "Conglomerate"]
 	},
 	{
 		"title": "Nestle",
 		"filename": "nestle",
 		"url": "https://www.nestle.com",
-		"category": [
-			"FMCG",
-			"Conglomerate"
-		]
+		"category": ["FMCG", "Conglomerate"]
 	},
 	{
 		"title": "Paga",
 		"filename": "paga",
 		"url": "https://www.mypaga.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Sterling Bank Plc",
 		"filename": "sterling_bank",
 		"url": "https://sterling.ng/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "TeamApt",
 		"filename": "teamapt",
 		"url": "https://teamapt.com/",
-		"category": [
-			"Software",
-			"ICT"
-		]
+		"category": ["Software", "ICT"]
 	},
 	{
 		"title": "Union Bank Nigeria",
 		"filename": "union_bank",
 		"url": "https://www.unionbankng.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "eHealth Africa",
 		"filename": "ehealth_africa",
 		"url": "https://www.ehealthafrica.org/",
-		"category": [
-			"Health",
-			"NGO"
-		]
+		"category": ["Health", "NGO"]
 	},
 	{
 		"title": "Check DC",
 		"filename": "check_dc",
 		"url": "https://check-dc.com/",
-		"category": [
-			"Branding"
-		]
+		"category": ["Branding"]
 	},
 	{
 		"title": "Mobnia",
 		"filename": "mobnia",
 		"url": "https://mobnia.com/",
-		"category": [
-			"Branding"
-		]
+		"category": ["Branding"]
 	},
 	{
 		"title": "Health Assur Ltd",
 		"filename": "health_assur",
 		"url": "https://www.healthassur.com/",
-		"category": [
-			"Health",
-			"NGO"
-		]
+		"category": ["Health", "NGO"]
 	},
 	{
 		"title": "SiriusLabs",
 		"filename": "siriuslabs",
 		"url": "https://siriuslabs.io/",
-		"category": [
-			"Product Design"
-		]
+		"category": ["Product Design"]
 	},
 	{
 		"title": "How Do You Tech",
 		"filename": "how_do_you_tech",
 		"url": "https://howdoyou.tech/",
-		"category": [
-			"EdTech"
-		]
+		"category": ["EdTech"]
 	},
 	{
 		"title": "Fluidcoins",
 		"filename": "fluidcoins",
 		"url": "https://fluidcoins.com",
-		"category": [
-			"Cryptocurrency"
-		]
+		"category": ["Cryptocurrency"]
 	},
 	{
 		"title": "Quidax",
 		"filename": "quidax",
 		"url": "https://www.quidax.com/",
-		"category": [
-			"Cryptocurrency"
-		]
+		"category": ["Cryptocurrency"]
 	},
 	{
 		"title": "Fliqpay",
 		"filename": "fliqpay",
 		"url": "https://www.fliqpay.com/",
-		"category": [
-			"Cryptocurrency"
-		]
+		"category": ["Cryptocurrency"]
 	},
 	{
 		"title": "Access Bank PLC",
 		"filename": "access_bank",
 		"url": "https://www.accessbankplc.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Ecobank",
 		"filename": "ecobank",
 		"url": "https://ecobank.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Fidelity Bank Nigeria",
 		"filename": "fidelity_bank",
 		"url": "https://www.fidelitybank.ng/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "First Bank Nigeria",
 		"filename": "first_bank",
 		"url": "https://www.firstbanknigeria.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Standard Chartered",
 		"filename": "standard_chartered",
 		"url": "https://www.sc.com/ng/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Nigerian Breweries PLC",
 		"filename": "nigerian_breweries",
 		"url": "https://nbplc.com/",
-		"category": [
-			"FMCG",
-			"Conglomerate"
-		]
+		"category": ["FMCG", "Conglomerate"]
 	},
 	{
 		"title": "Vconnect",
 		"filename": "vconnect",
 		"url": "https://m.vconnect.com/",
-		"category": [
-			"Marketplace"
-		]
+		"category": ["Marketplace"]
 	},
 	{
 		"title": "Stanbic IBTC Bank",
 		"filename": "stanbic_ibtc",
 		"url": "https://www.stanbicibtcbank.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Wema Bank",
 		"filename": "wema_bank",
 		"url": "https://www.wemabank.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Heritage Bank PLC",
 		"filename": "heritage_bank",
 		"url": "https://www.hbng.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Keystone Bank Limited",
 		"filename": "keystone_bank",
 		"url": "https://www.keystonebankng.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Interswitch",
 		"filename": "interswitch",
 		"url": "https://www.interswitchgroup.com/ug",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Verve",
 		"filename": "verve",
 		"url": "https://www.myverveworld.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Quickteller",
 		"filename": "quickteller",
 		"url": "https://www.quickteller.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Nixero Enterprises",
 		"filename": "nixero_enterprises",
 		"url": "https://www.nixeroict.com/",
-		"category": [
-			"Software",
-			"ICT"
-		]
+		"category": ["Software", "ICT"]
 	},
 	{
 		"title": "Korapay",
 		"filename": "korapay",
 		"url": "https://korapay.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Andela Nigeria",
 		"filename": "andela",
 		"url": "https://andela.com/",
-		"category": [
-			"Software",
-			"ICT"
-		]
+		"category": ["Software", "ICT"]
 	},
 	{
 		"title": "Airtel Nigeria",
 		"filename": "airtel",
 		"url": "https://www.airtel.com.ng/",
-		"category": [
-			"Telecommunication",
-			"ISP"
-		]
+		"category": ["Telecommunication", "ISP"]
 	},
 	{
 		"title": "9mobile",
 		"filename": "9mobile",
 		"url": "https://9mobile.com.ng/",
-		"category": [
-			"Telecommunication",
-			"ISP"
-		]
+		"category": ["Telecommunication", "ISP"]
 	},
 	{
 		"title": "Globacom Limited",
 		"filename": "glo",
 		"url": "https://www.gloworld.com/ng/",
-		"category": [
-			"Telecommunication",
-			"ISP"
-		]
+		"category": ["Telecommunication", "ISP"]
 	},
 	{
 		"title": "Innovation Growth Hub",
 		"filename": "innovation_growth_hub",
 		"url": "https://ighub.com.ng/",
-		"category": [
-			"Software",
-			"ICT"
-		]
+		"category": ["Software", "ICT"]
 	},
 	{
 		"title": "Gigalayer",
 		"filename": "gigalayer",
 		"url": "https://gigalayer.com/",
-		"category": [
-			"Software",
-			"ICT"
-		]
+		"category": ["Software", "ICT"]
 	},
 	{
 		"title": "Business Day",
 		"filename": "business_day",
 		"url": "https://businessday.ng/",
-		"category": [
-			"Newspaper",
-			"Blog"
-		]
+		"category": ["Newspaper", "Blog"]
 	},
 	{
 		"title": "Circa",
 		"filename": "circa",
 		"url": "https://circa-lagos.business.site/",
-		"category": [
-			"Restaurant"
-		]
+		"category": ["Restaurant"]
 	},
 	{
 		"title": "Disrupt Africa",
 		"filename": "disrupt_africa",
 		"url": "http://disrupt-africa.com/",
-		"category": [
-			"Newspaper",
-			"Blog"
-		]
+		"category": ["Newspaper", "Blog"]
 	},
 	{
 		"title": "Federal Inland Revenue Service",
 		"filename": "firs",
 		"url": "https://www.firs.gov.ng/",
-		"category": [
-			"Government Agency"
-		]
+		"category": ["Government Agency"]
 	},
 	{
 		"title": "Investment One",
 		"filename": "investment_one",
 		"url": "https://www.investment-one.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Nigeria Football Federation",
 		"filename": "nff",
 		"url": "https://www.nigeriaff.com/",
-		"category": [
-			"Government Agency",
-			"Sports"
-		]
+		"category": ["Government Agency", "Sports"]
 	},
 	{
 		"title": "National Identity Management Commission",
 		"filename": "nimc",
 		"url": "https://www.nimc.gov.ng/",
-		"category": [
-			"Government Agency"
-		]
+		"category": ["Government Agency"]
 	},
 	{
 		"title": "Oando PLC",
 		"filename": "oando",
 		"url": "https://www.oandoplc.com/",
-		"category": [
-			"Petroleum and Gas"
-		]
+		"category": ["Petroleum and Gas"]
 	},
 	{
 		"title": "ThankUCash",
 		"filename": "thank_u_cash",
 		"url": "http://thankucash.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "The Tony Elumelu Foundation",
 		"filename": "tony_elumelu_foundation",
 		"url": "https://www.tonyelumelufoundation.org/",
-		"category": [
-			"Foundation",
-			"NGO"
-		]
+		"category": ["Foundation", "NGO"]
 	},
 	{
 		"title": "Total Nigeria",
 		"filename": "total",
 		"url": "https://www.total.com.ng/",
-		"category": [
-			"Petroleum and Gas"
-		]
+		"category": ["Petroleum and Gas"]
 	},
 	{
 		"title": "Wallets Africa",
 		"filename": "wallets_africa",
 		"url": "https://wallets.africa/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Wilson’s Juice Co",
 		"filename": "wilsons",
 		"url": "http://www.wilsonsjuiceco.com/",
-		"category": [
-			"FMCG",
-			"Conglomerate"
-		]
+		"category": ["FMCG", "Conglomerate"]
 	},
 	{
 		"title": "Workstation",
 		"filename": "workstation",
 		"url": "https://www.workstationng.com/",
-		"category": [
-			"Coworking",
-			"Virtual Office"
-		]
+		"category": ["Coworking", "Virtual Office"]
 	},
 	{
 		"title": "Verdant",
 		"filename": "verdant",
 		"url": "https://verdant.ng/",
-		"category": [
-			"Agritech"
-		]
+		"category": ["Agritech"]
 	},
 	{
 		"title": "OkadaBooks",
 		"filename": "okadabooks",
 		"url": "https://okadabooks.com/",
-		"category": [
-			"Publishing"
-		]
+		"category": ["Publishing"]
 	},
 	{
 		"title": "Hall 7 Real Estate",
 		"filename": "hall_7_real_estate",
 		"url": "https://www.hall7projects.com/",
-		"category": [
-			"Construction",
-			"Real Estate"
-		]
+		"category": ["Construction", "Real Estate"]
 	},
 	{
 		"title": "ntel",
 		"filename": "ntel",
 		"url": "http://www.ntel.com.ng/",
-		"category": [
-			"Telecommunication",
-			"ISP"
-		]
+		"category": ["Telecommunication", "ISP"]
 	},
 	{
 		"title": "Tecno",
 		"filename": "tecno",
 		"url": "https://www.tecno-mobile.com/",
-		"category": [
-			"ICT"
-		]
+		"category": ["ICT"]
 	},
 	{
 		"title": "Decagon",
 		"filename": "decagon",
 		"url": "https://decagonhq.com/",
-		"category": [
-			"Software",
-			"ICT"
-		]
+		"category": ["Software", "ICT"]
 	},
 	{
 		"title": "Spectranet",
 		"filename": "spectranet",
 		"url": "https://spectranet.com.ng/",
-		"category": [
-			"ISP"
-		]
+		"category": ["ISP"]
 	},
 	{
 		"title": "TechCity",
 		"filename": "techcity",
 		"url": "https://www.techcityng.com/",
-		"category": [
-			"Blog"
-		]
+		"category": ["Blog"]
 	},
 	{
 		"title": "Slot",
 		"filename": "slot",
 		"url": "https://slot.ng/",
-		"category": [
-			"Marketplace",
-			"Ecommerce"
-		]
+		"category": ["Marketplace", "Ecommerce"]
 	},
 	{
 		"title": "Ventures Platform",
 		"filename": "ventures_platform",
 		"url": "https://venturesplatform.com/",
-		"category": [
-			"Financial Services",
-			"Foundation"
-		]
+		"category": ["Financial Services", "Foundation"]
 	},
 	{
 		"title": "Printivo",
 		"filename": "printivo",
 		"url": "https://printivo.com/",
-		"category": [
-			"Ecommerce",
-			"Branding"
-		]
+		"category": ["Ecommerce", "Branding"]
 	},
 	{
 		"title": "Spinlet",
 		"filename": "spinlet",
 		"url": "https://spinlet.com/",
-		"category": [
-			"Media",
-			"Entertainment"
-		]
+		"category": ["Media", "Entertainment"]
 	},
 	{
 		"title": "ipNX",
 		"filename": "ipnx",
 		"url": "https://www.ipnxnigeria.net/",
-		"category": [
-			"ISP",
-			"Telecommunication"
-		]
+		"category": ["ISP", "Telecommunication"]
 	},
 	{
 		"title": "Whogohost",
 		"filename": "whogohost",
 		"url": "https://www.whogohost.com/",
-		"category": [
-			"Web Host",
-			"Domain Registrar"
-		]
+		"category": ["Web Host", "Domain Registrar"]
 	},
 	{
 		"title": "TechCabal",
 		"filename": "techcabal",
 		"url": "https://techcabal.com/",
-		"category": [
-			"Media"
-		]
+		"category": ["Media"]
 	},
 	{
 		"title": "Glamafric",
 		"filename": "glamafric",
 		"url": "http://glamafric.com/",
-		"category": [
-			"Marketplace"
-		]
+		"category": ["Marketplace"]
 	},
 	{
 		"title": "Lendsqr",
 		"filename": "lendsqr",
 		"url": "https://lendsqr.com/",
-		"category": [
-			"Software",
-			"ICT"
-		]
+		"category": ["Software", "ICT"]
 	},
 	{
 		"title": "Mercurie",
 		"filename": "mercurie",
 		"url": "https://mercurie.ng/",
-		"category": [
-			"Digital Marketing"
-		]
+		"category": ["Digital Marketing"]
 	},
 	{
 		"title": "Eyowo",
 		"filename": "eyowo",
 		"url": "https://www.eyowo.com/",
-		"category": [
-			"Financial Services"
-		]
+		"category": ["Financial Services"]
 	},
 	{
 		"title": "Gloopro",
 		"filename": "gloopro",
 		"url": "https://www.gloopro.com/",
-		"category": [
-			"Software"
-		]
+		"category": ["Software"]
 	},
 	{
 		"title": "OnePipe",
 		"filename": "onepipe",
 		"url": "https://www.onepipe.io/",
-		"category": [
-			"Software",
-			"Financial Services"
-		]
+		"category": ["Software", "Financial Services"]
 	},
 	{
 		"title": "Ariga",
 		"filename": "ariga",
 		"url": "https://www.ariga.ng/",
-		"category": [
-			"Marketplace",
-			"Ecommerce"
-		]
+		"category": ["Marketplace", "Ecommerce"]
 	},
 	{
 		"title": "Fieldinsight",
 		"filename": "fieldinsight",
 		"url": "https://www.fieldinsight.co/",
-		"category": [
-			"Software",
-			"ICT"
-		]
+		"category": ["Software", "ICT"]
 	},
 	{
 		"title": "The Guardian",
 		"filename": "the_guardian",
 		"url": "https://m.guardian.ng/",
-		"category": [
-			"Newspaper"
-		]
+		"category": ["Newspaper"]
 	},
 	{
 		"title": "Africa Fintech Foundry",
 		"filename": "africa_fintech_foundry",
 		"url": "https://africafintechfoundry.com/",
-		"category": [
-			"Virtual Office",
-			"Fintech"
-		]
+		"category": ["Virtual Office", "Fintech"]
 	},
 	{
 		"title": "Cool FM",
 		"filename": "cool_fm",
 		"url": "https://coolfm.ng/",
-		"category": [
-			"Radio",
-			"Broadcasting"
-		]
+		"category": ["Radio", "Broadcasting"]
 	},
 	{
 		"title": "Lightbulb UX Laboratory",
 		"filename": "lightbulbux",
 		"url": "https://lightbulbux.com/",
-		"category": [
-			"UX Design",
-			"Product Design"
-		]
+		"category": ["UX Design", "Product Design"]
 	},
 	{
 		"title": "First Securities Discount House Limited",
 		"filename": "fsdh",
 		"url": "https://fsdhgroup.com/",
-		"category": [
-			"Merchant Bank",
-			"Banking"
-		]
+		"category": ["Merchant Bank", "Banking"]
 	},
 	{
 		"title": "Busha",
 		"filename": "busha",
 		"url": "https://busha.co/",
-		"category": [
-			"Cryptocurrency"
-		]
+		"category": ["Cryptocurrency"]
 	},
 	{
 		"title": "ProduqtEdge",
 		"filename": "produqtedge",
 		"url": "https://www.produqtedge.com/",
-		"category": [
-			"Product Management"
-		]
+		"category": ["Product Management"]
 	},
 	{
 		"title": "Omenka",
 		"filename": "omenka",
 		"url": "https://www.omenkagallery.com/",
-		"category": [
-			"Art Gallery"
-		]
+		"category": ["Art Gallery"]
 	},
 	{
 		"title": "Thrive Agric",
@@ -1197,136 +837,97 @@
 		"title": "Schoolable",
 		"filename": "schoolable",
 		"url": "https://schoolable.co/",
-		"category": [
-			"Financial Services",
-			"EdTech"
-		]
+		"category": ["Financial Services", "EdTech"]
 	},
 	{
 		"title": "SeamPay",
 		"filename": "seampay",
 		"url": "https://www.seampay.com/",
-		"category": [
-			"Financial Services"
-		]
+		"category": ["Financial Services"]
 	},
 	{
 		"title": "Summitech Computing Limited",
 		"filename": "summitech",
 		"url": "https://www.summitech.ng/",
-		"category": [
-			"Software",
-			"ICT"
-		]
+		"category": ["Software", "ICT"]
 	},
 	{
 		"title": "Abeg",
 		"filename": "abeg",
 		"url": "https://www.abeg.app/",
-		"category": [
-			"Financial Services"
-		]
+		"category": ["Financial Services"]
 	},
 	{
 		"title": "Air Peace",
 		"filename": "air_peace",
 		"url": "https://www.flyairpeace.com/",
-		"category": [
-			"Transportation"
-		]
+		"category": ["Transportation"]
 	},
 	{
 		"title": "Buypower",
 		"filename": "buypower",
 		"url": "https://buypower.ng/",
-		"category": [
-			"Power Distribution",
-			"ICT"
-		]
+		"category": ["Power Distribution", "ICT"]
 	},
 	{
 		"title": "Filmhouse Cinemas",
 		"filename": "filmhouse",
 		"url": "https://filmhouseng.com/",
-		"category": [
-			"Entertainment"
-		]
+		"category": ["Entertainment"]
 	},
 	{
 		"title": "Ibom Air",
 		"filename": "ibom_air",
 		"url": "https://www.ibomair.com/",
-		"category": [
-			"Transportation"
-		]
+		"category": ["Transportation"]
 	},
 	{
 		"title": "Kuda Bank",
 		"filename": "kuda_bank",
 		"url": "https://kudabank.com/",
-		"category": [
-			"Financial Services"
-		]
+		"category": ["Financial Services"]
 	},
 	{
 		"title": "UPS",
 		"filename": "ups",
 		"url": "https://www.ups.com/",
-		"category": [
-			"Logistics"
-		]
+		"category": ["Logistics"]
 	},
 	{
 		"title": "Silverbird Cinemas",
 		"filename": "silverbird_cinemas",
 		"url": "https://silverbirdcinemas.com/",
-		"category": [
-			"Entertainment"
-		]
+		"category": ["Entertainment"]
 	},
 	{
 		"title": "Seller",
 		"filename": "seller",
 		"url": "https://seller.ng/",
-		"category": [
-			"Ecommerce"
-		]
+		"category": ["Ecommerce"]
 	},
 	{
 		"title": "Yellowcard",
 		"filename": "yellowcard",
 		"url": "https://yellowcard.io/",
-		"category": [
-			"Cryptocurrency"
-		]
+		"category": ["Cryptocurrency"]
 	},
 	{
 		"title": "Cravvings",
 		"filename": "cravvings",
 		"url": "https://www.cravvings.com/",
-		"category": [
-			"Local Search",
-			"Business Ratings and Reviews",
-			"Online Food Delivery"
-		]
+		"category": ["Local Search", "Business Ratings and Reviews", "Online Food Delivery"]
 	},
 	{
 		"title": "Pettysave",
 		"filename": "pettysave",
 		"url": "https://www.pettysave.com/",
-		"category": [
-			"Financial Services"
-		]
+		"category": ["Financial Services"]
 	},
 	{
 		"title": "DearDesigner",
 		"filename": "dear_designer",
 		"url": "https://deardesigner.xyz/",
-		"category": [
-			"EdTech",
-			"Software",
-			"Product Design"
-		]
+		"category": ["EdTech", "Software", "Product Design"]
 	},
 	{
 		"title": "Peace Mass Transit",
@@ -1374,18 +975,15 @@
 		"title": "Peerstack",
 		"filename": "peerstack",
 		"url": "https://www.thepeerstack.com",
-		"category": [
-			"Financial Services",
-			"Software"
-		]
+		"category": ["Financial Services", "Software"]
 	},
 	{
 		"title": "Serah Kassim",
 		"filename": "serah_kassim",
 		"url": "https://serahkassim.com/",
 		"category": ["Fashion"]
-  },
-  {
+	},
+	{
 		"title": "Thepeer",
 		"filename": "thepeer",
 		"url": "https://thepeer.co",
@@ -1409,7 +1007,7 @@
 		"url": "https://farmsby.com",
 		"category": ["Agritech"]
 	},
-  {
+	{
 		"title": "Okra",
 		"filename": "okra",
 		"url": "https://okra.ng/",
@@ -1419,7 +1017,7 @@
 		"title": "CredPal",
 		"filename": "credpal",
 		"url": "https://credpal.com",
-		"category": [ "Financial Services", "Software"]
+		"category": ["Financial Services", "Software"]
 	},
 	{
 		"title": "Spleet Africa",
@@ -1433,6 +1031,12 @@
 		"url": "https://www.channelstv.com/",
 		"category": ["Media", "Blog"]
 	},
+  {
+		"title": "Globus Bank",
+		"filename": "globus_bank",
+		"url": "https://www.globusbank.com",
+    "category": ["Banking", "Financial Services"]
+  },
 	{
 		"title": "Techpoint Africa",
 		"filename": "techpoint_africa",
@@ -1440,9 +1044,27 @@
 		"category": ["Media"]
 	},
 	{
+		"title": "Acumen Digital",
+		"filename": "acumen_digital",
+		"url": "https://acumen.digital",
+		"category": ["Software", "ICT"]
+  },
+  {
 		"title": "Moniepoint",
 		"filename": "moniepoint",
 		"url": "https://moniepoint.com/",
 		"category": ["Banking", "Financial Services"]
+	},
+	{
+		"title": "Fincra",
+		"filename": "fincra",
+		"url": "https://fincra.com/",
+		"category": ["Financial Services"]
+  },
+  {
+		"title": "Indicina",
+		"filename": "indicina",
+		"url": "https://indicina.co/",
+		"category": ["Software", "Financial Data"]
 	}
 ]
