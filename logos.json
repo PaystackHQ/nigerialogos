@@ -1434,6 +1434,11 @@
 		"url": "https://www.channelstv.com/",
 		"category": ["Media", "Blog"]
 	},
+  {
+		"title": "Globus Bank",
+		"filename": "globus_bank",
+		"url": "https://www.globusbank.com",
+  },
 	{
 		"title": "Techpoint Africa",
 		"filename": "techpoint_africa",
