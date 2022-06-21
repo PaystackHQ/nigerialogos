@@ -9,10 +9,7 @@
 		"title": "Yournotify",
 		"filename": "yournotify",
 		"url": "https://yournotify.com/",
-		"category": [
-			"Marketing",
-			"Software"
-		]
+		"category": ["Marketing", "Software"]
 	},
 	{
 		"title": "AltSchool Africa",
@@ -1023,11 +1020,11 @@
 		"url": "https://www.channelstv.com/",
 		"category": ["Media", "Blog"]
 	},
-  {
+	{
 		"title": "Globus Bank",
 		"filename": "globus_bank",
-		"url": "https://www.globusbank.com",
-  },
+		"url": "https://www.globusbank.com"
+	},
 	{
 		"title": "Techpoint Africa",
 		"filename": "techpoint_africa",
@@ -1039,8 +1036,8 @@
 		"filename": "acumen_digital",
 		"url": "https://acumen.digital",
 		"category": ["Software", "ICT"]
-  },
-  {
+	},
+	{
 		"title": "Moniepoint",
 		"filename": "moniepoint",
 		"url": "https://moniepoint.com/",
