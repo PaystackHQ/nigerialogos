@@ -1,12 +1,15 @@
 [
 	{
+    "title": "Enyata",
+    "filename": "enyata",
+    "url": "https://www.enyata.com/",
+    "category": ["Software", "ICT" ]
+  },
+  {
 		"title": "Orchestrate",
 		"filename": "orchestrate",
 		"url": "http://orchestrate.finance/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "AlphaCX Intelligent Platforms",
