@@ -1,5 +1,14 @@
 [
 	{
+		"title": "Orchestrate",
+		"filename": "orchestrate",
+		"url": "http://orchestrate.finance/",
+		"category": [
+			"Banking",
+			"Financial Services"
+		]
+	},
+	{
 		"title": "AlphaCX Intelligent Platforms",
 		"filename": "alphacx",
 		"url": "https://alphacx.co/",
