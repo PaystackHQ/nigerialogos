@@ -1022,7 +1022,8 @@
 	{
 		"title": "Globus Bank",
 		"filename": "globus_bank",
-		"url": "https://www.globusbank.com"
+		"url": "https://www.globusbank.com",
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Techpoint Africa",
