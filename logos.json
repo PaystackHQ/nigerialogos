@@ -1023,8 +1023,8 @@
 		"title": "Globus Bank",
 		"filename": "globus_bank",
 		"url": "https://www.globusbank.com",
-		"category": ["Banking", "Financial Services"]
-	},
+    "category": ["Banking", "Financial Services"]
+  },
 	{
 		"title": "Techpoint Africa",
 		"filename": "techpoint_africa",
@@ -1044,6 +1044,12 @@
 		"category": ["Banking", "Financial Services"]
 	},
 	{
+		"title": "Fincra",
+		"filename": "fincra",
+		"url": "https://fincra.com/",
+		"category": ["Financial Services"]
+  },
+  {
 		"title": "Indicina",
 		"filename": "indicina",
 		"url": "https://indicina.co/",
