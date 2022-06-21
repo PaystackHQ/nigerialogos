@@ -1,12 +1,9 @@
 [
 	{
-        "title": "Enyata",
-        "filename": "enyata",
-        "url": "https://www.enyata.com/",
-        "category": [
-            "Software",
-            "ICT"
-        ]
+	"title": "Enyata",
+	"filename": "enyata",
+	"url": "https://www.enyata.com/",
+	"category": ["Software", "ICT" ]
     },
 	{
 		"title": "AlphaCX Intelligent Platforms",
