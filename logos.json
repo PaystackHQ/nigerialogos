@@ -1446,6 +1446,12 @@
 		"category": ["Media"]
 	},
 	{
+		"title": "Acumen Digital",
+		"filename": "acumen_digital",
+		"url": "https://acumen.digital",
+		"category": ["Software", "ICT"]
+  },
+  {
 		"title": "Moniepoint",
 		"filename": "moniepoint",
 		"url": "https://moniepoint.com/",
