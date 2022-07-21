@@ -1069,5 +1069,11 @@
 		"filename": "indicina",
 		"url": "https://indicina.co/",
 		"category": ["Software", "Financial Data"]
-	}
+	},
+	{
+		"title": "Shuttlers",
+		"filename": "Shuttlers",
+		"url": "https://Shuttlers.ng/",
+		"category": ["Transportation"]
+  }
 ]
