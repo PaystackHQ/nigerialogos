@@ -1,5 +1,11 @@
 [
 	{
+    "title": "punch",
+    "filename": "punch",
+    "url": "https://www.punchng.com/",
+    "category": ["Newspaper" ]
+  },
+	{
     "title": "Enyata",
     "filename": "enyata",
     "url": "https://www.enyata.com/",
