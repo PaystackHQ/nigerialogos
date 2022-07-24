@@ -1069,5 +1069,11 @@
 		"filename": "indicina",
 		"url": "https://indicina.co/",
 		"category": ["Software", "Financial Data"]
+	},
+	{
+		"title": "Uber",
+		"filename": "uber",
+		"url": "https://www.uber.com/ng/en/",
+		"category": ["Transportation"]
 	}
 ]
