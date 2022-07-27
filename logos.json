@@ -1,11 +1,11 @@
 [
 	{
-    "title": "Enyata",
-    "filename": "enyata",
-    "url": "https://www.enyata.com/",
-    "category": ["Software", "ICT" ]
-  },
-  {
+		"title": "Enyata",
+		"filename": "enyata",
+		"url": "https://www.enyata.com/",
+		"category": ["Software", "ICT"]
+	},
+	{
 		"title": "Orchestrate",
 		"filename": "orchestrate",
 		"url": "http://orchestrate.finance/",
@@ -21,10 +21,7 @@
 		"title": "Yournotify",
 		"filename": "yournotify",
 		"url": "https://yournotify.com/",
-		"category": [
-			"Marketing",
-			"Software"
-		]
+		"category": ["Marketing", "Software"]
 	},
 	{
 		"title": "AltSchool Africa",
@@ -1034,12 +1031,12 @@
 		"url": "https://www.channelstv.com/",
 		"category": ["Media", "Blog"]
 	},
-  {
+	{
 		"title": "Globus Bank",
 		"filename": "globus_bank",
 		"url": "https://www.globusbank.com",
-    "category": ["Banking", "Financial Services"]
-  },
+		"category": ["Banking", "Financial Services"]
+	},
 	{
 		"title": "Techpoint Africa",
 		"filename": "techpoint_africa",
@@ -1051,8 +1048,8 @@
 		"filename": "acumen_digital",
 		"url": "https://acumen.digital",
 		"category": ["Software", "ICT"]
-  },
-  {
+	},
+	{
 		"title": "Moniepoint",
 		"filename": "moniepoint",
 		"url": "https://moniepoint.com/",
@@ -1063,11 +1060,17 @@
 		"filename": "fincra",
 		"url": "https://fincra.com/",
 		"category": ["Financial Services"]
-  },
-  {
+	},
+	{
 		"title": "Indicina",
 		"filename": "indicina",
 		"url": "https://indicina.co/",
 		"category": ["Software", "Financial Data"]
+	},
+	{
+		"title": "Tecmie",
+		"filename": "tecmie",
+		"url": "https://tecmie.com/",
+		"category": ["Software", "ICT"]
 	}
 ]
