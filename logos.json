@@ -1075,5 +1075,11 @@
 		"filename": "indicina",
 		"url": "https://indicina.co/",
 		"category": ["Software", "Financial Data"]
+	},
+  	{
+		"title": "Tecmie",
+        "filename": "tecmie",
+        "url": "https://tecmie.com/",
+        "category": ["Software", "ICT"]
 	}
 ]
