@@ -1064,6 +1064,18 @@
 		"url": "https://acumen.digital",
 		"category": ["Software", "ICT"]
   },
+	{
+		"title": "Atom",
+		"filename": "atom",
+		"url": "https://atomislife.com",
+		"category": ["Software"]
+  },
+	{
+		"title": "Assured",
+		"filename": "assured",
+		"url": "https://useassured.com",
+		"category": ["Software", "Testing"]
+  },
   {
 		"title": "Moniepoint",
 		"filename": "moniepoint",
