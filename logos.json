@@ -1087,5 +1087,11 @@
         "filename": "tecmie",
         "url": "https://tecmie.com/",
         "category": ["Software", "ICT"]
+	},
+	{
+		"title": "Chaka Technologies",
+        "filename": "chaka",
+        "url": "https://chaka.com/",
+        "category": ["Financial Services"]
 	}
 ]
