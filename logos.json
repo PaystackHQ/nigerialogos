@@ -1093,5 +1093,11 @@
         "filename": "chaka",
         "url": "https://chaka.com/",
         "category": ["Financial Services"]
+	},
+	{
+		"title": "Expertnaire",
+        "filename": "expertnaire",
+        "url": "https://expertnaire.com/",
+        "category": ["Advertising Agencies"]
 	}
 ]
