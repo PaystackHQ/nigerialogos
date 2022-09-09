@@ -1,5 +1,11 @@
 [
 	{
+		"title": "Chotcut",
+		"filename": "chotcut",
+		"url": "https://chotcut.com/",
+		"category": ["Marketplace", "Ecommerce"]
+	},	
+	{
 		"title": "HerVest",
 		"filename": "hervest",
 		"url": "https://hervest.ng",
