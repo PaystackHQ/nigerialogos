@@ -1087,5 +1087,17 @@
         "filename": "tecmie",
         "url": "https://tecmie.com/",
         "category": ["Software", "ICT"]
+	},
+	{
+		"title": "Nestcoin",
+		"filename": "nestcoin",
+		"url": "https://nestcoin.com/",
+		"category": ["Financial Services"]
+	},
+	{
+		"title": "Lazerpay",
+		"filename": "lazerpay",
+		"url": "https://lazerpay.finance/",
+		"category": ["Financial Services"]
 	}
 ]
