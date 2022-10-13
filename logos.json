@@ -1100,4 +1100,46 @@
 		"url": "https://trybrass.com/",
 		"category": ["Financial Services"]
 	}
+    {
+		"title": "Bookings Africa",
+        "filename": "bookingsafrica",
+        "url": "https://bookingsafrica.com/",
+        "category": ["Marketplace", "Gig Economy"]
+	}
+	{
+		"title": "Clafiya",
+        "filename": "clafiya",
+        "url": "https://clafiya.com/",
+        "category": ["HealthTech"]
+	}
+	{
+		"title": "Kyshi",
+        "filename": "kyshi",
+        "url": "https://www.kyshi.co/",
+        "category": ["Fintech"]
+	}
+	{
+		"title": "Shiip",
+        "filename": "shiip",
+        "url": "https://goshiip.com/",
+        "category": ["Logistics"]
+	}
+	{
+		"title": "Stears",
+        "filename": "stears",
+        "url": "https://www.stears.co/",
+        "category": ["Media"]
+	}
+	{
+		"title": "Tera Work",
+        "filename": "terawork",
+        "url": "https://www.terawork.com/",
+        "category": ["Gig Economy"]  
+	}
+	{
+		"title": "Wella Health",
+        "filename": "wellahealth",
+        "url": "https://www.wellahealth.com/",
+        "category": ["HealthTech"]  
+	}
 ]
