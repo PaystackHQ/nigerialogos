@@ -1,5 +1,11 @@
 [
 	{
+		"title": "Haqqman",
+		"filename": "haqqman",
+		"url": "https://haqqman.com",
+		"category": ["Software", "ICT"]
+	},
+	{
 		"title": "HerVest",
 		"filename": "hervest",
 		"url": "https://hervest.ng",
