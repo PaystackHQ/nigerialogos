@@ -33,6 +33,16 @@
 		]
 	},
 	{
+		"title": "Sendchamp",
+		"filename": "sendchamp",
+		"url": "https://sendchamp.com/",
+		"category": [
+			"Software",
+			"ICT",
+			"Communication"
+		]
+	},
+	{
 		"title": "AltSchool Africa",
 		"filename": "altschool_africa",
 		"url": "https://altschoolafrica.com/",
@@ -747,6 +757,12 @@
 		"category": ["Media"]
 	},
 	{
+		"title": "TERAWORK",
+		"filename": "terawork",
+		"url": "https://www.terawork.com/",
+		"category": ["ICT", "Software"]
+	},
+	{
 		"title": "Glamafric",
 		"filename": "glamafric",
 		"url": "http://glamafric.com/",
@@ -1089,6 +1105,7 @@
         "category": ["Software", "ICT"]
 	},
 	{
+
 		"title": "Chaka Technologies",
         "filename": "chaka",
         "url": "https://chaka.com/",
@@ -1099,5 +1116,17 @@
         "filename": "expertnaire",
         "url": "https://expertnaire.com/",
         "category": ["Advertising Agencies"]
+
+		"title": "Nestcoin",
+		"filename": "nestcoin",
+		"url": "https://nestcoin.com/",
+		"category": ["Financial Services"] 
+	},
+	{
+		"title": "Brass",
+		"filename": "brass",
+		"url": "https://trybrass.com/",
+		"category": ["Financial Services"]
+
 	}
 ]
