@@ -565,6 +565,12 @@
 		"category": ["Telecommunication", "ISP"]
 	},
 	{
+		"title":"Monnify",
+		"filename":"monnify",
+		"url":"https://monnify.com",
+		"category":["Banking","Financial Services"]
+	},
+	{
 		"title": "Globacom Limited",
 		"filename": "glo",
 		"url": "https://www.gloworld.com/ng/",
