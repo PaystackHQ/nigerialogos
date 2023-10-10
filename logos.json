@@ -1108,12 +1108,18 @@
 		"title": "Nestcoin",
 		"filename": "nestcoin",
 		"url": "https://nestcoin.com/",
-		"category": ["Financial Services"] 
+		"category": ["Financial Services"]
 	},
 	{
 		"title": "Brass",
 		"filename": "brass",
 		"url": "https://trybrass.com/",
 		"category": ["Financial Services"]
+	},
+	{
+		"title": "Specialman Global Solution",
+		"filename": "specialman_global_solution",
+		"url": "https://specialmansolution.com/",
+		"category": ["Software", "ICT", "Product Design"]
 	}
 ]
