@@ -1115,5 +1115,11 @@
 		"filename": "brass",
 		"url": "https://trybrass.com/",
 		"category": ["Financial Services"]
+	},
+	{
+		"title": "Chowdeck",
+		"filename": "chowdeck",
+		"url": "https://chowdeck.com/",
+		"category": ["Online Food Delivery", "Logistics", "Groceries", "Pharmacy"]
 	}
 ]
