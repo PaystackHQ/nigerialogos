@@ -1,4 +1,9 @@
-[
+[{
+		"title": "UCARD",
+		"filename": "ucard_store",
+		"url": "https://ucard.store",
+		"category": ["Financial Services"]
+	},
 	{
 		"title": "HerVest",
 		"filename": "hervest",
