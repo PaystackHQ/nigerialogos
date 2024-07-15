@@ -1,5 +1,11 @@
 [
 	{
+		"title": "Sycamore",
+		"filename": "sycamore",
+		"url": "https://sycamore.ng",
+		"category": ["Financial Services", "Lending"]
+	},
+	{
 		"title": "HerVest",
 		"filename": "hervest",
 		"url": "https://hervest.ng",
