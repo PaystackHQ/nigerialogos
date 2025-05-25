@@ -1121,5 +1121,11 @@
 		"filename": "brass",
 		"url": "https://trybrass.com/",
 		"category": ["Financial Services"]
+	},
+	{
+		"title": "Afrinvest",
+		"filename": "afrinvest",
+		"url": "https://www.afrinvest.com/",
+		"category": ["Financial Services", "Banking"]
 	}
 ]
