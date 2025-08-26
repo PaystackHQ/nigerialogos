@@ -63,6 +63,7 @@ not
 
 ### Categories
 ```
+* Lending
 * Banking
 * Financial Services
 * Branding

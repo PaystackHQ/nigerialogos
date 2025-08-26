@@ -1,8 +1,21 @@
-[{
+[
+  {
 		"title": "UCARD",
 		"filename": "ucard_store",
 		"url": "https://ucard.store",
 		"category": ["Financial Services"]
+	},
+  {
+		"title": "Kano Systems",
+		"filename": "kanosystems",
+		"url": "https://kanosystems.com",
+		"category": ["ICT", "Software"]
+	},
+	{
+		"title": "Sycamore",
+		"filename": "sycamore",
+		"url": "https://sycamore.ng",
+		"category": ["Financial Services", "Lending"]
 	},
 	{
 		"title": "HerVest",
@@ -546,9 +559,9 @@
 		"category": ["Software", "ICT"]
 	},
 	{
-		"title": "Korapay",
-		"filename": "korapay",
-		"url": "https://korapay.com/",
+		"title": "Kora",
+		"filename": "kora",
+		"url": "https://korahq.com",
 		"category": ["Banking", "Financial Services"]
 	},
 	{
@@ -1120,5 +1133,11 @@
 		"filename": "brass",
 		"url": "https://trybrass.com/",
 		"category": ["Financial Services"]
+	},
+	{
+		"title": "Afrinvest",
+		"filename": "afrinvest",
+		"url": "https://www.afrinvest.com/",
+		"category": ["Financial Services", "Banking"]
 	}
 ]
