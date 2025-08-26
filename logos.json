@@ -1,4 +1,46 @@
 [
+  {
+		"title": "UCARD",
+		"filename": "ucard_store",
+		"url": "https://ucard.store",
+		"category": ["Financial Services"]
+	},
+  {
+		"title": "Kano Systems",
+		"filename": "kanosystems",
+		"url": "https://kanosystems.com",
+		"category": ["ICT", "Software"]
+	},
+	{
+		"title": "Sycamore",
+		"filename": "sycamore",
+		"url": "https://sycamore.ng",
+		"category": ["Financial Services", "Lending"]
+	},
+	{
+		"title": "Eden Life",
+		"filename": "eden_life",
+		"url": "https://ouredenlife.com/",
+		"category": ["Home Services", "Online Food Delivery"]
+	},
+	{
+		"title": "Fidia",
+		"filename": "fidia",
+		"url": "https://getfidia.com/",
+		"category": ["Financial Services", "Ecommerce", "Website Builder"]
+	},
+	{
+		"title": "Haqqman",
+		"filename": "haqqman",
+		"url": "https://haqqman.com",
+		"category": ["Software", "ICT"]
+	},
+	{
+		"title": "Chotcut",
+		"filename": "chotcut",
+		"url": "https://chotcut.com/",
+		"category": ["Marketplace", "Ecommerce"]
+	},	
 	{
 		"title": "HerVest",
 		"filename": "hervest",
@@ -9,13 +51,19 @@
 		"title": "Enyata",
 		"filename": "enyata",
 		"url": "https://www.enyata.com/",
-		"category": ["Software", "ICT" ]
-  	},
-  	{
+		"category": ["Software", "ICT"]
+	},
+	{
 		"title": "Orchestrate",
 		"filename": "orchestrate",
 		"url": "http://orchestrate.finance/",
 		"category": ["Banking", "Financial Services"]
+	},
+	{
+		"title": "Zazuu",
+		"filename": "zazuu",
+		"url": "https://zazuu.co/",
+		"category": ["Banking", "Financial Services", "Marketplace"]
 	},
 	{
 		"title": "AlphaCX Intelligent Platforms",
@@ -27,20 +75,13 @@
 		"title": "Yournotify",
 		"filename": "yournotify",
 		"url": "https://yournotify.com/",
-		"category": [
-			"Marketing",
-			"Software"
-		]
+		"category": ["Marketing", "Software"]
 	},
 	{
 		"title": "Sendchamp",
 		"filename": "sendchamp",
 		"url": "https://sendchamp.com/",
-		"category": [
-			"Software",
-			"ICT",
-			"Communication"
-		]
+		"category": ["Software", "ICT", "Communication"]
 	},
 	{
 		"title": "AltSchool Africa",
@@ -541,9 +582,9 @@
 		"category": ["Software", "ICT"]
 	},
 	{
-		"title": "Korapay",
-		"filename": "korapay",
-		"url": "https://korapay.com/",
+		"title": "Kora",
+		"filename": "kora",
+		"url": "https://korahq.com",
 		"category": ["Banking", "Financial Services"]
 	},
 	{
@@ -563,6 +604,12 @@
 		"filename": "9mobile",
 		"url": "https://9mobile.com.ng/",
 		"category": ["Telecommunication", "ISP"]
+	},
+	{
+		"title":"Monnify",
+		"filename":"monnify",
+		"url":"https://monnify.com",
+		"category":["Banking","Financial Services"]
 	},
 	{
 		"title": "Globacom Limited",
@@ -1030,7 +1077,13 @@
 		"title": "Pandascrow",
 		"filename": "pandascrow",
 		"url": "https://pandascrow.io",
-		"category": ["Financial Services"]
+		"category": ["Banking", "Financial Services"]
+	},
+	{
+		"title": "Pandabase",
+		"filename": "pandabase",
+		"url": "https://pandabase.africa",
+		"category": ["PropTech", "Real Estate", "Investment"]
 	},
 	{
 		"title": "Farmsby",
@@ -1062,7 +1115,7 @@
 		"url": "https://www.channelstv.com/",
 		"category": ["Media", "Blog"]
 	},
-  {
+	{
 		"title": "Globus Bank",
 		"filename": "globus_bank",
 		"url": "https://www.globusbank.com",
@@ -1079,8 +1132,8 @@
 		"filename": "acumen_digital",
 		"url": "https://acumen.digital",
 		"category": ["Software", "ICT"]
-  },
-  {
+	},
+	{
 		"title": "Moniepoint",
 		"filename": "moniepoint",
 		"url": "https://moniepoint.com/",
@@ -1091,18 +1144,18 @@
 		"filename": "fincra",
 		"url": "https://fincra.com/",
 		"category": ["Financial Services"]
-  },
-  {
+	},
+	{
 		"title": "Indicina",
 		"filename": "indicina",
 		"url": "https://indicina.co/",
 		"category": ["Software", "Financial Data"]
 	},
-  	{
+	{
 		"title": "Tecmie",
-        "filename": "tecmie",
-        "url": "https://tecmie.com/",
-        "category": ["Software", "ICT"]
+		"filename": "tecmie",
+		"url": "https://tecmie.com/",
+		"category": ["Software", "ICT"]
 	},
 	{
 		"title": "Nestcoin",
@@ -1117,9 +1170,28 @@
 		"category": ["Financial Services"]
 	},
 	{
+
 		"title": "Specialman Global Solution",
 		"filename": "specialman_global_solution",
 		"url": "https://specialmansolution.com/",
 		"category": ["Software", "ICT", "Product Design"]
+  },
+  {
+		"title": "Carbon",
+		"filename": "carbon",
+		"url": "https://ng.getcarbon.co/",
+		"category": ["Banking", "Financial Services"]
+	},
+	{
+		"title": "Afrinvest",
+		"filename": "afrinvest",
+		"url": "https://www.afrinvest.com/",
+		"category": ["Financial Services", "Banking"]
+	},
+	{
+		"title": "Optimus by Afrinvest",
+		"filename": "optimus_by_afrinvest",
+		"url": "https://www.optimus.ng/",
+		"category": ["Financial Services", "Banking"]
 	}
 ]
