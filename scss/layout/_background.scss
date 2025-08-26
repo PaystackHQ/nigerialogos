@@ -19,12 +19,8 @@
             top: 0;
             left: 0;
         }
-        &--thick {
-            background-color: $col-green-2;
-            width: 11.8%;
-            height: 100%;
-        }
     }
+
     &__stripes {
         position: absolute;
         top: 0;
@@ -35,6 +31,7 @@
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: 1fr;
     }
+
     &__stripe {
         border-right: .035rem $col-grey-3;
         opacity: .6;
