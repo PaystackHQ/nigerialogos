@@ -1,4 +1,34 @@
 [
+  {
+		"title": "UCARD",
+		"filename": "ucard_store",
+		"url": "https://ucard.store",
+		"category": ["Financial Services"]
+	},
+  {
+		"title": "Kano Systems",
+		"filename": "kanosystems",
+		"url": "https://kanosystems.com",
+		"category": ["ICT", "Software"]
+	},
+	{
+		"title": "Sycamore",
+		"filename": "sycamore",
+		"url": "https://sycamore.ng",
+		"category": ["Financial Services", "Lending"]
+	},
+	{
+		"title": "Eden Life",
+		"filename": "eden_life",
+		"url": "https://ouredenlife.com/",
+		"category": ["Home Services", "Online Food Delivery"]
+	},
+	{
+		"title": "Fidia",
+		"filename": "fidia",
+		"url": "https://getfidia.com/",
+		"category": ["Financial Services", "Ecommerce", "Website Builder"]
+	},
 	{
 		"title": "HerVest",
 		"filename": "hervest",
@@ -534,9 +564,9 @@
 		"category": ["Software", "ICT"]
 	},
 	{
-		"title": "Korapay",
-		"filename": "korapay",
-		"url": "https://korapay.com/",
+		"title": "Kora",
+		"filename": "kora",
+		"url": "https://korahq.com",
 		"category": ["Banking", "Financial Services"]
 	},
 	{
@@ -556,6 +586,12 @@
 		"filename": "9mobile",
 		"url": "https://9mobile.com.ng/",
 		"category": ["Telecommunication", "ISP"]
+	},
+	{
+		"title":"Monnify",
+		"filename":"monnify",
+		"url":"https://monnify.com",
+		"category":["Banking","Financial Services"]
 	},
 	{
 		"title": "Globacom Limited",
@@ -1114,5 +1150,11 @@
 		"filename": "carbon",
 		"url": "https://ng.getcarbon.co/",
 		"category": ["Banking", "Financial Services"]
+	},
+	{
+		"title": "Afrinvest",
+		"filename": "afrinvest",
+		"url": "https://www.afrinvest.com/",
+		"category": ["Financial Services", "Banking"]
 	}
 ]
