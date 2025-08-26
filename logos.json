@@ -1180,5 +1180,11 @@
 		"filename": "afrinvest",
 		"url": "https://www.afrinvest.com/",
 		"category": ["Financial Services", "Banking"]
+	},
+	{
+		"title": "Optimus by Afrinvest",
+		"filename": "optimus_by_afrinvest",
+		"url": "https://www.optimus.ng/",
+		"category": ["Financial Services", "Banking"]
 	}
 ]
