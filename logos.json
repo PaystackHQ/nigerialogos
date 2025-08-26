@@ -18,6 +18,18 @@
 		"category": ["Financial Services", "Lending"]
 	},
 	{
+		"title": "Eden Life",
+		"filename": "eden_life",
+		"url": "https://ouredenlife.com/",
+		"category": ["Home Services", "Online Food Delivery"]
+	},
+	{
+		"title": "Fidia",
+		"filename": "fidia",
+		"url": "https://getfidia.com/",
+		"category": ["Financial Services", "Ecommerce", "Website Builder"]
+	},
+	{
 		"title": "HerVest",
 		"filename": "hervest",
 		"url": "https://hervest.ng",
