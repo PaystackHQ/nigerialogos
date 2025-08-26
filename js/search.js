@@ -66,7 +66,7 @@ const onSearch = e => {
 	// Check if event is null -> select (down below)
 	if (e) {
 		typed = e.target.value.toLowerCase();
-		typeResults.innerHTML = typed;
+		typeResults.innerHTML = escapeHtml(typed);
 	}
 
 	numberOfResults = 0;
