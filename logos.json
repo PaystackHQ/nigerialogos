@@ -1193,5 +1193,11 @@
 		"filename": "optimus_by_afrinvest",
 		"url": "https://www.optimus.ng/",
 		"category": ["Financial Services", "Banking"]
+	},
+	{
+		"title": "Fintellia Technologies",
+		"filename": "fintellia",
+		"url": "https://www.fintellia.com/",
+		"category": ["Financial Services", "Banking"]
 	}
 ]
