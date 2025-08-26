@@ -23,6 +23,7 @@ header {
             }
         }
     }
+
     .searchbar {
         display: flex;
         width: 35.9vw;
@@ -60,7 +61,8 @@ header {
                 padding-left: 1em;
             }
         }
-        .select{
+
+        .select {
             width: calc(35% - 2px); // account for the margin on the input
 
             & select {
@@ -87,10 +89,11 @@ header {
                 background-repeat: no-repeat;
                 background-position: right .7em top 50%;
                 background-size: .65em auto;
-    
+
                 &::-ms-expand {
                     display: none;
                 }
+
                 &:focus,
                 &:active {
                     outline: $col-green-2;
@@ -98,6 +101,7 @@ header {
             }
         }
     }
+
     h1 {
         min-width: 500px;
         position: absolute;
@@ -108,12 +112,13 @@ header {
             color: inherit;
             text-decoration-color: $col-green-1;
 
-            &:hover{
+            &:hover {
                 text-decoration-color: inherit;
             }
         }
     }
-    .visuallyhidden{
+
+    .visuallyhidden {
         position: absolute;
         clip: rect(1px, 1px, 1px, 1px);
         padding: 0;
@@ -122,12 +127,57 @@ header {
         width: 1px;
         overflow: hidden;
     }
+
     .subcopy {
         position: absolute;
         // top: 22vh;
         bottom: 0;
         margin-bottom: 80px;
     }
+
+    .mode-button {
+        margin-left: 10px;
+        padding: 2px 5px;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        border-radius: 2px;
+        transition: .2s all ease-in-out;
+
+        &.dark {
+            .icon {
+                &.dark-mode {
+                    display: inline;
+                }
+            }
+        }
+
+        &.light {
+            .icon {
+                &.light-mode {
+                    display: inline;
+                }
+            }
+        }
+
+        &.system {
+            .icon {
+                &.system-mode {
+                    display: inline;
+                }
+            }
+        }
+
+        .icon {
+            width: 1em;
+            display: inline;
+            margin-right: 5px;
+            position: relative;
+            top: 0.15em;
+            display: none;
+        }
+    }
+
     .contribute {
         position: absolute;
         cursor: pointer;
@@ -142,6 +192,7 @@ header {
         border-radius: 4px;
         transition: .2s all ease-in-out;
     }
+
     .white-bg {
         width: 100%;
         height: 10%;
@@ -149,27 +200,26 @@ header {
         position: fixed;
         top: 0;
         z-index: 665;
-        transform: translateY(-100%);
         transition: all .25s cubic-bezier(0.19, 1, 0.22, 1);
     }
+
     .scroll-show {
         height: 90px;
         position: absolute;
 
-        & .site-logo{
+        & .site-logo {
             position: fixed;
-            top: 0; 
+            top: 0;
             z-index: 666;
             transform: scale(.6) translateX(-35%);
-            opacity: 0;
             transition: all .2s ease-in-out;
         }
+
         & .searchbar {
             position: fixed;
             top: 25px;
             right: 12.5%;
-            z-index: 666; 
-            opacity: 0;
+            z-index: 666;
             transition: all .2s ease-in-out;
 
             & input {
@@ -179,12 +229,13 @@ header {
                 min-width: 240px;
                 transition: all .2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
             }
+
             & input:focus {
                 width: 100%;
             }
         }
+
         & .select {
-            opacity: 0;
             transform: translateX(100%);
             transition: all .2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 
@@ -200,15 +251,16 @@ header {
 
             }
         }
+
         .secondary-alphabet {
             display: flex;
             justify-content: space-between;
             position: fixed;
             width: 53%;
-            top: 35px; 
+            top: 35px;
             left: 18%;
             z-index: 668;
-            opacity: 0;
+
             & a {
                 text-decoration: none;
                 color: inherit;
@@ -217,13 +269,59 @@ header {
             }
         }
     }
-    .contribute-mobile {
-        color: $col-grey-1;
-        text-decoration-color: $col-green-1;
+
+    .right-nav {
         position: absolute;
         top: 4.5%;
         right: 8%;
-        font-size: 150%;
         display: none;
+
+        .mode-button-mobile {
+            margin-right: 5px;
+            padding: 2px 5px;
+            cursor: pointer;
+            outline: none;
+            border: none;
+            border-radius: 2px;
+            transition: .2s all ease-in-out;
+
+            &.dark {
+                .icon {
+                    &.dark-mode {
+                        display: inline;
+                    }
+                }
+            }
+
+            &.light {
+                .icon {
+                    &.light-mode {
+                        display: inline;
+                    }
+                }
+            }
+
+            &.system {
+                .icon {
+                    &.system-mode {
+                        display: inline;
+                    }
+                }
+            }
+
+            .icon {
+                width: 1em;
+                display: inline;
+                position: relative;
+                top: 0.15em;
+                display: none;
+            }
+        }
+
+        .contribute-mobile {
+            color: $col-grey-1;
+            text-decoration-color: $col-green-1;
+            font-size: 150%;
+        }
     }
 }
