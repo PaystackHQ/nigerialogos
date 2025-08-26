@@ -63,11 +63,13 @@ not
 
 ### Categories
 ```
+* Lending
 * Banking
 * Financial Services
 * Branding
 * Construction
 * Coworking
+* CRM
 * Virtual Office
 * Cryptocurrency
 * Ecommerce
@@ -103,6 +105,8 @@ not
 * Online Food Delivery
 * Event Management
 * PropTech
+* Home Services
+* Website Builder
 ```
 
 **NOTE**: _Pull requests are usually reviewed within 24 hours. Once your pull request is merged, you should see your logo on the site a few minutes after._
