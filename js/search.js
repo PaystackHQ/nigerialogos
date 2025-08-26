@@ -26,10 +26,40 @@ const updateSearchState = () => {
 	}
 };
 
+// Escape meta-characters to prevent DOM->HTML XSS
+function escapeHtml(text) {
+    return text
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+}
+
 const highlightSearchTerm = (logo, term) => {
-	const logoText = logo.querySelector('.logo__text--link');
-	const logoTextTitle = logoText.textContent;
-	logoText.innerHTML = logoTextTitle.replace(new RegExp(term, 'gi'), match => `<mark>${match}</mark>`);
+    const logoText = logo.querySelector('.logo__text--link');
+    const logoTextTitle = logoText.textContent;
+    if (!term) {
+        logoText.innerHTML = escapeHtml(logoTextTitle);
+        return;
+    }
+    // Escape and highlight term
+    // Use a global, case-insensitive regex
+    // We escape fragments, but wrap matches in <mark>
+    const regex = new RegExp(term, 'gi');
+    let lastIndex = 0;
+    let html = '';
+    let match;
+    while ((match = regex.exec(logoTextTitle)) !== null) {
+        // Escape the text before the match
+        html += escapeHtml(logoTextTitle.substring(lastIndex, match.index));
+        // Highlight the match (escape just in case)
+        html += `<mark>${escapeHtml(match[0])}</mark>`;
+        lastIndex = regex.lastIndex;
+    }
+    // Escape the rest after last match
+    html += escapeHtml(logoTextTitle.substring(lastIndex));
+    logoText.innerHTML = html;
 };
 
 const onSearch = e => {
