@@ -6,7 +6,7 @@ bindedElements.forEach(propagatingEl => {
 				if (['SELECT', 'INPUT'].includes(receivingEl.tagName)) {
 					receivingEl.value = propagatingEl.value;
 				} else {
-					receivingEl.innerHTML = propagatingEl.value;
+					receivingEl.textContent = propagatingEl.value;
 				}
 			}
 		});
