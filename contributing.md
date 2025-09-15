@@ -105,6 +105,8 @@ not
 * Online Food Delivery
 * Event Management
 * PropTech
+* Groceries
+* Pharmacy
 * Home Services
 * Website Builder
 ```

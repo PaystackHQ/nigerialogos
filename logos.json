@@ -1170,7 +1170,12 @@
 		"category": ["Financial Services"]
 	},
 	{
-
+		"title": "Chowdeck",
+		"filename": "chowdeck",
+		"url": "https://chowdeck.com/",
+		"category": ["Online Food Delivery", "Logistics", "Groceries", "Pharmacy"]
+	},
+	{
 		"title": "Specialman Global Solution",
 		"filename": "specialman_global_solution",
 		"url": "https://specialmansolution.com/",
