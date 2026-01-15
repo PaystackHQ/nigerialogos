@@ -43,7 +43,7 @@ body.dark-mode {
 					outline-color: initial;
 					border-color: colors.$dm-border-color-2;
 					background-color: colors.$dm-bg-color-3;
-					background-image: url(../images/icons/search.svg);
+					background-image: url(/images/icons/search.svg);
 				}
 			}
 
@@ -52,7 +52,7 @@ body.dark-mode {
 					color: colors.$dm-fg-color-1;
 					border-color: colors.$dm-border-color-2;
 					background-color: colors.$dm-bg-color-4;
-					background-image: url(../images/icons/dropdown_button.svg);
+					background-image: url(/images/icons/dropdown_button.svg);
 
 					&:focus {
 						outline-color: colors.$dm-outline-color-1;
@@ -71,7 +71,7 @@ body.dark-mode {
 					outline-color: initial;
 					border-color: colors.$dm-border-color-2;
 					background-color: colors.$dm-bg-color-3;
-					background-image: url(../images/icons/search.svg);
+					background-image: url(/images/icons/search.svg);
 				}
 			}
 
@@ -80,7 +80,7 @@ body.dark-mode {
 					color: colors.$dm-fg-color-1;
 					border-color: colors.$dm-border-color-2;
 					background-color: colors.$dm-bg-color-4;
-					background-image: url(../images/icons/dropdown_button.svg);
+					background-image: url(/images/icons/dropdown_button.svg);
 
 					&:focus {
 						outline-color: colors.$dm-outline-color-1;

@@ -74,11 +74,10 @@ header {
 						height: 14px;
 						z-index: 1;
 						pointer-events: none;
-                        margin-right: 1px;
+						margin-right: 1px;
 
 						&.light-mode {
 							color: #fbbf24;
-                            
 						}
 
 						&.dark-mode {
@@ -133,7 +132,7 @@ header {
 				-webkit-appearance: none;
 				appearance: none;
 				background-color: colors.$col-green-1;
-				background-image: url('../images/icons/dropdown_button.svg'), linear-gradient(colors.$col-green-1, colors.$col-green-1);
+				background-image: url('/images/icons/dropdown_button.svg'), linear-gradient(colors.$col-green-1, colors.$col-green-1);
 				background-repeat: no-repeat;
 				background-position: right 0.7em top 50%;
 				background-size: 0.65em auto;
@@ -170,7 +169,7 @@ header {
 				font-size: 16px;
 				font-family: inherit;
 				background-color: colors.$col-green-2;
-				background-image: url('../images/icons/search.svg');
+				background-image: url('/images/icons/search.svg');
 				background-repeat: no-repeat;
 				background-position: right 1em top 50%;
 				background-size: 1em auto;
@@ -230,7 +229,7 @@ header {
 				font-size: 16px;
 				font-family: inherit;
 				background-color: colors.$col-green-2;
-				background-image: url('../images/icons/search.svg');
+				background-image: url('/images/icons/search.svg');
 				background-repeat: no-repeat;
 				background-position: right 1em top 50%;
 				background-size: 1em auto;
@@ -261,7 +260,7 @@ header {
 				-webkit-appearance: none;
 				appearance: none;
 				background-color: colors.$col-green-1;
-				background-image: url('../images/icons/dropdown_button.svg'), linear-gradient(colors.$col-green-1, colors.$col-green-1);
+				background-image: url('/images/icons/dropdown_button.svg'), linear-gradient(colors.$col-green-1, colors.$col-green-1);
 				background-repeat: no-repeat;
 				background-position: right 0.7em top 50%;
 				background-size: 0.65em auto;
@@ -360,7 +359,7 @@ header {
 				height: 14px;
 				z-index: 1;
 				pointer-events: none;
-                margin-right: 1px;
+				margin-right: 1px;
 
 				&.light-mode {
 					color: #fbbf24;

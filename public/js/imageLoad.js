@@ -1,6 +1,5 @@
 /* eslint-disable no-undef */
-const selects = document.querySelectorAll('.select select');
-const results = document.querySelector('#results');
+let alphalinkhtml = ''
 const alphabetlink = document.querySelector('.companies-alphabet');
 const themeToggles = document.querySelectorAll('.theme-toggle, .theme-toggle-mobile');
 
@@ -165,7 +164,7 @@ themeToggles.forEach(toggle => {
 	}
 });
 
-init = () => {
+const init = () => {
 	// Create logos
 	loadJSON(response => {
 		const logoArray = JSON.parse(response);
