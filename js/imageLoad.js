@@ -18,7 +18,7 @@ const loadJSON = callback => {
 };
 
 const sortObjectArray = (array, key) => {
-	return array.sort(function(a1, a2) {
+	return array.sort(function (a1, a2) {
 		const b1 = a1[key].toLowerCase();
 		const b2 = a2[key].toLowerCase();
 
@@ -32,12 +32,12 @@ const sortObjectArray = (array, key) => {
 
 const isValidURL = url => {
 	let urlInstance;
-  try {
-    urlInstance = new URL(url);
-  } catch (_) {
-    return false;  
-  }
-  return urlInstance.protocol === "http:" || urlInstance.protocol === "https:";
+	try {
+		urlInstance = new URL(url);
+	} catch (_) {
+		return false;
+	}
+	return urlInstance.protocol === 'http:' || urlInstance.protocol === 'https:';
 };
 
 const setLogoCompanyLink = logoArray => {
