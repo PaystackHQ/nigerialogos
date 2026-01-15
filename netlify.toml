@@ -1,0 +1,20 @@
+# Netlify Configuration
+# Redirect static assets to CDN
+
+[[redirects]]
+  from = "/logos.json"
+  to = "https://cdn.statically.io/gh/PaystackHQ/nigerialogos@master/logos.json"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/logos/*"
+  to = "https://cdn.statically.io/gh/PaystackHQ/nigerialogos@master/logos/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/images/*"
+  to = "https://cdn.statically.io/gh/PaystackHQ/nigerialogos@master/images/:splat"
+  status = 301
+  force = true
