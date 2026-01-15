@@ -1,0 +1,179 @@
+@media screen and (max-width: 1600px) {
+	header {
+		.scroll-show {
+			.secondary-alphabet {
+				width: 50%;
+				left: 19%;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1350px) {
+	header {
+		.scroll-show {
+			.secondary-alphabet {
+				width: 40%;
+				left: 18%;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	header {
+		.scroll-show {
+			.secondary-alphabet {
+				width: 45%;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	header {
+		.scroll-show {
+			display: none;
+		}
+	}
+}
+
+@media screen and (max-width: 880px) {
+	.theme-toggle {
+		display: none;
+	}
+
+	header {
+		width: auto;
+
+		.header-top {
+			justify-content: space-between;
+			width: calc(76.2vw + 20px);
+			margin: 0 auto;
+
+			.desktop-searchbar {
+				display: none;
+			}
+
+			.right-nav {
+				display: flex; // Show on mobile
+				align-items: center;
+				gap: 10px;
+			}
+		}
+
+		.contribute {
+			display: none;
+		}
+
+		.contribute-mobile {
+			display: block;
+		}
+
+		.heading {
+			height: auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 20px;
+			padding: 60px 0 30px;
+
+			// Desktop logo inside .heading - hide on mobile
+			& .site-logo {
+				display: none;
+			}
+		}
+
+		h1 {
+			position: static;
+			transform: none;
+			text-align: center;
+			min-width: 0;
+			width: 90%;
+			margin: 0 auto;
+		}
+
+		.subcopy {
+			position: static;
+			width: 100%;
+			margin-bottom: 0;
+			text-align: center;
+		}
+
+        .subcopy {
+            .theme-toggle-slider {
+                display: none;
+            }
+        }
+
+		.searchbar {
+			display: flex; // Show on mobile
+			position: static;
+			flex-direction: column;
+			justify-content: space-between;
+			width: 90%;
+			height: auto;
+			min-width: 0;
+			transform: none;
+			margin: 0 auto;
+			gap: 10px;
+
+			.search {
+				width: 100%;
+				margin-left: 0;
+				min-width: 0;
+
+				& input {
+					padding: 0.6em 1em;
+					width: 100%;
+					border-radius: 5px;
+					margin: 0;
+				}
+			}
+
+			.select {
+				width: 100%;
+
+				& select {
+					border-radius: 5px;
+				}
+			}
+		}
+
+		.cta {
+			position: static;
+			text-align: center;
+			margin: 0 auto;
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	header {
+		.heading {
+			gap: 15px;
+			padding: 15px 0;
+		}
+
+		.searchbar {
+			width: 90%;
+
+			.search {
+				& input {
+					font-size: 16px;
+					padding: 0.6em 1em;
+				}
+			}
+
+			.select {
+				& select {
+					font-size: 16px;
+				}
+			}
+		}
+
+		h1 {
+			font-size: 16px;
+		}
+	}
+}

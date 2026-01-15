@@ -1,5 +1,9 @@
-/* eslint-disable no-undef */
-// selects, results - Global variables initialized in imageLoad.js
+/**
+ * Search Module
+ * Handles search and category filtering functionality
+ */
+
+import { selects, results } from './imageLoad.js';
 
 const typeResults = document.querySelector('.typed');
 const searchbars = document.querySelectorAll('.search input');
@@ -88,12 +92,18 @@ const onSearch = e => {
 	updateSearchState();
 };
 
-searchbars.forEach(searchBar => {
-	searchBar.addEventListener('input', onSearch);
-});
-
-selects.forEach(select => {
-	select.addEventListener('input', () => {
-		onSearch(null);
+/**
+ * Initialize search functionality
+ * Should be called after logos are loaded
+ */
+export function initSearch() {
+	searchbars.forEach(searchBar => {
+		searchBar.addEventListener('input', onSearch);
 	});
-});
+
+	selects.forEach(select => {
+		select.addEventListener('input', () => {
+			onSearch(null);
+		});
+	});
+}

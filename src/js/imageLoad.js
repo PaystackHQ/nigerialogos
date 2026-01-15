@@ -1,9 +1,17 @@
-/* eslint-disable no-undef */
-const selects = document.querySelectorAll('.select select');
-const results = document.querySelector('#results');
-const alphabetlink = document.querySelector('.companies-alphabet');
-const modeButtons = document.querySelectorAll('.mode-button,.mode-button-mobile');
-const modeButtonText = document.querySelector('.mode-button .text');
+/**
+ * Image Load Module
+ * Handles loading logos from JSON, creating DOM elements, and theme toggling
+ */
+
+let alphalinkhtml = '';
+
+// DOM elements - initialized in init
+let alphabetlink;
+let themeToggles;
+
+// Shared state - exported for use by other modules
+export let selects;
+export let results;
 
 const loadJSON = callback => {
 	const xobj = new XMLHttpRequest();
@@ -22,7 +30,6 @@ const sortObjectArray = (array, key) => {
 		const b1 = a1[key].toLowerCase();
 		const b2 = a2[key].toLowerCase();
 
-		// return b1 < b2 ? -1 : b1 > b2 ? 1 : 0;
 		if (b1 === b2) {
 			return 0;
 		}
@@ -128,83 +135,73 @@ const createSecondaryAlphabet = () => {
 };
 
 // Night Mode
-const getMode = localStorage.getItem('mode') || 'system';
-
 const loadMode = mode => {
-	const normalizedMode = (mode || '').toLowerCase();
-	if (normalizedMode === 'system') {
-		if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-			loadMode('dark');
-		} else {
-			loadMode('light');
-		}
-	} else if (normalizedMode === 'dark') {
-		document.body.className = 'dark-mode';
+	mode = mode.toLowerCase();
+	if (mode === 'dark') {
+		document.body.classList.add('dark-mode');
 	} else {
-		document.body.className = '';
+		document.body.classList.remove('dark-mode');
 	}
 };
 
 const updateModeUI = mode => {
 	loadMode(mode);
-	switch (mode.toLowerCase()) {
-		case 'system':
-			modeButtons.forEach(modeButton => {
-				modeButton.className = `${Array.from(modeButton.classList).shift()} light`;
-				modeButton.setAttribute('title', 'Light');
-			});
-			modeButtonText.textContent = 'Light';
-			localStorage.setItem('mode', 'system');
-			break;
 
-		case 'light':
-			modeButtons.forEach(modeButton => {
-				modeButton.className = `${Array.from(modeButton.classList).shift()} dark`;
-				modeButton.setAttribute('title', 'Dark');
-			});
-			modeButtonText.textContent = 'Dark';
-			localStorage.setItem('mode', 'light');
-			break;
+	// Update all theme toggle checkboxes
+	themeToggles.forEach(toggle => {
+		const checkbox = toggle.querySelector('.theme-toggle-checkbox');
+		if (checkbox) {
+			checkbox.checked = mode === 'dark';
+		}
+	});
 
-		case 'dark':
-			modeButtons.forEach(modeButton => {
-				modeButton.className = `${Array.from(modeButton.classList).shift()} system`;
-				modeButton.setAttribute('title', 'System');
-			});
-			modeButtonText.textContent = 'System';
-			localStorage.setItem('mode', 'dark');
-			break;
-
-		default:
-			break;
-	}
+	localStorage.setItem('mode', mode.toLowerCase());
 };
 
-modeButtons.forEach(modeButton => {
-	updateModeUI(getMode, modeButton);
-	modeButton.addEventListener('click', e => {
-		updateModeUI(modeButtonText.textContent, e.target);
+const initThemeToggles = () => {
+	const getMode = localStorage.getItem('mode') || 'light';
+
+	themeToggles.forEach(toggle => {
+		updateModeUI(getMode);
+
+		const checkbox = toggle.querySelector('.theme-toggle-checkbox');
+		if (checkbox) {
+			checkbox.addEventListener('change', e => {
+				const nextTheme = e.target.checked ? 'dark' : 'light';
+				updateModeUI(nextTheme);
+			});
+		}
 	});
-});
+};
 
-window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
-	const newColorScheme = e.matches ? 'dark' : 'light';
-	if (localStorage.getItem('mode') === 'system') {
-		loadMode(newColorScheme);
-	}
-});
+/**
+ * Initialize the image loading module
+ * @param {Function} onLogosLoaded - Callback function called after logos are loaded
+ */
+export function initImageLoad(onLogosLoaded) {
+	// Initialize DOM references
+	alphabetlink = document.querySelector('.companies-alphabet');
+	themeToggles = document.querySelectorAll('.theme-toggle, .theme-toggle-mobile');
+	selects = document.querySelectorAll('.select select');
+	results = document.querySelector('#results');
 
-init = () => {
+	// Initialize theme toggles
+	initThemeToggles();
+
+	// Create secondary alphabet
+	createSecondaryAlphabet();
+
 	// Create logos
 	loadJSON(response => {
 		const logoArray = JSON.parse(response);
 
 		setLogoCompanyLink(logoArray);
-
 		createLogos(logoArray);
 		results.innerHTML = `${logoArray.length}`;
-	});
-};
 
-init();
-createSecondaryAlphabet();
+		// Call callback after logos are loaded
+		if (onLogosLoaded) {
+			onLogosLoaded();
+		}
+	});
+}
