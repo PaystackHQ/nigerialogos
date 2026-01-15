@@ -1,48 +1,46 @@
 {
-  "name": "nigerialogos",
-  "version": "1.0.0",
-  "description": "an open source website for downloading high quality",
-  "main": "index.html",
-  "type": "module",
-  "engines": {
-    "node": ">=20.0.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "sass scss/main.scss css/main.css",
-    "watch": "npm run build && sass scss/main.scss css/main.css --watch",
-    "serve": "serve . -l 8080",
-    "dev": "run-p watch serve",
-    "format:js": "prettier --write",
-    "lint:js:fix": "eslint --fix",
-    "prepare": "husky"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PaystackHQ/nigerialogos.git"
-  },
-  "author": "Demilade Olaleye, Chinonso Raymond, Adedoyin Akande",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PaystackHQ/nigerialogos/issues"
-  },
-  "homepage": "https://github.com/PaystackHQ/nigerialogos#readme",
-  "devDependencies": {
-    "@eslint/js": "^9.18.0",
-    "eslint": "^9.18.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.2.1",
-    "husky": "^9.1.7",
-    "lint-staged": "^15.2.11",
-    "npm-run-all": "^4.1.5",
-    "prettier": "^3.4.2",
-    "sass": "^1.97.2",
-    "serve": "^14.2.5"
-  },
-  "lint-staged": {
-    "*.js": [
-      "npm run format:js",
-      "npm run lint:js:fix"
-    ]
-  }
+	"name": "nigerialogos",
+	"version": "1.0.0",
+	"description": "an open source website for downloading high quality",
+	"main": "index.html",
+	"type": "module",
+	"engines": {
+		"node": ">=20.0.0"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"format:js": "prettier --write",
+		"lint:js:fix": "eslint --fix",
+		"prepare": "husky"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/PaystackHQ/nigerialogos.git"
+	},
+	"author": "Demilade Olaleye, Chinonso Raymond, Adedoyin Akande",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/PaystackHQ/nigerialogos/issues"
+	},
+	"homepage": "https://github.com/PaystackHQ/nigerialogos#readme",
+	"devDependencies": {
+		"@eslint/js": "^9.18.0",
+		"eslint": "^9.18.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-prettier": "^5.2.1",
+		"husky": "^9.1.7",
+		"lint-staged": "^15.2.11",
+		"prettier": "^3.4.2",
+		"sass": "^1.97.2",
+		"vite": "^7.3.1"
+	},
+	"lint-staged": {
+		"*.js": [
+			"npm run format:js",
+			"npm run lint:js:fix"
+		]
+	}
 }

@@ -2,8 +2,7 @@
 const selects = document.querySelectorAll('.select select');
 const results = document.querySelector('#results');
 const alphabetlink = document.querySelector('.companies-alphabet');
-const modeButtons = document.querySelectorAll('.mode-button,.mode-button-mobile');
-const modeButtonText = document.querySelector('.mode-button .text');
+const themeToggles = document.querySelectorAll('.theme-toggle,.theme-toggle-mobile');
 
 const loadJSON = callback => {
 	const xobj = new XMLHttpRequest();
@@ -139,51 +138,48 @@ const loadMode = mode => {
 			loadMode('light');
 		}
 	} else if (normalizedMode === 'dark') {
-		document.body.className = 'dark-mode';
+		document.body.classList.add('dark-mode');
 	} else {
-		document.body.className = '';
+		document.body.classList.remove('dark-mode');
 	}
 };
 
 const updateModeUI = mode => {
 	loadMode(mode);
-	switch (mode.toLowerCase()) {
-		case 'system':
-			modeButtons.forEach(modeButton => {
-				modeButton.className = `${Array.from(modeButton.classList).shift()} light`;
-				modeButton.setAttribute('title', 'Light');
-			});
-			modeButtonText.textContent = 'Light';
-			localStorage.setItem('mode', 'system');
-			break;
 
-		case 'light':
-			modeButtons.forEach(modeButton => {
-				modeButton.className = `${Array.from(modeButton.classList).shift()} dark`;
-				modeButton.setAttribute('title', 'Dark');
-			});
-			modeButtonText.textContent = 'Dark';
-			localStorage.setItem('mode', 'light');
-			break;
+	// Update all theme toggles with the current mode
+	themeToggles.forEach(toggle => {
+		toggle.setAttribute('data-theme', mode.toLowerCase());
+	});
 
-		case 'dark':
-			modeButtons.forEach(modeButton => {
-				modeButton.className = `${Array.from(modeButton.classList).shift()} system`;
-				modeButton.setAttribute('title', 'System');
-			});
-			modeButtonText.textContent = 'System';
-			localStorage.setItem('mode', 'dark');
-			break;
-
-		default:
-			break;
-	}
+	localStorage.setItem('mode', mode.toLowerCase());
 };
 
-modeButtons.forEach(modeButton => {
-	updateModeUI(getMode, modeButton);
-	modeButton.addEventListener('click', e => {
-		updateModeUI(modeButtonText.textContent, e.target);
+// Initialize all theme toggles
+themeToggles.forEach(toggle => {
+	updateModeUI(getMode);
+
+	toggle.addEventListener('click', e => {
+		e.preventDefault();
+		const currentTheme = toggle.getAttribute('data-theme');
+		let nextTheme;
+
+		// Cycle through themes: light -> system -> dark -> light
+		switch (currentTheme) {
+			case 'light':
+				nextTheme = 'system';
+				break;
+			case 'system':
+				nextTheme = 'dark';
+				break;
+			case 'dark':
+				nextTheme = 'light';
+				break;
+			default:
+				nextTheme = 'light';
+		}
+
+		updateModeUI(nextTheme);
 	});
 });
 
