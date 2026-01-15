@@ -128,17 +128,17 @@ const createSecondaryAlphabet = () => {
 };
 
 // Night Mode
-const getMode = localStorage.getItem('mode') || 'light';
+const getMode = localStorage.getItem('mode') || 'system';
 
 const loadMode = mode => {
-	mode = mode.toLowerCase();
-	if (mode === 'system') {
+	const normalizedMode = (mode || '').toLowerCase();
+	if (normalizedMode === 'system') {
 		if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
 			loadMode('dark');
 		} else {
 			loadMode('light');
 		}
-	} else if (mode === 'dark') {
+	} else if (normalizedMode === 'dark') {
 		document.body.className = 'dark-mode';
 	} else {
 		document.body.className = '';
