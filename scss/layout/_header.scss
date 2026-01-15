@@ -5,6 +5,152 @@ header {
     margin: 3% auto;
     overflow-x: hidden;
 
+    .header-top {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin: 20px auto;
+        max-width: 100%;
+        justify-content: space-between;
+
+        .site-logo {
+            flex-shrink: 0;
+            width: 60px;
+
+            img {
+                width: 100%;
+                display: block;
+            }
+        }
+
+        .right-nav {
+            display: none; // Hidden on desktop
+
+            .mode-button-mobile {
+                margin-right: 5px;
+                padding: 2px 5px;
+                cursor: pointer;
+                outline: none;
+                border: none;
+                border-radius: 2px;
+                transition: .2s all ease-in-out;
+
+                &.dark {
+                    .icon {
+                        &.dark-mode {
+                            display: inline;
+                        }
+                    }
+                }
+
+                &.light {
+                    .icon {
+                        &.light-mode {
+                            display: inline;
+                        }
+                    }
+                }
+
+                &.system {
+                    .icon {
+                        &.system-mode {
+                            display: inline;
+                        }
+                    }
+                }
+
+                .icon {
+                    width: 1em;
+                    display: inline;
+                    position: relative;
+                    top: 0.15em;
+                    display: none;
+                }
+            }
+
+            .contribute-mobile {
+                color: colors.$col-grey-1;
+                text-decoration-color: colors.$col-green-1;
+            }
+        }
+    }
+
+    .desktop-searchbar {
+        display: flex;
+        flex: 1;
+        max-width: 600px;
+        gap: 0;
+
+        .select {
+            width: 35%;
+
+            & select {
+                cursor: pointer;
+                font-size: 16px;
+                font-family: inherit;
+                color: colors.$col-white;
+                padding: .2em 1em;
+                line-height: 1.3;
+                height: 40px;
+                width: 100%;
+                box-sizing: border-box;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+                margin: 0;
+                border-color: colors.$col-green-1;
+                border: 1px solid colors.$col-green-1;
+                -moz-appearance: none;
+                -webkit-appearance: none;
+                appearance: none;
+                background-color: colors.$col-green-1;
+                background-image: url('../images/icons/dropdown_button.svg'), linear-gradient(colors.$col-green-1, colors.$col-green-1);
+                background-repeat: no-repeat;
+                background-position: right .7em top 50%;
+                background-size: .65em auto;
+
+                &::-ms-expand {
+                    display: none;
+                }
+
+                &:focus,
+                &:active {
+                    outline: colors.$col-green-2;
+                }
+            }
+        }
+
+        .search {
+            width: 65%;
+
+            & input {
+                -moz-appearance: none;
+                -webkit-appearance: none;
+                appearance: none;
+                outline: none;
+                box-sizing: border-box;
+                border: 1px solid colors.$col-green-1;
+                width: 100%;
+                height: 40px;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+                line-height: 1.3;
+                margin: 0;
+                font-size: 16px;
+                font-family: inherit;
+                background-color: colors.$col-green-2;
+                background-image: url('../images/icons/search.svg');
+                background-repeat: no-repeat;
+                background-position: right 1em top 50%;
+                background-size: 1em auto;
+                padding-left: 1em;
+            }
+        }
+    }
+
     .heading {
         width: 76.2vw;
         height: 33vh;
@@ -27,7 +173,7 @@ header {
     }
 
     .searchbar {
-        display: flex;
+        display: none; // Hidden on desktop
         width: 35.9vw;
         min-width: 550px;
         height: 4.5vh;
@@ -272,58 +418,4 @@ header {
         }
     }
 
-    .right-nav {
-        position: absolute;
-        top: 4.5%;
-        right: 8%;
-        display: none;
-
-        .mode-button-mobile {
-            margin-right: 5px;
-            padding: 2px 5px;
-            cursor: pointer;
-            outline: none;
-            border: none;
-            border-radius: 2px;
-            transition: .2s all ease-in-out;
-
-            &.dark {
-                .icon {
-                    &.dark-mode {
-                        display: inline;
-                    }
-                }
-            }
-
-            &.light {
-                .icon {
-                    &.light-mode {
-                        display: inline;
-                    }
-                }
-            }
-
-            &.system {
-                .icon {
-                    &.system-mode {
-                        display: inline;
-                    }
-                }
-            }
-
-            .icon {
-                width: 1em;
-                display: inline;
-                position: relative;
-                top: 0.15em;
-                display: none;
-            }
-        }
-
-        .contribute-mobile {
-            color: colors.$col-grey-1;
-            text-decoration-color: colors.$col-green-1;
-            font-size: 150%;
-        }
-    }
 }
