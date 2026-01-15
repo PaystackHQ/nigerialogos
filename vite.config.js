@@ -1,9 +1,10 @@
 export default {
 	root: '.',
+	publicDir: 'public',
 	build: {
 		outDir: 'dist',
 		assetsDir: 'assets',
-		sourcemap: true,
+		sourcemap: false,
 		rollupOptions: {
 			input: {
 				main: './index.html',
@@ -16,13 +17,6 @@ export default {
 		watch: {
 			usePolling: true,
 			interval: 100,
-		},
-	},
-	css: {
-		preprocessorOptions: {
-			scss: {
-				api: 'modern-compiler',
-			},
 		},
 	},
 };
