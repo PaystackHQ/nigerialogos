@@ -1,4 +1,4 @@
-(function() {
+(function () {
 	const main = document.querySelector('main');
 	const scrollShow = document.querySelector('.scroll-show');
 	const secondaryAlphabet = document.querySelector('.secondary-alphabet');
