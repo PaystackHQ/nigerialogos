@@ -1,7 +1,17 @@
-/* eslint-disable no-undef */
-let alphalinkhtml = ''
-const alphabetlink = document.querySelector('.companies-alphabet');
-const themeToggles = document.querySelectorAll('.theme-toggle, .theme-toggle-mobile');
+/**
+ * Image Load Module
+ * Handles loading logos from JSON, creating DOM elements, and theme toggling
+ */
+
+let alphalinkhtml = '';
+
+// DOM elements - initialized in init
+let alphabetlink;
+let themeToggles;
+
+// Shared state - exported for use by other modules
+export let selects;
+export let results;
 
 const loadJSON = callback => {
 	const xobj = new XMLHttpRequest();
@@ -20,7 +30,6 @@ const sortObjectArray = (array, key) => {
 		const b1 = a1[key].toLowerCase();
 		const b2 = a2[key].toLowerCase();
 
-		// return b1 < b2 ? -1 : b1 > b2 ? 1 : 0;
 		if (b1 === b2) {
 			return 0;
 		}
@@ -126,8 +135,6 @@ const createSecondaryAlphabet = () => {
 };
 
 // Night Mode
-const getMode = localStorage.getItem('mode') || 'system';
-
 const loadMode = mode => {
 	mode = mode.toLowerCase();
 	if (mode === 'dark') {
@@ -151,30 +158,50 @@ const updateModeUI = mode => {
 	localStorage.setItem('mode', mode.toLowerCase());
 };
 
-// Initialize all theme toggles
-themeToggles.forEach(toggle => {
-	updateModeUI(getMode);
+const initThemeToggles = () => {
+	const getMode = localStorage.getItem('mode') || 'light';
 
-	const checkbox = toggle.querySelector('.theme-toggle-checkbox');
-	if (checkbox) {
-		checkbox.addEventListener('change', e => {
-			const nextTheme = e.target.checked ? 'dark' : 'light';
-			updateModeUI(nextTheme);
-		});
-	}
-});
+	themeToggles.forEach(toggle => {
+		updateModeUI(getMode);
 
-const init = () => {
+		const checkbox = toggle.querySelector('.theme-toggle-checkbox');
+		if (checkbox) {
+			checkbox.addEventListener('change', e => {
+				const nextTheme = e.target.checked ? 'dark' : 'light';
+				updateModeUI(nextTheme);
+			});
+		}
+	});
+};
+
+/**
+ * Initialize the image loading module
+ * @param {Function} onLogosLoaded - Callback function called after logos are loaded
+ */
+export function initImageLoad(onLogosLoaded) {
+	// Initialize DOM references
+	alphabetlink = document.querySelector('.companies-alphabet');
+	themeToggles = document.querySelectorAll('.theme-toggle, .theme-toggle-mobile');
+	selects = document.querySelectorAll('.select select');
+	results = document.querySelector('#results');
+
+	// Initialize theme toggles
+	initThemeToggles();
+
+	// Create secondary alphabet
+	createSecondaryAlphabet();
+
 	// Create logos
 	loadJSON(response => {
 		const logoArray = JSON.parse(response);
 
 		setLogoCompanyLink(logoArray);
-
 		createLogos(logoArray);
 		results.innerHTML = `${logoArray.length}`;
-	});
-};
 
-init();
-createSecondaryAlphabet();
+		// Call callback after logos are loaded
+		if (onLogosLoaded) {
+			onLogosLoaded();
+		}
+	});
+}

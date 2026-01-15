@@ -1,4 +1,13 @@
-window.addEventListener('load', () => {
+/**
+ * Mobile Download Module
+ * Handles mobile touch interactions for download buttons
+ */
+
+/**
+ * Initialize mobile download functionality
+ * Should be called after logos are loaded
+ */
+export function initMobileDownload() {
 	const links = document.querySelectorAll('.logo__download__overlay a');
 	let clicks = 0;
 	const stopLink = function (e) {
@@ -11,4 +20,4 @@ window.addEventListener('load', () => {
 			link.addEventListener('click', stopLink);
 		});
 	}
-});
+}

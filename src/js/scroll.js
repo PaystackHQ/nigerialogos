@@ -1,4 +1,12 @@
-(function () {
+/**
+ * Scroll Module
+ * Handles scroll-based UI interactions for the sticky header
+ */
+
+/**
+ * Initialize scroll functionality
+ */
+export function initScroll() {
 	const main = document.querySelector('main');
 	const scrollShow = document.querySelector('.scroll-show');
 	const secondaryAlphabet = document.querySelector('.secondary-alphabet');
@@ -35,4 +43,4 @@
 	window.addEventListener('scroll', windowOnScroll);
 	scrollShowInput.addEventListener('focus', searchOnFocus);
 	scrollShowInput.addEventListener('blur', searchDefault);
-})();
+}
