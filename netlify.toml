@@ -8,18 +8,18 @@
 
 [[redirects]]
   from = "/logos.json"
-  to = "https://cdn.jsdelivr.net/gh/PaystackHQ/nigerialogos@master/logos.json"
+  to = "https://cdn.jsdelivr.net/gh/PaystackHQ/nigerialogos@master/public/logos.json"
   status = 301
   force = true
 
 [[redirects]]
   from = "/logos/*"
-  to = "https://cdn.jsdelivr.net/gh/PaystackHQ/nigerialogos@master/logos/:splat"
+  to = "https://cdn.jsdelivr.net/gh/PaystackHQ/nigerialogos@master/public/logos/:splat"
   status = 301
   force = true
 
 [[redirects]]
   from = "/images/*"
-  to = "https://cdn.jsdelivr.net/gh/PaystackHQ/nigerialogos@master/images/:splat"
+  to = "https://cdn.jsdelivr.net/gh/PaystackHQ/nigerialogos@master/public/images/:splat"
   status = 301
   force = true

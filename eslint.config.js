@@ -4,7 +4,7 @@ import prettierPlugin from 'eslint-plugin-prettier';
 
 export default [
 	{
-		ignores: ['node_modules/**', 'templates/**', 'gulpfile.js', 'css/**', 'eslint.config.js'],
+		ignores: ['node_modules/**', 'templates/**', 'gulpfile.js', 'css/**', 'eslint.config.js', 'vite.config.js'],
 	},
 	js.configs.recommended,
 	{
