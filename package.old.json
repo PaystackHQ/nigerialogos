@@ -1,0 +1,50 @@
+{
+  "name": "nigerialogos",
+  "version": "1.0.0",
+  "description": "an open source website for downloading high quality",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass scss/main.scss -o css/",
+    "watch": "npm run build && node-sass scss/main.scss -o css/ --watch",
+    "serve": "live-server --host=localhost",
+    "dev": "run-p watch serve",
+    "format:js": "prettier --write",
+    "lint:js:fix": "eslint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaystackHQ/nigerialogos.git"
+  },
+  "author": "Demilade Olaleye, Chinonso Raymond, Adedoyin Akande",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaystackHQ/nigerialogos/issues"
+  },
+  "homepage": "https://github.com/PaystackHQ/nigerialogos#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "husky": "^3.0.5",
+    "lint-staged": "^9.2.5",
+    "live-server": "^1.2.1",
+    "node-sass": "^9.0.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "1.18.2"
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run format:js",
+      "npm run lint:js:fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
