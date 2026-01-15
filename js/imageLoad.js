@@ -2,7 +2,7 @@
 const selects = document.querySelectorAll('.select select');
 const results = document.querySelector('#results');
 const alphabetlink = document.querySelector('.companies-alphabet');
-const themeToggles = document.querySelectorAll('.theme-toggle,.theme-toggle-mobile');
+const themeToggles = document.querySelectorAll('.theme-toggle, .theme-toggle-mobile');
 
 const loadJSON = callback => {
 	const xobj = new XMLHttpRequest();
@@ -130,14 +130,8 @@ const createSecondaryAlphabet = () => {
 const getMode = localStorage.getItem('mode') || 'system';
 
 const loadMode = mode => {
-	const normalizedMode = (mode || '').toLowerCase();
-	if (normalizedMode === 'system') {
-		if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-			loadMode('dark');
-		} else {
-			loadMode('light');
-		}
-	} else if (normalizedMode === 'dark') {
+	mode = mode.toLowerCase();
+	if (mode === 'dark') {
 		document.body.classList.add('dark-mode');
 	} else {
 		document.body.classList.remove('dark-mode');
@@ -147,9 +141,12 @@ const loadMode = mode => {
 const updateModeUI = mode => {
 	loadMode(mode);
 
-	// Update all theme toggles with the current mode
+	// Update all theme toggle checkboxes
 	themeToggles.forEach(toggle => {
-		toggle.setAttribute('data-theme', mode.toLowerCase());
+		const checkbox = toggle.querySelector('.theme-toggle-checkbox');
+		if (checkbox) {
+			checkbox.checked = mode === 'dark';
+		}
 	});
 
 	localStorage.setItem('mode', mode.toLowerCase());
@@ -159,34 +156,12 @@ const updateModeUI = mode => {
 themeToggles.forEach(toggle => {
 	updateModeUI(getMode);
 
-	toggle.addEventListener('click', e => {
-		e.preventDefault();
-		const currentTheme = toggle.getAttribute('data-theme');
-		let nextTheme;
-
-		// Cycle through themes: light -> system -> dark -> light
-		switch (currentTheme) {
-			case 'light':
-				nextTheme = 'system';
-				break;
-			case 'system':
-				nextTheme = 'dark';
-				break;
-			case 'dark':
-				nextTheme = 'light';
-				break;
-			default:
-				nextTheme = 'light';
-		}
-
-		updateModeUI(nextTheme);
-	});
-});
-
-window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
-	const newColorScheme = e.matches ? 'dark' : 'light';
-	if (localStorage.getItem('mode') === 'system') {
-		loadMode(newColorScheme);
+	const checkbox = toggle.querySelector('.theme-toggle-checkbox');
+	if (checkbox) {
+		checkbox.addEventListener('change', e => {
+			const nextTheme = e.target.checked ? 'dark' : 'light';
+			updateModeUI(nextTheme);
+		});
 	}
 });
 
