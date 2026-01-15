@@ -1,37 +1,39 @@
+@use '../abstracts/colors' as colors;
+
 body.dark-mode {
-    border-color: $dm-border-color-1;
-    color: $dm-fg-color-1;
+    border-color: colors.$dm-border-color-1;
+    color: colors.$dm-fg-color-1;
 }
 
 .dark-mode {
     ::placeholder {
-        color: $dm-ph-color;
+        color: colors.$dm-ph-color;
     }
 
     input {
-        color: $dm-fg-color-1;
+        color: colors.$dm-fg-color-1;
 
         &:-webkit-autofill {
-            background-color: $dm-bg-color-1 !important;
-            color: $dm-fg-color-1 !important;
+            background-color: colors.$dm-bg-color-1 !important;
+            color: colors.$dm-fg-color-1 !important;
         }
     }
 
     select {
         &:-webkit-autofill {
-            background-color: $dm-bg-color-1 !important;
-            color: $dm-fg-color-1 !important;
+            background-color: colors.$dm-bg-color-1 !important;
+            color: colors.$dm-fg-color-1 !important;
         }
     }
 
     &::selection {
-        background-color: $dm-bg-color-2 !important;
-        color: $dm-fg-color-1 !important;
+        background-color: colors.$dm-bg-color-2 !important;
+        color: colors.$dm-fg-color-1 !important;
     }
 
     &::-moz-selection {
-        background-color: $dm-bg-color-2 !important;
-        color: $dm-fg-color-1 !important;
+        background-color: colors.$dm-bg-color-2 !important;
+        color: colors.$dm-fg-color-1 !important;
     }
 
     header {
@@ -39,25 +41,25 @@ body.dark-mode {
             .search {
                 input {
                     outline-color: initial;
-                    border-color: $dm-border-color-2;
-                    background-color: $dm-bg-color-3;
+                    border-color: colors.$dm-border-color-2;
+                    background-color: colors.$dm-bg-color-3;
                     background-image: url(../images/icons/search.svg);
                 }
             }
 
             .select {
                 select {
-                    color: $dm-fg-color-1;
-                    border-color: $dm-border-color-2;
-                    background-color: $dm-bg-color-4;
+                    color: colors.$dm-fg-color-1;
+                    border-color: colors.$dm-border-color-2;
+                    background-color: colors.$dm-bg-color-4;
                     background-image: url(../images/icons/dropdown_button.svg);
 
                     &:focus {
-                        outline-color: $dm-outline-color-1;
+                        outline-color: colors.$dm-outline-color-1;
                     }
 
                     &:active {
-                        outline-color: $dm-outline-color-1;
+                        outline-color: colors.$dm-outline-color-1;
                     }
                 }
             }
@@ -66,7 +68,7 @@ body.dark-mode {
         h1 {
             a {
                 color: inherit;
-                text-decoration-color: $dm-tdecor-color-1;
+                text-decoration-color: colors.$dm-tdecor-color-1;
 
                 &:hover {
                     text-decoration-color: inherit;
@@ -80,26 +82,26 @@ body.dark-mode {
 
         .mode-button,
         .mode-button-mobile {
-            border-color: $dm-border-color-2;
-            background-color: $dm-bg-color-4;
-            color: $dm-fg-color-1;
+            border-color: colors.$dm-border-color-2;
+            background-color: colors.$dm-bg-color-4;
+            color: colors.$dm-fg-color-1;
         }
 
         .contribute {
-            background-color: $dm-bg-color-4;
-            color: $dm-fg-color-1;
+            background-color: colors.$dm-bg-color-4;
+            color: colors.$dm-fg-color-1;
             outline-color: initial;
             border-color: initial;
         }
 
         .white-bg {
-            background-color: $dm-bg-color-5;
+            background-color: colors.$dm-bg-color-5;
         }
 
         .scroll-show {
             .select {
                 &::before {
-                    background-color: $dm-bg-color-5;
+                    background-color: colors.$dm-bg-color-5;
                 }
             }
 
@@ -112,34 +114,34 @@ body.dark-mode {
         }
 
         .contribute-mobile {
-            color: $dm-fg-color-2;
-            text-decoration-color: $dm-tdecor-color-1;
+            color: colors.$dm-fg-color-2;
+            text-decoration-color: colors.$dm-tdecor-color-1;
         }
     }
 
     .background {
-        background-color: $dm-bg-color-5;
+        background-color: colors.$dm-bg-color-5;
     }
 
     .background__left--thin {
-        background-color: $dm-bg-color-4;
+        background-color: colors.$dm-bg-color-4;
     }
 
     .background__left--thick {
-        background-color: $dm-bg-color-3;
+        background-color: colors.$dm-bg-color-3;
     }
 
     .background__stripe {
-        border-right-color: $dm-border-color-3;
+        border-right-color: colors.$dm-border-color-3;
     }
 
     .to-top__bg {
-        background-color: $dm-bg-color-5;
-        border-color: $dm-border-color-2;
+        background-color: colors.$dm-bg-color-5;
+        border-color: colors.$dm-border-color-2;
     }
 
     .to-top__icon {
-        background-color: $dm-bg-color-4;
+        background-color: colors.$dm-bg-color-4;
 
         &::after {
             background-color: inherit;
@@ -153,22 +155,22 @@ body.dark-mode {
     .to-top {
         &:hover {
             >.to-top__bg {
-                background-color: $dm-bg-color-4;
+                background-color: colors.$dm-bg-color-4;
 
                 >.to-top__icon {
-                    background-color: $dm-bg-color-5;
+                    background-color: colors.$dm-bg-color-5;
                 }
             }
         }
     }
 
     .back-to-top {
-        background-color: $dm-bg-color-3;
-        color: $dm-fg-color-2;
-        border-left-color: $dm-border-color-2;
+        background-color: colors.$dm-bg-color-3;
+        color: colors.$dm-fg-color-2;
+        border-left-color: colors.$dm-border-color-2;
 
         .up-arrow {
-            background-color: $dm-bg-color-4;
+            background-color: colors.$dm-bg-color-4;
 
             &::before {
                 background-color: inherit;
@@ -185,7 +187,7 @@ body.dark-mode {
     }
 
     .logo__holder {
-        background-color: $dm-bg-color-6;
+        background-color: colors.$dm-bg-color-6;
     }
 
     .logo__text--link {
@@ -198,8 +200,8 @@ body.dark-mode {
     }
 
     .logo__download__overlay {
-        background-color: $dm-bg-color-3;
-        border-color: $dm-border-color-2;
+        background-color: colors.$dm-bg-color-3;
+        border-color: colors.$dm-border-color-2;
 
         a {
             color: inherit;
@@ -211,8 +213,8 @@ body.dark-mode {
         background-color: transparent;
 
         &:hover {
-            color: $dm-fg-color-1;
-            background-color: $dm-bg-color-4;
+            color: colors.$dm-fg-color-1;
+            background-color: colors.$dm-bg-color-4;
         }
     }
 
@@ -220,19 +222,19 @@ body.dark-mode {
         background-color: transparent;
 
         &:hover {
-            color: $dm-fg-color-1;
-            background-color: $dm-bg-color-4;
+            color: colors.$dm-fg-color-1;
+            background-color: colors.$dm-bg-color-4;
         }
     }
 
     .totopbutton {
         border-color: initial;
-        color: $dm-fg-color-1;
-        background-color: $dm-bg-color-4;
+        color: colors.$dm-fg-color-1;
+        background-color: colors.$dm-bg-color-4;
     }
 
     .companies-alphabet {
-        border-bottom-color: $dm-border-color-3;
+        border-bottom-color: colors.$dm-border-color-3;
     }
 
     .companies-alphabet-link {
@@ -240,15 +242,15 @@ body.dark-mode {
     }
 
     a.companies-alphabet-link {
-        color: $dm-fg-color-2;
+        color: colors.$dm-fg-color-2;
     }
 
     .result {
-        color: $dm-fg-color-3;
+        color: colors.$dm-fg-color-3;
     }
 
     .typed {
-        color: $dm-fg-color-2;
+        color: colors.$dm-fg-color-2;
     }
 
     @media screen and (max-width: 880px) {

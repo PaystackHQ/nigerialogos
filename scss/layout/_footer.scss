@@ -1,3 +1,5 @@
+@use '../abstracts/colors' as colors;
+
 footer {
     text-align: center;
     position: fixed;
@@ -11,8 +13,8 @@ footer {
         position: relative;
         width: 80px;
         height: 80px;
-        background-color: $col-white;
-        border: 3px solid $col-green-1;
+        background-color: colors.$col-white;
+        border: 3px solid colors.$col-green-1;
         border-radius: 100px;
         transition: .2s all ease-in-out;
     }
@@ -20,7 +22,7 @@ footer {
         position: relative;
         width: 3px;
         height: 30px;
-        background-color: $col-green-1;
+        background-color: colors.$col-green-1;
         margin-top: 50%; margin-left: 50%;
         transform: translate(-50%, -50%);
         border-radius: 100px;
@@ -50,10 +52,10 @@ footer {
     }
     &:hover{
         & > .to-top__bg {
-            background-color: $col-green-1;
+            background-color: colors.$col-green-1;
         }
         & > .to-top__bg >  .to-top__icon {
-            background-color: $col-white;
+            background-color: colors.$col-white;
         }
     }
 }
@@ -61,21 +63,21 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: $col-green-2;
+    background-color: colors.$col-green-2;
     width: 100vw;
     height: 70px;
-    color: $col-grey-1;
+    color: colors.$col-grey-1;
     position: fixed;
     font-size: 140%;
     left: 0;
     bottom: 0;
-    border-left: 3px solid $col-green-1;
+    border-left: 3px solid colors.$col-green-1;
     display: none;
 
     .up-arrow {
         width: 1px;
         height: 10px;
-        background-color: $col-green-1;
+        background-color: colors.$col-green-1;
         margin-right: 10px;
         position: relative;
 

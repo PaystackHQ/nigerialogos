@@ -1,3 +1,5 @@
+@use '../abstracts/colors' as colors;
+
 header {
     width: 75vw;
     margin: 3% auto;
@@ -44,7 +46,7 @@ header {
                 outline: none;
                 border: none;
                 box-sizing: border-box;
-                border: 1px solid $col-green-1;
+                border: 1px solid colors.$col-green-1;
                 width: 100%;
                 height: 40px;
                 border-top-right-radius: .2em;
@@ -53,7 +55,7 @@ header {
                 margin: 0;
                 font-size: 16px;
                 font-family: inherit;
-                background-color: $col-green-2;
+                background-color: colors.$col-green-2;
                 background-image: url('../images/icons/search.svg');
                 background-repeat: no-repeat;
                 background-position: right 1em top 50%;
@@ -69,7 +71,7 @@ header {
                 cursor: pointer;
                 font-size: 16px; // iOS Safari zooms in if less than 16px causing weird issues
                 font-family: inherit;
-                color: $col-white;
+                color: colors.$col-white;
                 padding: .2em 1em; // fix for category text being cut halfway
                 line-height: 1.3;
                 height: 40px;
@@ -80,12 +82,12 @@ header {
                 border-top-right-radius: 0;
                 border-bottom-right-radius: 0;
                 margin: 0;
-                border-color: $col-green-1;
+                border-color: colors.$col-green-1;
                 -moz-appearance: none;
                 -webkit-appearance: none;
                 appearance: none;
-                background-color: $col-green-1;
-                background-image: url('../images/icons/dropdown_button.svg'), linear-gradient($col-green-1, $col-green-1);
+                background-color: colors.$col-green-1;
+                background-image: url('../images/icons/dropdown_button.svg'), linear-gradient(colors.$col-green-1, colors.$col-green-1);
                 background-repeat: no-repeat;
                 background-position: right .7em top 50%;
                 background-size: .65em auto;
@@ -96,7 +98,7 @@ header {
 
                 &:focus,
                 &:active {
-                    outline: $col-green-2;
+                    outline: colors.$col-green-2;
                 }
             }
         }
@@ -110,7 +112,7 @@ header {
 
         & a {
             color: inherit;
-            text-decoration-color: $col-green-1;
+            text-decoration-color: colors.$col-green-1;
 
             &:hover {
                 text-decoration-color: inherit;
@@ -183,8 +185,8 @@ header {
         cursor: pointer;
         bottom: 0;
         margin-bottom: 15px;
-        background-color: $col-green-1;
-        color: $col-white;
+        background-color: colors.$col-green-1;
+        color: colors.$col-white;
         font-size: inherit;
         padding: 1% 2%;
         outline: none;
@@ -196,7 +198,7 @@ header {
     .white-bg {
         width: 100%;
         height: 10%;
-        background-color: $col-white;
+        background-color: colors.$col-white;
         position: fixed;
         top: 0;
         z-index: 665;
@@ -247,7 +249,7 @@ header {
                 height: 40px;
                 text-align: center;
                 line-height: 30px;
-                background-color: $col-white;
+                background-color: colors.$col-white;
 
             }
         }
@@ -319,8 +321,8 @@ header {
         }
 
         .contribute-mobile {
-            color: $col-grey-1;
-            text-decoration-color: $col-green-1;
+            color: colors.$col-grey-1;
+            text-decoration-color: colors.$col-green-1;
             font-size: 150%;
         }
     }

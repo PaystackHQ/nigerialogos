@@ -1,17 +1,17 @@
-@import 'abstracts/colors';
-@import 'abstracts/typography';
+@use 'abstracts/colors';
+@use 'abstracts/typography';
 
-@import 'base/resets';
-@import 'base/typography';
+@use 'base/resets';
+@use 'base/typography' as base-typography;
 
-@import 'layout/header';
-@import 'layout/background';
-@import 'layout/footer';
-@import 'layout/section';
+@use 'layout/header';
+@use 'layout/background';
+@use 'layout/footer';
+@use 'layout/section';
 
-@import 'responsive/background';
-@import 'responsive/header';
-@import 'responsive/section';
-@import 'responsive/footer';
+@use 'responsive/background' as responsive-background;
+@use 'responsive/header' as responsive-header;
+@use 'responsive/section' as responsive-section;
+@use 'responsive/footer' as responsive-footer;
 
-@import 'layout/night-mode';
+@use 'layout/night-mode';

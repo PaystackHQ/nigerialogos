@@ -1,3 +1,6 @@
+@use '../abstracts/colors' as colors;
+@use '../abstracts/typography' as typography;
+
 main {
     width: calc(76.2vw + 20px);
     margin: 0 auto;
@@ -20,7 +23,7 @@ main {
     &__holder {
         border-radius: 4px;
         width: 100%;
-        background-color: $col-grey-4;
+        background-color: colors.$col-grey-4;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -50,7 +53,7 @@ main {
         width: 100%;
 
         &--primary { 
-            font-weight: $fw-medium;
+            font-weight: typography.$fw-medium;
             font-size: 115%;
             margin-top: 5%;
             text-overflow: ellipsis;
@@ -96,8 +99,8 @@ main {
         &__overlay {
             width: 100%;
             height: 100%;
-            background-color: $col-green-2;
-            border: 1px solid $col-green-1;
+            background-color: colors.$col-green-2;
+            border: 1px solid colors.$col-green-1;
             border-radius: 4px;
             display: flex;
             flex-direction: column;
@@ -126,8 +129,8 @@ main {
                 transition: all .2s ease-in;
 
                 &:hover {
-                    color: $col-white;
-                    background-color: $col-green-1;
+                    color: colors.$col-white;
+                    background-color: colors.$col-green-1;
                     transform: scale(1.1);
                 }
             }
@@ -141,8 +144,8 @@ main {
     border-radius: 5px;
     cursor: pointer;
     border: none;
-    color:$col-white;
-    background-color: $col-green-1;
+    color:colors.$col-white;
+    background-color: colors.$col-green-1;
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 1rem;
@@ -154,7 +157,7 @@ main {
 }
 
 .companies-alphabet {
-    border-bottom: .5px solid $col-grey-3;
+    border-bottom: .5px solid colors.$col-grey-3;
     display: flex;
     justify-content: space-between;
     width: 75vw;
@@ -176,15 +179,15 @@ main {
 }
 
 a.companies-alphabet-link{
-    color:$col-grey-1;
-    font-weight: $fw-normal;
+    color:colors.$col-grey-1;
+    font-weight: typography.$fw-normal;
     opacity: .7;
 }
 
 .result {
     width: 75vw;
     font-size: 150%;
-    color: $col-grey-2;
+    color: colors.$col-grey-2;
     left: 12.5vw;
     position: absolute;
     opacity: 0;
@@ -192,6 +195,6 @@ a.companies-alphabet-link{
     transition: .3s all ease-in-out;
 }
 .typed {
-    color: $col-grey-1; 
-    font-weight: $fw-medium;
+    color: colors.$col-grey-1; 
+    font-weight: typography.$fw-medium;
 }
