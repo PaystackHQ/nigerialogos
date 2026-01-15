@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="en">
 	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-icon-57x57.png" />
 		<link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-icon-60x60.png" />
 		<link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-icon-72x72.png" />
@@ -18,11 +21,8 @@
 		<title>Nigeria Logos - An open source project</title>
 		<meta name="title" content="Nigeria Logos - An open source project" />
 		<meta name="description" content="A free logo library for Nigerian companies" />
-		<meta name="msapplication-TileColor" content="#ffffff" />
+		<meta name="msapplication-TileColor" content="#06DAAF" />
 		<meta name="msapplication-TileImage" content="images/favicon.ico/ms-icon-144x144.png" />
-		<meta name="theme-color" content="#ffffff" />
-		<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="https://nigerialogos.com/" />
 		<meta property="og:title" content="Nigeria Logos - An open source project" />
@@ -34,9 +34,8 @@
 		<meta property="twitter:title" content="Nigeria Logos - An open source project" />
 		<meta property="twitter:description" content="A free logo library for Nigerian companies" />
 		<meta property="twitter:image" content="https://nigerialogos.com/images/seo_card.jpg" />
-		<script type="module" src="/main.js"></script>
-		<meta name="viewport" content="width=device-width" />
 		<meta name="theme-color" content="#06DAAF" />
+		<script type="module" src="/main.js"></script>
 		<meta name="msapplication-navbutton-color" content="#06DAAF" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="#06DAAF" />
 		<script>
@@ -58,14 +57,14 @@
 				<div class="secondary-alphabet"><a href="##">#</a></div>
 				<div class="searchbar">
 					<div class="select">
-						<label for="Categories" class="visuallyhidden"><span>Categories</span></label>
-						<select name="categories" bind="category">
+						<label for="mobile-categories" class="visuallyhidden"><span>Categories</span></label>
+						<select id="mobile-categories" name="categories" bind="category">
 							<option value="">All Categories</option>
 						</select>
 					</div>
 					<div class="search">
-						<label for="search" class="visuallyhidden"><span>Search</span></label>
-						<input name="search" placeholder="search for a company" bind="search" />
+						<label for="mobile-search" class="visuallyhidden"><span>Search</span></label>
+						<input id="mobile-search" name="search" placeholder="search for a company" bind="search" />
 					</div>
 				</div>
 			</div>
@@ -145,14 +144,14 @@
 
 				<div class="searchbar">
 					<div class="select">
-						<label for="Categories" class="visuallyhidden"><span>Categories</span></label>
-						<select name="Categories" bind="category">
+						<label for="header-categories" class="visuallyhidden"><span>Categories</span></label>
+						<select id="header-categories" name="categories" bind="category">
 							<option value="">All Categories</option>
 						</select>
 					</div>
 					<div class="search">
-						<label for="search" class="visuallyhidden"><span>Search</span></label>
-						<input name="search" placeholder="search for a company" bind="search" />
+						<label for="header-search" class="visuallyhidden"><span>Search</span></label>
+						<input id="header-search" name="search" placeholder="search for a company" bind="search" />
 					</div>
 				</div>
 			</div>
@@ -180,40 +179,7 @@
 			<div class="companies-alphabet"></div>
 		</section>
 
-		<main>
-			<!-- LOGOS ARE DYNAMICALLY GENERATED HERE 
-        
-            Format: 
-            <div class='logo'>
-                <div class='logo__holder'>
-                        <div class='logo__image'>
-                            <img src='`logos/${logo.filename}/${logo.filename}.svg`' alt='`${logo.title} logo`'>
-                        </div>
-
-                    <div class='logo__download'>
-                        <div class='logo__download__overlay'>
-                            <a href='logos/${logo.filename}/${logo.filename}.svg`' download='`${logo.title} Logo`'>
-                                <span class='logo__download__overlay--svg'>
-                                    Download SVG
-                                </span>
-                            </a>
-                            
-                            <a href='logos/${logo.filename}/${logo.filename}.png`' download='`${logo.title} Logo`'>
-                                <span class='logo__download__overlay--png'>
-                                    Download PNG
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class='logo__text'>
-                    <p class='logo__text--primary'>`${logo.title}`</p>
-                    <p class='logo__text--secondary'>`${logo.category}`</p>
-                </div>
-            </div>
-        -->
-		</main>
+		<main></main>
 
 		<footer>
 			<a href="#" class="to-top">
