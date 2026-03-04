@@ -216,6 +216,12 @@
 		"category": ["Ecommerce"]
 	},
 	{
+		"title": "Jumia",
+		"filename": "jumia",
+		"url": "https://www.jumia.com/",
+		"category": ["Ecommerce"]
+	},
+	{
 		"title": "Peak Milk",
 		"filename": "peak_milk",
 		"url": "https://www.peakmilk.com.ng/",
