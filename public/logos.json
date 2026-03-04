@@ -240,6 +240,12 @@
 		"category": ["Transportation"]
 	},
 	{
+		"title": "inDrive",
+		"filename": "indrive",
+		"url": "https://indrive.com/",
+		"category": ["Transportation"]
+	},
+	{
 		"title": "Nairabet",
 		"filename": "nairabet",
 		"url": "https://www.nairabet.com/",
