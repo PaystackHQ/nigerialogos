@@ -216,6 +216,12 @@
 		"category": ["Ecommerce"]
 	},
 	{
+		"title": "Jumia",
+		"filename": "jumia",
+		"url": "https://www.jumia.com/",
+		"category": ["Ecommerce"]
+	},
+	{
 		"title": "Peak Milk",
 		"filename": "peak_milk",
 		"url": "https://www.peakmilk.com.ng/",
@@ -231,6 +237,12 @@
 		"title": "Bolt",
 		"filename": "bolt",
 		"url": "https://bolt.eu",
+		"category": ["Transportation"]
+	},
+	{
+		"title": "inDrive",
+		"filename": "indrive",
+		"url": "https://indrive.com/",
 		"category": ["Transportation"]
 	},
 	{
