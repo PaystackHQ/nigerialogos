@@ -1210,5 +1210,11 @@
 		"filename": "zap",
 		"url": "https://joinzap.com/",
 		"category": ["Banking", "Financial Services"]
+	},
+	{
+		"title": "Raven",
+		"filename": "raven",
+		"url": "https://raven.africa/",
+		"category": ["Financial Services", "Banking"]
 	}
 ]
