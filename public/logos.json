@@ -1228,5 +1228,11 @@
 		"filename": "raven",
 		"url": "https://raven.africa/",
 		"category": ["Financial Services", "Banking"]
+	},
+	{
+		"title": "AFRICLOUD",
+		"filename": "africloud",
+		"url": "https://africloud.com",
+		"category": ["Web Host", "ICT"]
 	}
 ]
