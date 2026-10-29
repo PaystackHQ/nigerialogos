@@ -1234,5 +1234,11 @@
 		"filename": "africloud",
 		"url": "https://africloud.com",
 		"category": ["Web Host", "ICT"]
+	},
+	{
+		"title": "Jujukraft",
+		"filename": "jujukraft",
+		"url": "https://jujukraft.com/",
+		"category": ["Software", "ICT"]
 	}
 ]
